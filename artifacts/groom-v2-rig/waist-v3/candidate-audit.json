@@ -1,0 +1,428 @@
+{
+  "enabled": false,
+  "file": "public/characters/groom-waist-hip-v3.png",
+  "sha256": "f1160e4c8b960eb42a6a586143ac4adc2c30444c852599d4d767cfe6bc8af195",
+  "width": 440,
+  "height": 250,
+  "alpha": {
+    "transparent": 40791,
+    "partial": 68301,
+    "opaque": 908,
+    "total": 110000
+  },
+  "pivot": {
+    "x": 220,
+    "y": 140,
+    "status": "explicit registration, not independently verified artwork landmark"
+  },
+  "scale": 0.1,
+  "bodyAnchor": {
+    "x": 0,
+    "y": 177
+  },
+  "bounds": {
+    "x": -22,
+    "y": 163,
+    "width": 44,
+    "height": 25
+  },
+  "drawOrder": "above both moving thighs, below torso/coat",
+  "existingPelvis": "suppressed in candidate comparison only; source untouched",
+  "stretching": "none: uniform scale 0.1; no deformation",
+  "metrics": [
+    {
+      "pose": "Standing",
+      "before": [
+        {
+          "samples": 197,
+          "covered": 27,
+          "fraction": 0.13705583756345177
+        },
+        {
+          "samples": 197,
+          "covered": 8,
+          "fraction": 0.04060913705583756
+        }
+      ],
+      "after": [
+        {
+          "samples": 197,
+          "covered": 197,
+          "fraction": 1
+        },
+        {
+          "samples": 197,
+          "covered": 197,
+          "fraction": 1
+        }
+      ],
+      "hipsAfter": [
+        {
+          "samples": 797,
+          "covered": 797,
+          "fraction": 1
+        },
+        {
+          "samples": 797,
+          "covered": 797,
+          "fraction": 1
+        }
+      ],
+      "visualPass": false
+    },
+    {
+      "pose": "Left contact",
+      "before": [
+        {
+          "samples": 197,
+          "covered": 55,
+          "fraction": 0.27918781725888325
+        },
+        {
+          "samples": 197,
+          "covered": 8,
+          "fraction": 0.04060913705583756
+        }
+      ],
+      "after": [
+        {
+          "samples": 197,
+          "covered": 197,
+          "fraction": 1
+        },
+        {
+          "samples": 197,
+          "covered": 197,
+          "fraction": 1
+        }
+      ],
+      "hipsAfter": [
+        {
+          "samples": 797,
+          "covered": 797,
+          "fraction": 1
+        },
+        {
+          "samples": 797,
+          "covered": 797,
+          "fraction": 1
+        }
+      ],
+      "visualPass": false
+    },
+    {
+      "pose": "Left down",
+      "before": [
+        {
+          "samples": 197,
+          "covered": 61,
+          "fraction": 0.3096446700507614
+        },
+        {
+          "samples": 197,
+          "covered": 8,
+          "fraction": 0.04060913705583756
+        }
+      ],
+      "after": [
+        {
+          "samples": 197,
+          "covered": 197,
+          "fraction": 1
+        },
+        {
+          "samples": 197,
+          "covered": 197,
+          "fraction": 1
+        }
+      ],
+      "hipsAfter": [
+        {
+          "samples": 797,
+          "covered": 797,
+          "fraction": 1
+        },
+        {
+          "samples": 797,
+          "covered": 797,
+          "fraction": 1
+        }
+      ],
+      "visualPass": false
+    },
+    {
+      "pose": "Left passing",
+      "before": [
+        {
+          "samples": 197,
+          "covered": 39,
+          "fraction": 0.19796954314720813
+        },
+        {
+          "samples": 197,
+          "covered": 8,
+          "fraction": 0.04060913705583756
+        }
+      ],
+      "after": [
+        {
+          "samples": 197,
+          "covered": 197,
+          "fraction": 1
+        },
+        {
+          "samples": 197,
+          "covered": 197,
+          "fraction": 1
+        }
+      ],
+      "hipsAfter": [
+        {
+          "samples": 797,
+          "covered": 797,
+          "fraction": 1
+        },
+        {
+          "samples": 797,
+          "covered": 797,
+          "fraction": 1
+        }
+      ],
+      "visualPass": false
+    },
+    {
+      "pose": "Left up",
+      "before": [
+        {
+          "samples": 197,
+          "covered": 27,
+          "fraction": 0.13705583756345177
+        },
+        {
+          "samples": 197,
+          "covered": 8,
+          "fraction": 0.04060913705583756
+        }
+      ],
+      "after": [
+        {
+          "samples": 197,
+          "covered": 197,
+          "fraction": 1
+        },
+        {
+          "samples": 197,
+          "covered": 197,
+          "fraction": 1
+        }
+      ],
+      "hipsAfter": [
+        {
+          "samples": 797,
+          "covered": 797,
+          "fraction": 1
+        },
+        {
+          "samples": 797,
+          "covered": 797,
+          "fraction": 1
+        }
+      ],
+      "visualPass": false
+    },
+    {
+      "pose": "Right contact",
+      "before": [
+        {
+          "samples": 197,
+          "covered": 40,
+          "fraction": 0.20304568527918782
+        },
+        {
+          "samples": 197,
+          "covered": 8,
+          "fraction": 0.04060913705583756
+        }
+      ],
+      "after": [
+        {
+          "samples": 197,
+          "covered": 197,
+          "fraction": 1
+        },
+        {
+          "samples": 197,
+          "covered": 197,
+          "fraction": 1
+        }
+      ],
+      "hipsAfter": [
+        {
+          "samples": 797,
+          "covered": 797,
+          "fraction": 1
+        },
+        {
+          "samples": 797,
+          "covered": 797,
+          "fraction": 1
+        }
+      ],
+      "visualPass": false
+    },
+    {
+      "pose": "Right down",
+      "before": [
+        {
+          "samples": 197,
+          "covered": 38,
+          "fraction": 0.19289340101522842
+        },
+        {
+          "samples": 197,
+          "covered": 8,
+          "fraction": 0.04060913705583756
+        }
+      ],
+      "after": [
+        {
+          "samples": 197,
+          "covered": 197,
+          "fraction": 1
+        },
+        {
+          "samples": 197,
+          "covered": 197,
+          "fraction": 1
+        }
+      ],
+      "hipsAfter": [
+        {
+          "samples": 796,
+          "covered": 796,
+          "fraction": 1
+        },
+        {
+          "samples": 797,
+          "covered": 797,
+          "fraction": 1
+        }
+      ],
+      "visualPass": false
+    },
+    {
+      "pose": "Right passing",
+      "before": [
+        {
+          "samples": 197,
+          "covered": 84,
+          "fraction": 0.4263959390862944
+        },
+        {
+          "samples": 197,
+          "covered": 8,
+          "fraction": 0.04060913705583756
+        }
+      ],
+      "after": [
+        {
+          "samples": 197,
+          "covered": 197,
+          "fraction": 1
+        },
+        {
+          "samples": 197,
+          "covered": 197,
+          "fraction": 1
+        }
+      ],
+      "hipsAfter": [
+        {
+          "samples": 797,
+          "covered": 797,
+          "fraction": 1
+        },
+        {
+          "samples": 797,
+          "covered": 797,
+          "fraction": 1
+        }
+      ],
+      "visualPass": false
+    },
+    {
+      "pose": "Right up",
+      "before": [
+        {
+          "samples": 197,
+          "covered": 79,
+          "fraction": 0.4010152284263959
+        },
+        {
+          "samples": 197,
+          "covered": 8,
+          "fraction": 0.04060913705583756
+        }
+      ],
+      "after": [
+        {
+          "samples": 197,
+          "covered": 197,
+          "fraction": 1
+        },
+        {
+          "samples": 197,
+          "covered": 197,
+          "fraction": 1
+        }
+      ],
+      "hipsAfter": [
+        {
+          "samples": 796,
+          "covered": 796,
+          "fraction": 1
+        },
+        {
+          "samples": 797,
+          "covered": 797,
+          "fraction": 1
+        }
+      ],
+      "visualPass": false
+    }
+  ],
+  "activationApproved": false,
+  "thighRootMask": {
+    "x": -30,
+    "y": 6,
+    "width": 60,
+    "height": 44,
+    "space": "each corrected thigh bone",
+    "reason": "Suppress open top 6 units only; original pixels preserved, knee clip remains at50. Candidate overhang must cover resulting area."
+  },
+  "verdict": {
+    "overall": "FAIL",
+    "waistContinuity": {
+      "result": "PASS_LOCAL_COVERAGE_ONLY",
+      "detail": "Both sampled waist discs have 100% alpha>0.5 coverage in standing and all eight phases. No certification of entire silhouette or continuous motion."
+    },
+    "thighRootCoverage": {
+      "result": "FAIL",
+      "detail": "Clipping each corrected thigh above local y6 removes much of the open rim, but angled root edges still protrude beyond candidate sides during walking."
+    },
+    "silhouette": {
+      "result": "FAIL",
+      "detail": "Wide rigid lower lobes retain visible shorts-like hems; moving thighs emerge with incompatible angles."
+    },
+    "fabricConsistency": {
+      "result": "FAIL",
+      "detail": "Dense radial crotch folds and bright smooth material do not continue into original longer trouser folds; lower overlap edge remains visible."
+    },
+    "embroidery": {
+      "result": "PASS",
+      "detail": "No extraneous embroidery on V3; existing navy coat pixels unchanged."
+    },
+    "nextStep": "Replace lower shorts silhouette with joint-compatible hip-to-thigh transitions matched to each original trouser leg. Paint concealed overlap without a finished hem. Any masking must remain within overlap supported across the full gait; do not clip more leg material merely to hide protrusions.",
+    "enabled": false
+  }
+}

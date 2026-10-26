@@ -1,0 +1,70 @@
+{
+  "enabled": false,
+  "baseRig": "../rig.json",
+  "candidateLayer": {
+    "enabled": false,
+    "file": "public/characters/groom-waist-hip-v3.png",
+    "sha256": "f1160e4c8b960eb42a6a586143ac4adc2c30444c852599d4d767cfe6bc8af195",
+    "width": 440,
+    "height": 250,
+    "alpha": {
+      "transparent": 40791,
+      "partial": 68301,
+      "opaque": 908,
+      "total": 110000
+    },
+    "pivot": {
+      "x": 220,
+      "y": 140,
+      "status": "explicit registration, not independently verified artwork landmark"
+    },
+    "scale": 0.1,
+    "bodyAnchor": {
+      "x": 0,
+      "y": 177
+    },
+    "bounds": {
+      "x": -22,
+      "y": 163,
+      "width": 44,
+      "height": 25
+    },
+    "drawOrder": "above both moving thighs, below torso/coat",
+    "existingPelvis": "suppressed in candidate comparison only; source untouched",
+    "stretching": "none: uniform scale 0.1; no deformation",
+    "activationApproved": false
+  },
+  "thighRootMask": {
+    "x": -30,
+    "y": 6,
+    "width": 60,
+    "height": 44,
+    "space": "each corrected thigh bone",
+    "reason": "Suppress open top 6 units only; original pixels preserved, knee clip remains at50. Candidate overhang must cover resulting area."
+  },
+  "verdict": {
+    "overall": "FAIL",
+    "waistContinuity": {
+      "result": "PASS_LOCAL_COVERAGE_ONLY",
+      "detail": "Both sampled waist discs have 100% alpha>0.5 coverage in standing and all eight phases. No certification of entire silhouette or continuous motion."
+    },
+    "thighRootCoverage": {
+      "result": "FAIL",
+      "detail": "Clipping each corrected thigh above local y6 removes much of the open rim, but angled root edges still protrude beyond candidate sides during walking."
+    },
+    "silhouette": {
+      "result": "FAIL",
+      "detail": "Wide rigid lower lobes retain visible shorts-like hems; moving thighs emerge with incompatible angles."
+    },
+    "fabricConsistency": {
+      "result": "FAIL",
+      "detail": "Dense radial crotch folds and bright smooth material do not continue into original longer trouser folds; lower overlap edge remains visible."
+    },
+    "embroidery": {
+      "result": "PASS",
+      "detail": "No extraneous embroidery on V3; existing navy coat pixels unchanged."
+    },
+    "nextStep": "Replace lower shorts silhouette with joint-compatible hip-to-thigh transitions matched to each original trouser leg. Paint concealed overlap without a finished hem. Any masking must remain within overlap supported across the full gait; do not clip more leg material merely to hide protrusions.",
+    "enabled": false
+  }
+}

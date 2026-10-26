@@ -91,3 +91,5 @@ fs.writeFileSync(root+'/rig.json',JSON.stringify(savedRig,null,2));
 
 
 export {pose,renderParts,coverage,point,I,PHASES};
+
+export {alpha,mul,T};

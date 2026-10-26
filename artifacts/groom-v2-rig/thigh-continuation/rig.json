@@ -1,0 +1,53 @@
+{
+  "enabled": false,
+  "parentRig": "../rig.json",
+  "legs": {
+    "independent": true,
+    "sourceBandCorrectedCoordinates": {
+      "fromY": 3,
+      "toY": 15,
+      "translationY": -10
+    },
+    "mainFade": {
+      "fromY": -1,
+      "toY": 1,
+      "opacity": [
+        0,
+        1
+      ]
+    },
+    "capFade": {
+      "fromY": 1,
+      "toY": 5,
+      "opacity": [
+        1,
+        0
+      ]
+    },
+    "scaling": "none beyond existing uniform registration",
+    "notes": "Diagnostic copied upper texture; cannot be considered genuine painted hidden hip surfaces."
+  },
+  "centralUnderlay": {
+    "source": "pelvis-with-coat.png",
+    "bodyMask": {
+      "x": -6,
+      "y": 168,
+      "width": 12,
+      "height": 9
+    },
+    "drawOrder": "behind both thighs and coat"
+  },
+  "activationApproved": false,
+  "visualReview": {
+    "overall": "FAIL",
+    "independentMotion": "PASS: original hip/knee transforms retained; continuation follows its own thigh",
+    "noStretch": "PASS: rigid source-band translation only; original scales unchanged",
+    "noShortsOverlay": "PASS: no V3, fixed shorts overlay or hem artwork used",
+    "waistContinuity": "FAIL: worst waist disc has only 93.4% sampled alpha>=0.95 coverage across 128 phase samples plus standing",
+    "hipProbe": "PASS_LOCAL_ONLY: radius4 hip discs opaque at all samples; silhouette still fails",
+    "silhouette": "FAIL: source-band and original thigh widths differ, leaving lateral ledges and angular exposed root edges",
+    "fabricContinuity": "FAIL: translated cloth duplicates upper folds and changes their flow; feather does not reconstruct hidden hip surfaces",
+    "referenceComparison": "FAIL: original full-body reference has continuous tapered cloth and concealed roots; trial retains segmented appearance",
+    "activationApproved": false
+  }
+}

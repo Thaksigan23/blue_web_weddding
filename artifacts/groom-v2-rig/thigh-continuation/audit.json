@@ -1,0 +1,5384 @@
+{
+  "enabled": false,
+  "status": "FAIL_DISABLED",
+  "sourceHashes": {
+    "artifacts/groom-v2-preparation/layers/thigh-left.png": "6caff0ea8cc01dfa920e146af91b8233ed8e6667f1a896923f8a241c32f5f85b",
+    "artifacts/groom-v2-preparation/layers/thigh-right.png": "e22da72be9d6ccfcf5a643acb96cbe0e0b9d776d453f45f3d861f7b72610e4a6",
+    "artifacts/groom-v2-preparation/layers/pelvis-with-coat.png": "1bfe6f3b79b4f1ecdc513e34bc18c6c358025c644b71f2e88883220c94e771cb",
+    "public/characters/groom_reference.png": "68f23482ab247d8f02f902367ea5d882f22c96423c44f977966116715033c5a4"
+  },
+  "inspection": [
+    {
+      "tag": "thigh-left",
+      "source": "layers/thigh-left.png",
+      "rows": [
+        {
+          "y": -15,
+          "left": null,
+          "right": null
+        },
+        {
+          "y": -14,
+          "left": null,
+          "right": null
+        },
+        {
+          "y": -13,
+          "left": null,
+          "right": null
+        },
+        {
+          "y": -12,
+          "left": null,
+          "right": null
+        },
+        {
+          "y": -11,
+          "left": null,
+          "right": null
+        },
+        {
+          "y": -10,
+          "left": null,
+          "right": null
+        },
+        {
+          "y": -9,
+          "left": null,
+          "right": null
+        },
+        {
+          "y": -8,
+          "left": null,
+          "right": null
+        },
+        {
+          "y": -7,
+          "left": null,
+          "right": null
+        },
+        {
+          "y": -6,
+          "left": null,
+          "right": null
+        },
+        {
+          "y": -5,
+          "left": null,
+          "right": null
+        },
+        {
+          "y": -4,
+          "left": -3.5,
+          "right": 2.5
+        },
+        {
+          "y": -3,
+          "left": -7.25,
+          "right": 7
+        },
+        {
+          "y": -2,
+          "left": -8.5,
+          "right": 9
+        },
+        {
+          "y": -1,
+          "left": -9,
+          "right": 9.25
+        },
+        {
+          "y": 0,
+          "left": -8.5,
+          "right": 9
+        },
+        {
+          "y": 1,
+          "left": -8.25,
+          "right": 8.5
+        },
+        {
+          "y": 2,
+          "left": -8,
+          "right": 8.5
+        },
+        {
+          "y": 3,
+          "left": -8,
+          "right": 8.25
+        },
+        {
+          "y": 4,
+          "left": -7.5,
+          "right": 8.25
+        },
+        {
+          "y": 5,
+          "left": -7.5,
+          "right": 8.25
+        },
+        {
+          "y": 6,
+          "left": -7.25,
+          "right": 8
+        },
+        {
+          "y": 7,
+          "left": -7,
+          "right": 8
+        },
+        {
+          "y": 8,
+          "left": -7,
+          "right": 8
+        },
+        {
+          "y": 9,
+          "left": -6.75,
+          "right": 8
+        },
+        {
+          "y": 10,
+          "left": -6.25,
+          "right": 7.5
+        },
+        {
+          "y": 11,
+          "left": -6,
+          "right": 7.5
+        },
+        {
+          "y": 12,
+          "left": -5.75,
+          "right": 7.25
+        },
+        {
+          "y": 13,
+          "left": -5.25,
+          "right": 7.25
+        },
+        {
+          "y": 14,
+          "left": -5,
+          "right": 7.25
+        },
+        {
+          "y": 15,
+          "left": -5,
+          "right": 7.25
+        }
+      ],
+      "continuation": "Only source fabric at corrected local y3..15 is reused, rigidly translated -10 units. No sample above source edge, no stretching, no tiling."
+    },
+    {
+      "tag": "thigh-right",
+      "source": "layers/thigh-right.png",
+      "rows": [
+        {
+          "y": -15,
+          "left": null,
+          "right": null
+        },
+        {
+          "y": -14,
+          "left": null,
+          "right": null
+        },
+        {
+          "y": -13,
+          "left": null,
+          "right": null
+        },
+        {
+          "y": -12,
+          "left": null,
+          "right": null
+        },
+        {
+          "y": -11,
+          "left": null,
+          "right": null
+        },
+        {
+          "y": -10,
+          "left": null,
+          "right": null
+        },
+        {
+          "y": -9,
+          "left": null,
+          "right": null
+        },
+        {
+          "y": -8,
+          "left": null,
+          "right": null
+        },
+        {
+          "y": -7,
+          "left": null,
+          "right": null
+        },
+        {
+          "y": -6,
+          "left": null,
+          "right": null
+        },
+        {
+          "y": -5,
+          "left": null,
+          "right": null
+        },
+        {
+          "y": -4,
+          "left": null,
+          "right": null
+        },
+        {
+          "y": -3,
+          "left": -6.25,
+          "right": -1.5
+        },
+        {
+          "y": -2,
+          "left": -6,
+          "right": 2
+        },
+        {
+          "y": -1,
+          "left": -6,
+          "right": 5
+        },
+        {
+          "y": 0,
+          "left": -6,
+          "right": 7.75
+        },
+        {
+          "y": 1,
+          "left": -6,
+          "right": 9
+        },
+        {
+          "y": 2,
+          "left": -6,
+          "right": 8.75
+        },
+        {
+          "y": 3,
+          "left": -5.75,
+          "right": 8.5
+        },
+        {
+          "y": 4,
+          "left": -6,
+          "right": 8.25
+        },
+        {
+          "y": 5,
+          "left": -6,
+          "right": 8
+        },
+        {
+          "y": 6,
+          "left": -5.75,
+          "right": 8
+        },
+        {
+          "y": 7,
+          "left": -5.75,
+          "right": 7.75
+        },
+        {
+          "y": 8,
+          "left": -6,
+          "right": 7.5
+        },
+        {
+          "y": 9,
+          "left": -5.75,
+          "right": 7.25
+        },
+        {
+          "y": 10,
+          "left": -5.75,
+          "right": 7
+        },
+        {
+          "y": 11,
+          "left": -5.5,
+          "right": 6.75
+        },
+        {
+          "y": 12,
+          "left": -5.75,
+          "right": 6.75
+        },
+        {
+          "y": 13,
+          "left": -5.75,
+          "right": 6.5
+        },
+        {
+          "y": 14,
+          "left": -5.75,
+          "right": 6.25
+        },
+        {
+          "y": 15,
+          "left": -6,
+          "right": 6.25
+        }
+      ],
+      "continuation": "Only source fabric at corrected local y3..15 is reused, rigidly translated -10 units. No sample above source edge, no stretching, no tiling."
+    }
+  ],
+  "measurements": [
+    {
+      "phase": 0,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.15228426395939088,
+          "meanAlpha": 0.2613516472578878
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9885879893910401
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9644670050761421,
+          "meanAlpha": 0.972771269152629
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923192465421821
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908288537228747
+        }
+      ]
+    },
+    {
+      "phase": 0.0078125,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.15228426395939088,
+          "meanAlpha": 0.265293122325072
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9885879893910401
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9644670050761421,
+          "meanAlpha": 0.972850894911562
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923257237154814
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908494544981423
+        }
+      ]
+    },
+    {
+      "phase": 0.015625,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.15736040609137056,
+          "meanAlpha": 0.27269831790584237
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9885680829513067
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9593908629441624,
+          "meanAlpha": 0.9723255990960126
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923253963307892
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908600135734118
+        }
+      ]
+    },
+    {
+      "phase": 0.0234375,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.16751269035532995,
+          "meanAlpha": 0.2780730566338209
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9885680829513067
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.949238578680203,
+          "meanAlpha": 0.9669232255458163
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923272767975735
+        },
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908605799930362
+        }
+      ]
+    },
+    {
+      "phase": 0.03125,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.16751269035532995,
+          "meanAlpha": 0.2775156763212898
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9885481765115735
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9441624365482234,
+          "meanAlpha": 0.9663581168508006
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923370245623584
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908258074299949
+        }
+      ]
+    },
+    {
+      "phase": 0.0390625,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.17258883248730963,
+          "meanAlpha": 0.27992435552901346
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9885481765115735
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9390862944162437,
+          "meanAlpha": 0.9616402906340197
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923356726082304
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908374977486649
+        }
+      ]
+    },
+    {
+      "phase": 0.046875,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.17258883248730963,
+          "meanAlpha": 0.2844829302279286
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9885481765115735
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9390862944162437,
+          "meanAlpha": 0.9618592614710857
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923266547874957
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908570692529707
+        }
+      ]
+    },
+    {
+      "phase": 0.0546875,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.17258883248730963,
+          "meanAlpha": 0.2869513287548521
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9885481765115735
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.9571215288145715
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923309649799311
+        },
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908446843863756
+        }
+      ]
+    },
+    {
+      "phase": 0.0625,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.17258883248730963,
+          "meanAlpha": 0.28655319996018697
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9885481765115735
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.9573205932119044
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.992331680653063
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908590554043818
+        }
+      ]
+    },
+    {
+      "phase": 0.0703125,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.17258883248730963,
+          "meanAlpha": 0.2917089678510997
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9885083636321067
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.9575196576092375
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923321959316417
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908359943783729
+        }
+      ]
+    },
+    {
+      "phase": 0.078125,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.17258883248730963,
+          "meanAlpha": 0.2908928038220363
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9885083636321067
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.9575395640489706
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923391155823589
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.990846153890705
+        }
+      ]
+    },
+    {
+      "phase": 0.0859375,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.17766497461928935,
+          "meanAlpha": 0.29178859361003273
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9885083636321067
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9390862944162437,
+          "meanAlpha": 0.9625758933014837
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923442897819277
+        },
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908683430860611
+        }
+      ]
+    },
+    {
+      "phase": 0.09375,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.17766497461928935,
+          "meanAlpha": 0.29178859361003273
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9885083636321067
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9390862944162437,
+          "meanAlpha": 0.9625758933014837
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923395663533928
+        },
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908405743893199
+        }
+      ]
+    },
+    {
+      "phase": 0.1015625,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.17766497461928935,
+          "meanAlpha": 0.29178859361003273
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9884884571923733
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9441624365482234,
+          "meanAlpha": 0.9675923161142638
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923396158263298
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908478053541896
+        }
+      ]
+    },
+    {
+      "phase": 0.109375,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.17766497461928935,
+          "meanAlpha": 0.29178859361003273
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9885083636321067
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.949238578680203,
+          "meanAlpha": 0.9682407976627501
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923442647969799
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908577707981455
+        }
+      ]
+    },
+    {
+      "phase": 0.1171875,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.17258883248730963,
+          "meanAlpha": 0.2917089678510997
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9885083636321067
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9593908629441624,
+          "meanAlpha": 0.9739455149034832
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923322449573162
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908383239539208
+        }
+      ]
+    },
+    {
+      "phase": 0.125,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.17258883248730963,
+          "meanAlpha": 0.28655319996018697
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9885481765115735
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9644670050761421,
+          "meanAlpha": 0.9745939964519698
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923310875308099
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908408369263146
+        }
+      ]
+    },
+    {
+      "phase": 0.1328125,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.17258883248730963,
+          "meanAlpha": 0.28386583059619774
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9885481765115735
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9746192893401016,
+          "meanAlpha": 0.9803186201324362
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923308429109063
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908527145322839
+        }
+      ]
+    },
+    {
+      "phase": 0.140625,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.16751269035532995,
+          "meanAlpha": 0.27749576988155655
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9885481765115735
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9796954314720813,
+          "meanAlpha": 0.98104602485963
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923225104709207
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908314898593032
+        }
+      ]
+    },
+    {
+      "phase": 0.1484375,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.15228426395939088,
+          "meanAlpha": 0.265293122325072
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9885879893910401
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9847715736040609,
+          "meanAlpha": 0.9816938038278904
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923261654022673
+        },
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908449759706668
+        }
+      ]
+    },
+    {
+      "phase": 0.15625,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.15228426395939088,
+          "meanAlpha": 0.25957997412162825
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9886078958307735
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9949238578680203,
+          "meanAlpha": 0.987358708189157
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923332260880882
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908322698075975
+        }
+      ]
+    },
+    {
+      "phase": 0.1640625,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.13705583756345177,
+          "meanAlpha": 0.2485916193888722
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.98864770871024
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9880263935971508
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923337976634735
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908535444255757
+        }
+      ]
+    },
+    {
+      "phase": 0.171875,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.13705583756345177,
+          "meanAlpha": 0.2502637603264655
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.98864770871024
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9878870485190174
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923379108952989
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908715127202948
+        }
+      ]
+    },
+    {
+      "phase": 0.1796875,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.13705583756345177,
+          "meanAlpha": 0.2446501443216879
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9886676151499735
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9878472356395507
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923353948347056
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908534779395971
+        }
+      ]
+    },
+    {
+      "phase": 0.1875,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.1218274111675127,
+          "meanAlpha": 0.23326366079426683
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9886875215897069
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9877078905614175
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923447991156509
+        },
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908495487907114
+        }
+      ]
+    },
+    {
+      "phase": 0.1953125,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.116751269035533,
+          "meanAlpha": 0.2236090375236388
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9886875215897069
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9876083583627511
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923389712030519
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908459250795737
+        }
+      ]
+    },
+    {
+      "phase": 0.203125,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.1116751269035533,
+          "meanAlpha": 0.21988653329352037
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9886875215897069
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9875088261640848
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923342109809304
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908607685627737
+        }
+      ]
+    },
+    {
+      "phase": 0.2109375,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.1065989847715736,
+          "meanAlpha": 0.2183139245545933
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9949238578680203,
+          "meanAlpha": 0.988412110141162
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9873694810859515
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923250816968342
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908534354436624
+        }
+      ]
+    },
+    {
+      "phase": 0.21875,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.1065989847715736,
+          "meanAlpha": 0.21025181646262558
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9898477157360406,
+          "meanAlpha": 0.9881366986926172
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9872898553270185
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923162042560083
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908345299028398
+        }
+      ]
+    },
+    {
+      "phase": 0.2265625,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.09644670050761421,
+          "meanAlpha": 0.20748482133970333
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9847715736040609,
+          "meanAlpha": 0.9831202758798372
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9871903231283519
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923256436244601
+        },
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908476181689373
+        }
+      ]
+    },
+    {
+      "phase": 0.234375,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.09644670050761421,
+          "meanAlpha": 0.20063700607146406
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9796954314720813,
+          "meanAlpha": 0.9828448644312925
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9870708844899524
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923288026173012
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908567939080989
+        }
+      ]
+    },
+    {
+      "phase": 0.2421875,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.08629441624365482,
+          "meanAlpha": 0.18475166716432764
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9796954314720813,
+          "meanAlpha": 0.9828448644312925
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9868917265323527
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923246029383634
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908425622482621
+        }
+      ]
+    },
+    {
+      "phase": 0.25,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.08629441624365482,
+          "meanAlpha": 0.1857469891509903
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9796954314720813,
+          "meanAlpha": 0.9828448644312925
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9867722878939534
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.992323352612965
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908551525102739
+        }
+      ]
+    },
+    {
+      "phase": 0.2578125,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.08629441624365482,
+          "meanAlpha": 0.18749875584751663
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9746192893401016,
+          "meanAlpha": 0.9825891252290724
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.986652849255554
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.992321818146541
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908568027834856
+        }
+      ]
+    },
+    {
+      "phase": 0.265625,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.08121827411167512,
+          "meanAlpha": 0.18198467204140537
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9746192893401016,
+          "meanAlpha": 0.9825891252290724
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9865135041774212
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923345696518262
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908506428053309
+        }
+      ]
+    },
+    {
+      "phase": 0.2734375,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.08121827411167512,
+          "meanAlpha": 0.1789190803224843
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9695431472081218,
+          "meanAlpha": 0.9775727024162923
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9863940655390215
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923408096816198
+        },
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908566011142002
+        }
+      ]
+    },
+    {
+      "phase": 0.28125,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.08121827411167512,
+          "meanAlpha": 0.17941674131581561
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9644670050761421,
+          "meanAlpha": 0.9772972909677475
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9862718165797183
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923295442429747
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908476487121433
+        }
+      ]
+    },
+    {
+      "phase": 0.2890625,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.07614213197969544,
+          "meanAlpha": 0.1701005275206529
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9644670050761421,
+          "meanAlpha": 0.9772972909677475
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9861921908207856
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.992331015371126
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908543598389019
+        }
+      ]
+    },
+    {
+      "phase": 0.296875,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.07106598984771574,
+          "meanAlpha": 0.16948342788892207
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9593908629441624,
+          "meanAlpha": 0.9770218795192028
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9861324715015857
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923241476046087
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908567992709607
+        }
+      ]
+    },
+    {
+      "phase": 0.3046875,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.06598984771573604,
+          "meanAlpha": 0.16554195282173786
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.949238578680203,
+          "meanAlpha": 0.9717497175042027
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9860926586221193
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923251099858895
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908659134083438
+        }
+      ]
+    },
+    {
+      "phase": 0.3125,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.06091370558375635,
+          "meanAlpha": 0.16227729670548427
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.949238578680203,
+          "meanAlpha": 0.9717497175042027
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9861125650618525
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923189044953348
+        },
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.990860322222744
+        }
+      ]
+    },
+    {
+      "phase": 0.3203125,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.05583756345177665,
+          "meanAlpha": 0.15519060416044594
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9441624365482234,
+          "meanAlpha": 0.9714939783019825
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9861523779413189
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.992322160352963
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908573047121473
+        }
+      ]
+    },
+    {
+      "phase": 0.328125,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.05583756345177665,
+          "meanAlpha": 0.1553697621180452
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9390862944162437,
+          "meanAlpha": 0.9664775554892026
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9861921908207856
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923359070589142
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908642003664879
+        }
+      ]
+    },
+    {
+      "phase": 0.3359375,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.050761421319796954,
+          "meanAlpha": 0.15314024086792077
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9390862944162437,
+          "meanAlpha": 0.9664775554892026
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9862718165797183
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923341760267302
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.990858705988754
+        }
+      ]
+    },
+    {
+      "phase": 0.34375,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.04568527918781726,
+          "meanAlpha": 0.15264257987458946
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9390862944162437,
+          "meanAlpha": 0.9664775554892026
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9862718165797182
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923341697288842
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.990858409924608
+        }
+      ]
+    },
+    {
+      "phase": 0.3515625,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.04060913705583756,
+          "meanAlpha": 0.14752662486314325
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9390862944162437,
+          "meanAlpha": 0.9664775554892026
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.986413971978755
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923255362020605
+        },
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908520088408953
+        }
+      ]
+    },
+    {
+      "phase": 0.359375,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.04060913705583756,
+          "meanAlpha": 0.14671046083407988
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.9614611326764225
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9865732234966209
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923336581239199
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.990852603625437
+        }
+      ]
+    },
+    {
+      "phase": 0.3671875,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.04060913705583756,
+          "meanAlpha": 0.13586145117945658
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.9614611326764225
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9866727556952873
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923546024816717
+        },
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908553412923996
+        }
+      ]
+    },
+    {
+      "phase": 0.375,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.04060913705583756,
+          "meanAlpha": 0.13717527620185133
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.9614611326764225
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9867722878939534
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923491605500698
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908553592446896
+        }
+      ]
+    },
+    {
+      "phase": 0.3828125,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.04060913705583756,
+          "meanAlpha": 0.14499850701702002
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.9614611326764225
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9868718200926194
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923423708596811
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908450774334564
+        }
+      ]
+    },
+    {
+      "phase": 0.390625,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.04060913705583756,
+          "meanAlpha": 0.14551607445008463
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.9614611326764225
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9869713522912859
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923138903005703
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908525213627823
+        }
+      ]
+    },
+    {
+      "phase": 0.3984375,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.04060913705583756,
+          "meanAlpha": 0.14306758236289444
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.9614611326764225
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9871106973694188
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923005730836223
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908542026456986
+        }
+      ]
+    },
+    {
+      "phase": 0.40625,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.04060913705583756,
+          "meanAlpha": 0.14288842440529512
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.9614611326764225
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9872102295680854
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923127205322928
+        },
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908473920191108
+        }
+      ]
+    },
+    {
+      "phase": 0.4140625,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.04060913705583756,
+          "meanAlpha": 0.14288842440529512
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.9614611326764225
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9872898553270185
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923126118994041
+        },
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908387642933308
+        }
+      ]
+    },
+    {
+      "phase": 0.421875,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.04060913705583756,
+          "meanAlpha": 0.14300786304369467
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.9614611326764225
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9873495746462182
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923048333133138
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908489656312762
+        }
+      ]
+    },
+    {
+      "phase": 0.4296875,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.04060913705583756,
+          "meanAlpha": 0.1454961680103514
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.9614611326764225
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9875088261640848
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923107334042377
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908599515811444
+        }
+      ]
+    },
+    {
+      "phase": 0.4375,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.04060913705583756,
+          "meanAlpha": 0.14551607445008463
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.9614611326764225
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9876083583627512
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923144560438459
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908411949030631
+        }
+      ]
+    },
+    {
+      "phase": 0.4453125,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.04060913705583756,
+          "meanAlpha": 0.1453568229322186
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.9614611326764225
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9876282648024844
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923422539548845
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908424703616239
+        }
+      ]
+    },
+    {
+      "phase": 0.453125,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.04060913705583756,
+          "meanAlpha": 0.1423907634119638
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.9614611326764225
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9877277970011509
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923522482114889
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908676314869435
+        }
+      ]
+    },
+    {
+      "phase": 0.4609375,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.04060913705583756,
+          "meanAlpha": 0.13717527620185133
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.9614611326764225
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9878472356395507
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923541581638675
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.990855310803166
+        }
+      ]
+    },
+    {
+      "phase": 0.46875,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.04060913705583756,
+          "meanAlpha": 0.13574201254105706
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.9614611326764225
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.987867142079284
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923673511554739
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908635293811688
+        }
+      ]
+    },
+    {
+      "phase": 0.4765625,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.04060913705583756,
+          "meanAlpha": 0.13574201254105706
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.9614611326764225
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9879865807176842
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923690858010813
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908618104081636
+        }
+      ]
+    },
+    {
+      "phase": 0.484375,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.04060913705583756,
+          "meanAlpha": 0.13713546332238483
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.9614611326764225
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9880463000368841
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923602775588762
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908506886799945
+        }
+      ]
+    },
+    {
+      "phase": 0.4921875,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.04060913705583756,
+          "meanAlpha": 0.1410570319498358
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.9614611326764225
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9880662064766174
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923473186737782
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908406296936987
+        }
+      ]
+    },
+    {
+      "phase": 0.5,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.08121827411167512,
+          "meanAlpha": 0.19408778739922364
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9644670050761421,
+          "meanAlpha": 0.9764388940606615
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9876680776819509
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923132078685394
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908479690166828
+        }
+      ]
+    },
+    {
+      "phase": 0.5078125,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.07614213197969544,
+          "meanAlpha": 0.1869214690952523
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9644670050761421,
+          "meanAlpha": 0.9765196127221681
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9876282648024844
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923299361541946
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908427665361816
+        }
+      ]
+    },
+    {
+      "phase": 0.515625,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.07106598984771574,
+          "meanAlpha": 0.1782223549318204
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9543147208121827,
+          "meanAlpha": 0.9714067022250342
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.987668077681951
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923376147271865
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.990853175728986
+        }
+      ]
+    },
+    {
+      "phase": 0.5234375,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.06091370558375635,
+          "meanAlpha": 0.1725888324873097
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9441624365482234,
+          "meanAlpha": 0.9710361301881175
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9876083583627511
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923063053888741
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908417462627078
+        }
+      ]
+    },
+    {
+      "phase": 0.53125,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.05583756345177665,
+          "meanAlpha": 0.16418831491987665
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9390862944162437,
+          "meanAlpha": 0.9661988653329371
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9876083583627512
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923398283727155
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908347590512776
+        }
+      ]
+    },
+    {
+      "phase": 0.5390625,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.04568527918781726,
+          "meanAlpha": 0.1610231910022893
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9390862944162437,
+          "meanAlpha": 0.9663382104110699
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9876083583627512
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923366281447698
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908402066523173
+        }
+      ]
+    },
+    {
+      "phase": 0.546875,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.04060913705583756,
+          "meanAlpha": 0.15447397233004884
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.9614412262366893
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9875486390435513
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923245389870771
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908498299530529
+        }
+      ]
+    },
+    {
+      "phase": 0.5546875,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.04060913705583756,
+          "meanAlpha": 0.14306758236289444
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.9614611326764225
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9875287326038181
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923039976807437
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908544496960789
+        }
+      ]
+    },
+    {
+      "phase": 0.5625,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.04060913705583756,
+          "meanAlpha": 0.1426097342490296
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.9614611326764225
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9875287326038181
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923520892792698
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908604349497965
+        }
+      ]
+    },
+    {
+      "phase": 0.5703125,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.04060913705583756,
+          "meanAlpha": 0.14296805016422817
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.9614611326764225
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9875088261640848
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923426133027042
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908541960334948
+        }
+      ]
+    },
+    {
+      "phase": 0.578125,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.04060913705583756,
+          "meanAlpha": 0.14746690554394348
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9390862944162437,
+          "meanAlpha": 0.9664775554892026
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9874889197243515
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923274167698528
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908552945746197
+        }
+      ]
+    },
+    {
+      "phase": 0.5859375,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.050761421319796954,
+          "meanAlpha": 0.15314024086792077
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9390862944162437,
+          "meanAlpha": 0.9664775554892026
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9875088261640848
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923406825570149
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908546260619153
+        }
+      ]
+    },
+    {
+      "phase": 0.59375,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.05583756345177665,
+          "meanAlpha": 0.1552105106001792
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9441624365482234,
+          "meanAlpha": 0.9714939783019825
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9875088261640848
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923424121329919
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908555961589137
+        }
+      ]
+    },
+    {
+      "phase": 0.6015625,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.06091370558375635,
+          "meanAlpha": 0.16492485319000696
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.949238578680203,
+          "meanAlpha": 0.9717497175042027
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9874889197243513
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923095956258078
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.990852017213932
+        }
+      ]
+    },
+    {
+      "phase": 0.609375,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.07106598984771574,
+          "meanAlpha": 0.1694635214491888
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9593908629441624,
+          "meanAlpha": 0.9770218795192028
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9874889197243513
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923195432723526
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908519939791192
+        }
+      ]
+    },
+    {
+      "phase": 0.6171875,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.08121827411167512,
+          "meanAlpha": 0.17941674131581561
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9644670050761421,
+          "meanAlpha": 0.9772972909677475
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9875088261640848
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923203366513431
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908552780144164
+        }
+      ]
+    },
+    {
+      "phase": 0.625,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.08629441624365482,
+          "meanAlpha": 0.18317905842540058
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9746192893401016,
+          "meanAlpha": 0.9825891252290724
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9874889197243515
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.992320903672983
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908552473353519
+        }
+      ]
+    },
+    {
+      "phase": 0.6328125,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.08629441624365482,
+          "meanAlpha": 0.18475166716432764
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9796954314720813,
+          "meanAlpha": 0.9828448644312925
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9875287326038181
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923340337134605
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908604593018908
+        }
+      ]
+    },
+    {
+      "phase": 0.640625,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.09644670050761421,
+          "meanAlpha": 0.20748482133970333
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9847715736040609,
+          "meanAlpha": 0.9831202758798372
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9875486390435513
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923257101379258
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.990849829203045
+        }
+      ]
+    },
+    {
+      "phase": 0.6484375,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.1065989847715736,
+          "meanAlpha": 0.2183139245545933
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9949238578680203,
+          "meanAlpha": 0.988412110141162
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9876083583627512
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.992335042344692
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908380659054712
+        }
+      ]
+    },
+    {
+      "phase": 0.65625,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.116751269035533,
+          "meanAlpha": 0.2239474469991041
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9886875215897069
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.987668077681951
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.992329700194777
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908476989224884
+        }
+      ]
+    },
+    {
+      "phase": 0.6640625,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.1218274111675127,
+          "meanAlpha": 0.23593112371852282
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9886875215897069
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9876879841216841
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923427376241443
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908478435020819
+        }
+      ]
+    },
+    {
+      "phase": 0.671875,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.13705583756345177,
+          "meanAlpha": 0.2494077834179356
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.98864770871024
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9877277970011509
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923402038228981
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908676018572128
+        }
+      ]
+    },
+    {
+      "phase": 0.6796875,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.15228426395939088,
+          "meanAlpha": 0.2613516472578878
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9885879893910401
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9878273291998175
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923191385900351
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908607976401265
+        }
+      ]
+    },
+    {
+      "phase": 0.6875,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.16751269035532995,
+          "meanAlpha": 0.28032248432367857
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9885481765115735
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9878870485190173
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923468902819935
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908650066971245
+        }
+      ]
+    },
+    {
+      "phase": 0.6953125,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.18274111675126903,
+          "meanAlpha": 0.29600875883348243
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9885083636321065
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9878870485190174
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923359390034141
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908771815404211
+        }
+      ]
+    },
+    {
+      "phase": 0.703125,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.19796954314720813,
+          "meanAlpha": 0.30835075146809976
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9884685507526397
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9879865807176842
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923172996195515
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908617574496315
+        }
+      ]
+    },
+    {
+      "phase": 0.7109375,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.2131979695431472,
+          "meanAlpha": 0.3256494475962972
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9883889249937066
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9880263935971508
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.992325204534832
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908429436560747
+        }
+      ]
+    },
+    {
+      "phase": 0.71875,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.22842639593908629,
+          "meanAlpha": 0.3426893600079623
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9883292056745066
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9880662064766174
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923270598047726
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908406780549238
+        }
+      ]
+    },
+    {
+      "phase": 0.7265625,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.233502538071066,
+          "meanAlpha": 0.35867423111376484
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9882097670361067
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9949238578680203,
+          "meanAlpha": 0.9873985210686238
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.99232985243601
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908385871595474
+        }
+      ]
+    },
+    {
+      "phase": 0.734375,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.2436548223350254,
+          "meanAlpha": 0.376410868916094
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9880903283977069
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9898477157360406,
+          "meanAlpha": 0.9867102266406704
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923246770540064
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908611232826798
+        }
+      ]
+    },
+    {
+      "phase": 0.7421875,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.25888324873096447,
+          "meanAlpha": 0.3892704289837759
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9880107026387739
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9847715736040609,
+          "meanAlpha": 0.9816938038278904
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923335213868807
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908558444543066
+        }
+      ]
+    },
+    {
+      "phase": 0.75,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.26903553299492383,
+          "meanAlpha": 0.40764407285756904
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9878713575606407
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9796954314720813,
+          "meanAlpha": 0.9810261184198966
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.99231912687572
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908362173894008
+        }
+      ]
+    },
+    {
+      "phase": 0.7578125,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.28426395939086296,
+          "meanAlpha": 0.4176371056036623
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9877519189222411
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9796954314720813,
+          "meanAlpha": 0.9810062119801632
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923210138251463
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908472791507102
+        }
+      ]
+    },
+    {
+      "phase": 0.765625,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.28426395939086296,
+          "meanAlpha": 0.4353339305265249
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9877320124825079
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9796954314720813,
+          "meanAlpha": 0.9810261184198966
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923345919800474
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.990829368123189
+        }
+      ]
+    },
+    {
+      "phase": 0.7734375,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.30456852791878175,
+          "meanAlpha": 0.44341594505822596
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9876722931633081
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9746192893401016,
+          "meanAlpha": 0.9802987136927028
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923525725982951
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908423380340855
+        }
+      ]
+    },
+    {
+      "phase": 0.78125,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.3248730964467005,
+          "meanAlpha": 0.4488902159848706
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9876125738441079
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9746192893401016,
+          "meanAlpha": 0.9803186201324362
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923332636300146
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908477998110923
+        }
+      ]
+    },
+    {
+      "phase": 0.7890625,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.3350253807106599,
+          "meanAlpha": 0.4671643276599976
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9875130416454414
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9695431472081218,
+          "meanAlpha": 0.9753021973196563
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.992323947865299
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908372957144775
+        }
+      ]
+    },
+    {
+      "phase": 0.796875,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.3350253807106599,
+          "meanAlpha": 0.4729770080621076
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.987473228765975
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9644670050761421,
+          "meanAlpha": 0.9745939964519698
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.99232469719347
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908408610955826
+        }
+      ]
+    },
+    {
+      "phase": 0.8046875,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.3350253807106599,
+          "meanAlpha": 0.4747685876381004
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9874533223262417
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9644670050761421,
+          "meanAlpha": 0.9746537157711699
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923212535688174
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908372805734622
+        }
+      ]
+    },
+    {
+      "phase": 0.8125,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.3350253807106599,
+          "meanAlpha": 0.4729770080621076
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.987473228765975
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9543147208121827,
+          "meanAlpha": 0.9689489985304367
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923347593013415
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908554044949187
+        }
+      ]
+    },
+    {
+      "phase": 0.8203125,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.3350253807106599,
+          "meanAlpha": 0.46692545038319855
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9875130416454414
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.949238578680203,
+          "meanAlpha": 0.9682407976627501
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923203388489545
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908650663322726
+        }
+      ]
+    },
+    {
+      "phase": 0.828125,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.3299492385786802,
+          "meanAlpha": 0.45121926943366136
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9876125738441079
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9441624365482234,
+          "meanAlpha": 0.9675724096745304
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923345557182575
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908524082446729
+        }
+      ]
+    },
+    {
+      "phase": 0.8359375,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.3096446700507614,
+          "meanAlpha": 0.44391360605155733
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9876523867235748
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9441624365482234,
+          "meanAlpha": 0.9676122225539971
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923392863052093
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908475350022093
+        }
+      ]
+    },
+    {
+      "phase": 0.84375,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.2893401015228426,
+          "meanAlpha": 0.4366676619886529
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9877121060427745
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9390862944162437,
+          "meanAlpha": 0.9625758933014837
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923347602838422
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908480729449265
+        }
+      ]
+    },
+    {
+      "phase": 0.8515625,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.28426395939086296,
+          "meanAlpha": 0.42217577386284416
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9877320124825079
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9390862944162437,
+          "meanAlpha": 0.9625957997412171
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923244560170417
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908702015263845
+        }
+      ]
+    },
+    {
+      "phase": 0.859375,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.27411167512690354,
+          "meanAlpha": 0.4115258286055535
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9878315446811741
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9390862944162437,
+          "meanAlpha": 0.9625957997412171
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923209110821666
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908777307902329
+        }
+      ]
+    },
+    {
+      "phase": 0.8671875,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.2639593908629442,
+          "meanAlpha": 0.39785010450880826
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9879310768798407
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.9575395640489706
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923303659787275
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908513613050004
+        }
+      ]
+    },
+    {
+      "phase": 0.875,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.25380710659898476,
+          "meanAlpha": 0.38491091868219324
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9880505155182405
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.9575395640489706
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923265674290742
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908291579409152
+        }
+      ]
+    },
+    {
+      "phase": 0.8828125,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.2436548223350254,
+          "meanAlpha": 0.37442022494276855
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9880903283977069
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.9575196576092374
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923244508644079
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908257039569014
+        }
+      ]
+    },
+    {
+      "phase": 0.890625,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.233502538071066,
+          "meanAlpha": 0.35867423111376484
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9882097670361067
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.9574400318503044
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.992314473759629
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908533821312502
+        }
+      ]
+    },
+    {
+      "phase": 0.8984375,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.22842639593908629,
+          "meanAlpha": 0.3462327062804814
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9883092992347732
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.9574002189708377
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923293911288675
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908533142433776
+        }
+      ]
+    },
+    {
+      "phase": 0.90625,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.2131979695431472,
+          "meanAlpha": 0.330028864337613
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9883690185539733
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.9573404996516377
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923314280802479
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.990859528763832
+        }
+      ]
+    },
+    {
+      "phase": 0.9140625,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.20304568527918782,
+          "meanAlpha": 0.3197969543147206
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9884088314334399
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.9573205932119044
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923308383891439
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908581378117504
+        }
+      ]
+    },
+    {
+      "phase": 0.921875,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.18274111675126903,
+          "meanAlpha": 0.3012043396038617
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9884884571923731
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.9573404996516377
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923084407234443
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.990854971946938
+        }
+      ]
+    },
+    {
+      "phase": 0.9296875,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.17258883248730963,
+          "meanAlpha": 0.2908928038220363
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9885083636321067
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.9573803125311043
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923541737289961
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908520630083342
+        }
+      ]
+    },
+    {
+      "phase": 0.9375,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.16751269035532995,
+          "meanAlpha": 0.2775156763212898
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9885481765115735
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.9574002189708377
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923368482565404
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908552711691659
+        }
+      ]
+    },
+    {
+      "phase": 0.9453125,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.15228426395939088,
+          "meanAlpha": 0.2613516472578878
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9885879893910401
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.9574400318503044
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923293223875645
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.990853263455971
+        }
+      ]
+    },
+    {
+      "phase": 0.953125,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.13705583756345177,
+          "meanAlpha": 0.24849208719020593
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.98864770871024
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.9575196576092375
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923351837804064
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908403340540879
+        }
+      ]
+    },
+    {
+      "phase": 0.9609375,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.13705583756345177,
+          "meanAlpha": 0.24946750273713536
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9886676151499735
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.9575196576092375
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923359639837249
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908313580515695
+        }
+      ]
+    },
+    {
+      "phase": 0.96875,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.1218274111675127,
+          "meanAlpha": 0.23326366079426683
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9886875215897069
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.9575196576092374
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923415546425652
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908254648550989
+        }
+      ]
+    },
+    {
+      "phase": 0.9765625,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.116751269035533,
+          "meanAlpha": 0.2239474469991041
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9886875215897069
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.9575196576092374
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923382883015222
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908249751707148
+        }
+      ]
+    },
+    {
+      "phase": 0.984375,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.1065989847715736,
+          "meanAlpha": 0.21777645068179544
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9886875215897069
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.9575196576092375
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923328592993913
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908359514389059
+        }
+      ]
+    },
+    {
+      "phase": 0.9921875,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.1065989847715736,
+          "meanAlpha": 0.21825420523539352
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.9949238578680203,
+          "meanAlpha": 0.988412110141162
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.957420125410571
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 796,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923356829843274
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908527216329583
+        }
+      ]
+    },
+    {
+      "phase": null,
+      "waistBefore": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.04060913705583756,
+          "meanAlpha": 0.14499850701702002
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0,
+          "meanAlpha": 0.03469692445506121
+        }
+      ],
+      "waistAfter": [
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.9614611326764225
+        },
+        {
+          "samples": 197,
+          "opaqueFraction": 0.934010152284264,
+          "meanAlpha": 0.9574002189708377
+        }
+      ],
+      "hipAfter": [
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9923513428402704
+        },
+        {
+          "samples": 797,
+          "opaqueFraction": 1,
+          "meanAlpha": 0.9908493028210315
+        }
+      ]
+    }
+  ],
+  "method": "Reuse same-side original upper cloth band as hidden continuation; fold duplication remains an explicit visual risk, not new anatomy. No V3 or shorts overlay. Each cap inherits its thigh bone. Feather opacity is included in sampling.",
+  "sampling": "128 evenly spaced cycle poses plus standing; opaqueFraction requires composited alpha >=0.95. Local probes do not certify full silhouette.",
+  "activationApproved": false,
+  "visualReview": {
+    "overall": "FAIL",
+    "independentMotion": "PASS: original hip/knee transforms retained; continuation follows its own thigh",
+    "noStretch": "PASS: rigid source-band translation only; original scales unchanged",
+    "noShortsOverlay": "PASS: no V3, fixed shorts overlay or hem artwork used",
+    "waistContinuity": "FAIL: worst waist disc has only 93.4% sampled alpha>=0.95 coverage across 128 phase samples plus standing",
+    "hipProbe": "PASS_LOCAL_ONLY: radius4 hip discs opaque at all samples; silhouette still fails",
+    "silhouette": "FAIL: source-band and original thigh widths differ, leaving lateral ledges and angular exposed root edges",
+    "fabricContinuity": "FAIL: translated cloth duplicates upper folds and changes their flow; feather does not reconstruct hidden hip surfaces",
+    "referenceComparison": "FAIL: original full-body reference has continuous tapered cloth and concealed roots; trial retains segmented appearance",
+    "activationApproved": false
+  }
+}

@@ -1,23 +1,18 @@
-# Mobile opening — actual supplied video enabled
+# Archived mobile opening video
 
 Source preserved: `gemini_generated_video_a161eba3.mp4` (5,646,913 bytes).
 Runtime copy: `engagement-opening-mobile.mp4` (byte-identical; original not deleted).
 Poster: `engagement-opening-mobile-poster.jpg`, extracted from the actual first frame.
 
-The supplied MP4 is H.264/yuv420p with AAC audio, 1280x720 landscape, 24 FPS, duration 10.005 seconds. It contains a central couple scene with blurred side scenery; it is not a native 9:16 export. No substitute footage or generated media was used.
+The supplied MP4 is H.264/yuv420p with AAC audio, 1280x720 landscape, 24 FPS, duration 10.005 seconds. It contains a central couple scene with blurred side scenery; it is not a native 9:16 export. The source and runtime copy are retained unchanged, but the video is no longer part of the active opening.
 
-## Runtime behavior
+## Active opening behavior
 
-- `src/mobileOpening.js`: enabled:true; source `/videos/engagement-opening-mobile.mp4`; `(max-width: 767px)` on any orientation.
-- >767px retains the existing procedural SVG opening. Experimental character media remains null.
-- Full viewport `object-fit:cover`, object-position 50% 50%. The centered phone crop keeps faces visible. Outer scenery, and some outfit/arm edges at particular frames, are necessarily cropped from this landscape source. A native portrait master could provide more room if desired.
-- First-frame image is preloaded for <=767px and sits beneath the video with identical cover/positioning. First playback fades the video in; no black video rectangle or visible loading message. Navy remains the background if both image and footage are still loading.
-- Muted, playsInline, preload auto; no audio plays. The video runs once and fades into the existing React invitation. Skip Intro is always reachable, with safe-area padding. Replay mounts a fresh player at time zero.
-- Reduced-motion visitors bypass both openings and see the invitation directly. Their replay also bypasses motion.
-- Unsupported format, decode/network error, rejected play(), initial load over2.5s or persistent stalls over5s use the full SVG fallback. Background pauses are excluded from stalled-playback checks. Skip/unmount clears timers/listeners and releases the video source.
+- The same responsive SVG opening is used on desktop and mobile.
+- Animated original artwork depicts a Tamil-inspired ceremony stage with mango-leaf thoranam, jasmine, kuthu vilakku lamps and kolam linework around the illustrated couple.
+- `src/mobileOpening.js` keeps the supplied-video configuration disabled. The MP4 and poster are not preloaded, requested or played by the active app.
+- Reduced-motion visitors bypass the opening and go directly to the invitation. Skip and replay remain available.
 
 ## Verification
 
-Browser preview: actual muted inline decoding, natural end, fresh replay and skip verified at360x800,390x844,430x932. Missing-media fallback verified at all three widths on a separate QA server, using an unavailable source override. Actual source files were never renamed or damaged for the failure test. Desktop retains SVG. No horizontal overflow observed.
-
-For isolated QA only, launch Vite with `VITE_MOBILE_OPENING_SRC=/__qa_missing_opening__.mp4` on a separate port. Do not set this override in production. Normal builds use the canonical actual source. Unit tests cover autoplay rejection, loading/stall timeout, errors, completion, visibility and cleanup. Physical Safari/Android autoplay, low-power settings and OS reduced-motion testing remain recommended.
+The updated SVG scene was checked in a browser at mobile (390 × 844) and desktop (1366 × 768) sizes. Both rendered the same opening with no video element or MP4/poster network request. The source video assets remain available for an explicitly approved future reactivation.

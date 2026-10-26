@@ -1,6 +1,6 @@
-// Actual supplied MP4, enabled for screens up to 767px. Independent of experimental characterMedia.
+// The supplied MP4 is retained, but the active opening uses the shared SVG scene on every screen.
 export const mobileOpening = {
-  enabled: true,
+  enabled: false,
   src: import.meta.env?.VITE_MOBILE_OPENING_SRC || '/videos/engagement-opening-mobile.mp4',
   poster: '/videos/engagement-opening-mobile-poster.jpg',
   type: 'video/mp4',
@@ -41,7 +41,6 @@ export function startOpeningPlayback(video, {onPlaying, onEnded, onFallback, loa
   play();
   return ()=>{stopped=true;clearTimers();listeners.forEach(remove=>remove());video.pause();video.removeAttribute('src');video.load()};
 }
-
 
 
 

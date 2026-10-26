@@ -114,3 +114,96 @@
 /* Keep the couple's complete names on one line in the procedural opening. */
 .intro-heading h1{white-space:nowrap;font-size:clamp(26px,5.6vw,76px)}
 @media(max-width:600px){.intro-heading h1{font-size:clamp(22px,6.2vw,35px)}}
+
+/* Shared Tamil-inspired ceremony opening for desktop and mobile. */
+.intro{background:radial-gradient(ellipse at 50% 68%,#70431d55,transparent 48%),linear-gradient(160deg,#160d16,#321b1c 58%,#160e12)}
+.tamil-ceremony{background:radial-gradient(ellipse at 50% 58%,#be842b18,transparent 48%)}
+.ceremony-halo{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 55%,#e0ad5c18,transparent 50%),linear-gradient(180deg,#100b1329,transparent 36%,#100b1366);pointer-events:none}
+.ceremony-backdrop{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.mandapam-frame,.mandapam-inner{stroke-dasharray:1100;stroke-dashoffset:1100;animation:draw-mandapam 2.4s .4s ease-out forwards;filter:drop-shadow(0 0 7px #f0c77a38)}
+.mandapam-inner{animation-delay:.7s;opacity:.72}
+.mandapam-pillar{filter:drop-shadow(0 0 10px #dca85526)}
+.thoranam-leaf{opacity:0;animation:appear .65s ease-out forwards,leaf-glimmer 4s ease-in-out infinite alternate}
+.malli-blossom{opacity:0;animation:appear .5s ease-out forwards,flower-glimmer 3.4s ease-in-out infinite alternate}
+.ceremony-deepa{animation:lamp-rise 1s .8s both}
+.deepa-flame{transform-box:fill-box;transform-origin:50% 100%;animation:deepa-flicker .8s ease-in-out infinite alternate}
+.kolam-line{stroke-dasharray:5 10;stroke-dashoffset:65;animation:draw-kolam 2.2s 2.3s ease-out forwards}
+.ceremony-spark{fill:#f4d28a;opacity:0;filter:drop-shadow(0 0 5px #ffd984);animation:sparkle 3.2s ease-in-out infinite}
+.topline,.scene-caption,.skip{color:#e4c992}
+.intro-heading .eyebrow,.intro-heading .date{color:#dfc795}
+.intro-heading h1{color:#fff3dc;text-shadow:0 2px 24px #f2cf8a24}
+.intro-heading h1 em,.intro-heading .rule{color:#dbba79}
+.intro-heading .occasion{color:#f0dfc2}
+.entry>p{color:#dfcba7}
+.primary{border-color:#d6b773aa;background:linear-gradient(125deg,#88602f77,#3b211cbb 65%,#80572f66);box-shadow:0 0 30px #dca8551c,inset 0 0 0 3px #f3dfa007,inset 0 1px 0 #fff0d51c;color:#fff4df}
+.primary:hover{background:#69472e;box-shadow:0 0 40px #e6bd7430,inset 0 1px 0 #fff5dd33}
+.skip:focus-visible,.primary:focus-visible{outline-color:#f6dfa9}
+@keyframes draw-mandapam{to{stroke-dashoffset:0}}
+@keyframes draw-kolam{to{stroke-dashoffset:0}}
+@keyframes leaf-glimmer{from{filter:brightness(.88)}to{filter:brightness(1.12)}}
+@keyframes flower-glimmer{from{filter:brightness(.9)}to{filter:brightness(1.18)}}
+@keyframes deepa-flicker{from{transform:scale(.88,.94);opacity:.82}to{transform:scale(1.08,1.12);opacity:1}}
+@keyframes lamp-rise{from{opacity:0;translate:0 12px}to{opacity:1;translate:0 0}}
+@keyframes sparkle{0%,100%{opacity:.08;transform:scale(.65)}50%{opacity:.8;transform:scale(1.25)}}
+@media(prefers-reduced-motion:reduce){
+  .mandapam-frame,.mandapam-inner,.kolam-line{stroke-dashoffset:0}
+  .thoranam-leaf,.malli-blossom{opacity:1}
+  .ceremony-deepa{opacity:1;translate:0 0}
+  .ceremony-spark{opacity:.35}
+}
+@media(max-width:600px){
+  .intro-heading{top:18%}
+  .topline{color:#e8d2a6}
+  .couple-travel{bottom:19%}
+  .entry{bottom:7%}
+}
+
+.rig-bride .rig-skirt>path:first-child{stroke:#c5d8eb;stroke-width:1.5}
+.rig-bride .rig-skirt>path:nth-child(2){stroke:#c5d8eb;opacity:.9}
+.rig-bride .rig-dupatta path:first-child{fill:#173b67;stroke:#c5d8eb;stroke-width:1.5}
+.rig-bride .rig-dupatta path:not(:first-child){stroke:#d9e7f4;stroke-width:1}
+.traditional-artwork{position:relative;width:100%;aspect-ratio:768/840;overflow:hidden;background:#061735}
+.traditional-couple-photo{display:block;width:100%;height:100%;object-fit:contain;animation:invitation-photo-breathe 12s ease-in-out infinite alternate}
+@keyframes invitation-photo-breathe{from{transform:scale(1)}to{transform:scale(1.025)}}
+.exchange-garland{pointer-events:none}
+.guest-art-panel .guest-art-inscription{inset:11% 8% 54%;gap:16px}
+.guest-art-panel .guest-art-inscription>span{font-size:clamp(14px,1.3vw,18px)}
+.guest-art-panel .guest-art-inscription strong{font-size:clamp(30px,3vw,42px)}
+.guest-art-panel .guest-art-inscription small{color:#704b35}
+.guest-art-panel .traditional-artwork{box-shadow:inset 0 0 0 1px #dceeff55}
+@media(max-width:600px){.guest-art-panel .guest-art-inscription{inset:10% 5% 55%;gap:10px}.guest-art-panel .guest-art-inscription strong{font-size:32px}}
+
+/* Blue silk and silver embroidery echo the supplied couple artwork. */
+.intro{background:radial-gradient(ellipse at 50% 58%,#20466a80,transparent 55%),linear-gradient(160deg,#030e25,#081d3a 65%,#06142c)}
+.intro .topline,.intro .scene-caption,.intro .skip{color:#aac7df}
+.intro .intro-heading .eyebrow,.intro .intro-heading .date{color:#9dbed4}
+.intro .intro-heading h1{color:#edf5ff;text-shadow:0 2px 22px #9dcfff25}
+.intro .intro-heading h1 em,.intro .intro-heading .rule{color:#a9c6dc}
+.intro .intro-heading .occasion{color:#d2e4f4}
+.intro .entry>p{color:#9cb7ce}
+.intro .primary{border-color:#c0d9eaa3;background:linear-gradient(125deg,#41688655,#15365088 65%,#29496366);box-shadow:0 0 30px #68b7f41c,inset 0 0 0 3px #bcd9ee07,inset 0 1px 0 #e8f5ff1c;color:#ecf5ff}
+.intro .primary:hover{background:#294d6c;box-shadow:0 0 40px #79c7ff30,inset 0 1px 0 #eef8ff33}
+.intro .skip:focus-visible,.intro .primary:focus-visible{outline-color:#79c7ff}
+.scene-camera .blue-illustration-scene{z-index:-1;background:radial-gradient(ellipse at 50% 59%,#39739b38,transparent 45%),linear-gradient(180deg,#071a33aa,transparent 52%,#061735)}
+.blue-scene-halo{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 64%,#8bc9f21c,transparent 42%);pointer-events:none}
+.opening-couple-motion{position:absolute;left:50%;bottom:9%;height:min(59svh,470px);width:min(90vw,430px);transform:translateX(-50%);opacity:0;animation:opening-art-arrive 1.6s .35s cubic-bezier(.22,.61,.36,1) forwards}
+.opening-couple-atmosphere{position:absolute;z-index:0;inset:8% 5% 0;pointer-events:none;background:radial-gradient(ellipse at 50% 62%,#7dc4f52b,transparent 58%);filter:blur(16px);animation:couple-halo 5s 1.9s ease-in-out infinite alternate}
+.opening-couple-atmosphere i{position:absolute;width:4px;height:4px;border-radius:50%;background:#c2e8ff;box-shadow:0 0 12px 3px #79c7ff9c;animation:couple-firefly 3.2s ease-in-out infinite}
+.opening-couple-atmosphere i:nth-child(1){left:16%;top:38%;animation-delay:-.4s}
+.opening-couple-atmosphere i:nth-child(2){left:27%;top:20%;width:3px;height:3px;animation-delay:-2.1s}
+.opening-couple-atmosphere i:nth-child(3){left:79%;top:32%;animation-delay:-1.3s}
+.opening-couple-atmosphere i:nth-child(4){left:87%;top:56%;width:3px;height:3px;animation-delay:-2.6s}
+.opening-couple-atmosphere i:nth-child(5){left:10%;top:66%;width:3px;height:3px;animation-delay:-1.8s}
+.opening-couple-atmosphere i:nth-child(6){left:72%;top:14%;animation-delay:-.9s}
+.opening-couple-art{position:relative;z-index:1;display:block;width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 10px 24px #0005);animation:human-gentle-sway 4.8s 1.9s ease-in-out infinite}
+@keyframes opening-art-arrive{from{opacity:0;translate:0 20px;scale:.96}to{opacity:1;translate:0 0;scale:1}}
+@keyframes human-gentle-sway{0%,100%{transform:translateY(0) rotate(-.18deg)}50%{transform:translateY(-3px) rotate(.18deg)}}
+@keyframes couple-halo{from{opacity:.55;transform:scale(.94)}to{opacity:1;transform:scale(1.05)}}
+@keyframes couple-firefly{0%,100%{opacity:.2;transform:translate3d(0,8px,0) scale(.7)}50%{opacity:.9;transform:translate3d(0,-10px,0) scale(1.2)}}
+@media(max-width:600px){.opening-couple-motion{height:min(50svh,420px);width:min(90vw,360px);bottom:15%}}
+.reference-rig [fill="#5a101f"],.reference-rig [fill="#711426"],.reference-rig [fill="#781a2d"],.reference-rig [fill="#861a2d"],.reference-rig [fill="#641325"],.reference-rig [fill="#4a0e1b"],.reference-rig [fill="#3b0d19"],.reference-rig [fill="#45101e"],.reference-rig [fill="#3b0d18"]{fill:#173b67}
+.reference-rig [stroke="#a52b3c"],.reference-rig [fill="#a52b3c"],.reference-rig [fill="#a82a3b"]{stroke:#a8c9e6;fill:#a8c9e6}
+.reference-rig [stroke="#b98745"],.reference-rig [stroke="#b98736"],.reference-rig [stroke="#d1a85d"],.reference-rig [stroke="#d1a95e"],.reference-rig [stroke="#d4ae62"],.reference-rig [stroke="#e8c46d"],.reference-rig [stroke="#e7c675"],.reference-rig [stroke="#e1c276"],.reference-rig [stroke="#d3ae67"],.reference-rig [stroke="#d6ad61"],.reference-rig [stroke="#d6ae65"],.reference-rig [stroke="#f0d17b"]{stroke:#d4e5f4}
+.reference-rig [fill="#e8c46d"],.reference-rig [fill="#b98745"],.reference-rig [fill="#d8a340"]{fill:#d4e5f4}
+.traditional-artwork{border:1px solid #d5e8f388;box-shadow:0 18px 45px #06173535}
+@media(prefers-reduced-motion:reduce){.opening-couple-motion{animation:none;opacity:1;translate:0 0;scale:1}.opening-couple-art,.traditional-couple-photo,.opening-couple-atmosphere,.opening-couple-atmosphere i{animation:none}}

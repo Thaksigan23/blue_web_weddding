@@ -20,16 +20,16 @@ export default function SecretKeysGame() {
   const time = `${String(Math.floor(seconds / 60)).padStart(2, '0')}:${String(seconds % 60).padStart(2, '0')}`;
   return <section className="guest-memory guest-section" id="game" tabIndex={-1} aria-labelledby="game-title">
     <div className="memory-shell">
-      <p className="guest-kicker">A LITTLE MOMENT OF PLAY</p>
+      <p className="guest-kicker">A LITTLE TAMIL TRADITION</p>
       <h2 id="game-title">The Secret Keys <em>Game.</em></h2>
-      <p className="guest-copy" id="game-instructions">Turn over two cards at a time and find all six matching pairs to unlock a little wish for S. Sharon & R. Ramaniya.</p>
+      <p className="guest-copy" id="game-instructions">Turn over two cards at a time and match the six illustrations inspired by Tamil wedding traditions.</p>
       <dl className="memory-stats"><div><dt>Moves</dt><dd>{game.moves}</dd></div><div><dt>Playing time</dt><dd>{time}</dd></div><div><dt>Pairs</dt><dd>{game.matched.length} / {symbols.length}</dd></div></dl>
       <ul className="memory-grid" aria-label="Matching cards" aria-describedby="game-instructions">
         {game.deck.map((card, index) => {
           const matched = game.matched.includes(card.id);
           const faceUp = matched || game.flipped.includes(card.uid);
           return <li key={card.uid}><button type="button" className={`memory-card ${faceUp ? 'is-open' : ''} ${matched ? 'is-matched' : ''}`} aria-label={`Card ${index + 1}: ${faceUp ? card.label + (matched ? ', matched' : '') : 'face down, reveal card'}`} aria-pressed={faceUp} aria-disabled={faceUp || game.flipped.length === 2 || game.won} onClick={() => dispatch({type: 'flip', uid: card.uid})}>
-            <span className="memory-card-inner"><span className="memory-card-back" aria-hidden="true"><Monogram variant="light" decorative/><span>REVEAL</span></span><span className="memory-card-front" aria-hidden="true"><img src={card.src} alt="" width="256" height="256" loading="lazy" decoding="async" draggable={false}/><span>{card.label}{matched ? ' ✓' : ''}</span></span></span>
+            <span className="memory-card-inner"><span className="memory-card-back" aria-hidden="true"><Monogram variant="light" decorative/><span>REVEAL</span></span><span className="memory-card-front" aria-hidden="true"><img src={card.src} alt="" width="256" height="256" loading="lazy" decoding="async" draggable={false}/></span></span>
           </button></li>;
         })}
       </ul>

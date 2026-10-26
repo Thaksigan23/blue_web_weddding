@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="silk" x2="0" y2="1">
+      <stop stop-color="#fffaf0"/>
+      <stop offset="1" stop-color="#eadfc8"/>
+    </linearGradient>
+    <g id="flower">
+      <g fill="#fffef8" stroke="#e6ddc9" stroke-width="1.5">
+        <ellipse cy="-9" rx="5" ry="9"/><ellipse cy="-9" rx="5" ry="9" transform="rotate(60)"/>
+        <ellipse cy="-9" rx="5" ry="9" transform="rotate(120)"/><ellipse cy="-9" rx="5" ry="9" transform="rotate(180)"/>
+        <ellipse cy="-9" rx="5" ry="9" transform="rotate(240)"/><ellipse cy="-9" rx="5" ry="9" transform="rotate(300)"/>
+      </g>
+      <circle r="3.5" fill="#efcf77"/>
+    </g>
+  </defs>
+  <rect width="512" height="512" rx="26" fill="url(#silk)"/>
+  <circle cx="256" cy="250" r="190" fill="#fffdf6" opacity=".6"/>
+  <path d="M110 148c-13 115 18 204 146 248 128-44 159-133 146-248" fill="none" stroke="#6b8c4c" stroke-width="7"/>
+  <g fill="#719250" stroke="#496b37" stroke-width="2">
+    <path d="M125 204q-37-35-43-8 20 34 47 28m-3 44q-43-24-42 4 28 27 49 14m11 43q-43-14-36 13 32 19 50 1m237-115q37-35 43-8-20 34-47 28m3 44q43-24 42 4-28 27-49 14m-11 43q43-14 36 13-32 19-50 1"/>
+    <path d="M179 363q-40-10-30 17 34 17 52-5m184-12q40-10 30 17-34 17-52-5"/>
+  </g>
+  <g>
+    <use href="#flower" x="115" y="170"/><use href="#flower" x="119" y="211"/>
+    <use href="#flower" x="126" y="250"/><use href="#flower" x="139" y="289"/>
+    <use href="#flower" x="158" y="326"/><use href="#flower" x="185" y="357"/>
+    <use href="#flower" x="219" y="380"/><use href="#flower" x="256" y="389"/>
+    <use href="#flower" x="293" y="380"/><use href="#flower" x="327" y="357"/>
+    <use href="#flower" x="354" y="326"/><use href="#flower" x="373" y="289"/>
+    <use href="#flower" x="386" y="250"/><use href="#flower" x="393" y="211"/>
+    <use href="#flower" x="397" y="170"/>
+    <use href="#flower" x="143" y="190"/><use href="#flower" x="149" y="230"/>
+    <use href="#flower" x="160" y="270"/><use href="#flower" x="178" y="307"/>
+    <use href="#flower" x="202" y="339"/><use href="#flower" x="232" y="361"/>
+    <use href="#flower" x="280" y="361"/><use href="#flower" x="310" y="339"/>
+    <use href="#flower" x="334" y="307"/><use href="#flower" x="352" y="270"/>
+    <use href="#flower" x="363" y="230"/><use href="#flower" x="369" y="190"/>
+  </g>
+  <path d="M222 408q34 23 68 0l-13 31q-21 17-42 0Z" fill="#b84842"/>
+  <path d="M238 409q18 11 36 0" fill="none" stroke="#e6be69" stroke-width="5"/>
+</svg>

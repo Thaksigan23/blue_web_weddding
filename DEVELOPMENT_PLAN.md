@@ -2,6 +2,12 @@
 
 Updated: 26 October 2026. Scope: guest-facing invitation for S. Sharon & R. Ramaniya. RSVP is excluded by explicit request.
 
+## Current opening — 27 October 2026
+
+The active desktop and mobile opening and the guest-hero artwork use the exact approved transparent blue couple image at `public/images/blue-couple-opening.png`. The opening animates the complete image with a gentle reveal and subtle floating sway; the flat image does not animate individual human gestures. This is a browser animation rather than an exported video; the preserved mobile MP4 is inactive.
+
+The earlier articulated couple rig and ceremony motion remain in source but are no longer used for the opening or guest hero. Game card titles are not displayed below their images; card names remain available as accessible button labels.
+
 ## Current review status
 
 Full invitation and original SVG/video openings are retained. Current branding uses original SVG S & R assets. Get Directions now opens the live-verified Concord Grand Hotel Google Maps property listing (earlier search-only notes below are historical). Responsive, accessibility-token, navigation, calendar, media and build checks are recorded in artifacts/ui-polish/REPORT.md. Interactive paper-card opening remains a future specification only. No GitHub push or deployment is authorized in this pass.
@@ -105,7 +111,7 @@ Venue follow-up in this pass: live Google Maps resolved the search to Concord Gr
 
 
 ## Guest interactions — 26 October 2026
-- Added the previous invitation's six-pair Secret Keys memory game in blue/silver, with shuffled decks, move/time/pair statistics, mismatch locking, completion wish and restart. Original symbol artwork reused; no RSVP added.
+- Added the six-pair Secret Keys memory game with shuffled decks, move/time/pair statistics, mismatch locking, completion wish and restart. Its original illustrations depict Tamil wedding traditions: thirumangalyam, kuthu vilakku, kolam, malligai garland, kalasam and mango-leaf thoranam. No RSVP added.
 - Added mobile floating navigation (welcome, introduction, ceremony, gallery, venue, game), with the music toggle beside it. Desktop navigation remains unchanged.
 - Added interactive blue butterflies across the invitation; touch/click/hover sends them away. Hidden for reduced motion.
 - Reused the previous wedding's configured music locally, on-demand with explicit play/pause and a volume panel. Mobile system-volume limitations are stated in the panel.

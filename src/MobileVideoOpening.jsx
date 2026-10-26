@@ -23,7 +23,7 @@ export default function MobileVideoOpening({onComplete,onFallback,config=mobileO
     {!playing&&<p className="mobile-opening-status sr-only" role="status">Preparing a little moment of magic…</p>}
     <div className="mobile-opening-shade" aria-hidden="true"/>
     <div className="mobile-opening-mark" aria-hidden="true"><Monogram variant="light" decorative/></div>
-    <button className="mobile-opening-skip" onClick={finish} disabled={!present}>Skip Intro <span aria-hidden="true">→</span></button>
+    <button className="mobile-opening-skip" onClick={finish} disabled={!present}>Skip <span aria-hidden="true">→</span></button>
   </motion.section>;
 }
 

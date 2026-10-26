@@ -103,3 +103,15 @@ This pass documents the idea only. No scroll-driven cover,3D fold or inner-page 
 
 Venue follow-up in this pass: live Google Maps resolved the search to Concord Grand Hotel at139 Galle Rd. Its displayed name/address and observed provider place URL were verified; Get Directions now uses that exact property listing. This supersedes the earlier search-only notes. No custom coordinates, entrance-pin guarantee or embedded map were introduced. See artifacts/ui-polish/VENUE_VERIFICATION.md.
 
+
+## Guest interactions — 26 October 2026
+- Added the previous invitation's six-pair Secret Keys memory game in blue/silver, with shuffled decks, move/time/pair statistics, mismatch locking, completion wish and restart. Original symbol artwork reused; no RSVP added.
+- Added mobile floating navigation (welcome, introduction, ceremony, gallery, venue, game), with the music toggle beside it. Desktop navigation remains unchanged.
+- Added interactive blue butterflies across the invitation; touch/click/hover sends them away. Hidden for reduced motion.
+- Reused the previous wedding's configured music locally, on-demand with explicit play/pause and a volume panel. Mobile system-volume limitations are stated in the panel.
+- Added a side WhatsApp sharing control. It opens a prepared invitation share; it does not automatically send a message or assume a contact number.
+- Mobile video Skip is now bottom-right, safe-area aware, labeled “Skip”. The natural ending and 1.4-second dissolve remain unchanged.
+- Couple name headings/signature/art inscription remain on one line, with responsive sizing.
+- Real Google map now replaces the decorative location card; verified rendering displays Concord Grand Hotel. Existing directions link remains available outside the iframe.
+- Footer reuses the original Techloom mark with “Made with love by”.
+- Validation: 19 unit tests and production build pass. Browser checks cover card mismatch/completion/restart, audio playback/pause/volume, butterfly response, map rendering, mobile replay/Skip, and responsive name layout. Physical iOS audio/volume and external WhatsApp completion remain device checks.

@@ -110,3 +110,22 @@ html:has(.guest-site){scroll-behavior:smooth}
 }
 @media(prefers-reduced-motion:reduce){html:has(.guest-site){scroll-behavior:auto}.guest-site .guest-button:active,.guest-site .guest-replay:active,.guest-footer button:active{transform:none}}
 
+
+/* Real venue map and the original Techloom wedding credit. */
+.guest-venue-map{background:#dce8ef}
+.guest-venue-map iframe{display:block;width:100%;height:365px;border:0;background:#dce8ef}
+.guest-venue-map figcaption{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:4px 14px;line-height:1.7}
+.guest-venue-map figcaption a{display:inline-flex;align-items:center;min-height:44px;color:#e4f1fb;text-underline-offset:4px}
+.guest-venue-map :focus-visible{outline:2px solid #d5e8f5;outline-offset:-4px}
+.guest-footer{flex-wrap:wrap}
+.guest-credit{flex-basis:100%;border-top:1px solid #abc5d820;padding-top:14px;display:flex;justify-content:center;order:4}
+.guest-credit a{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;color:#c0d2e0;text-decoration:none;font-size:13px;transition:color .2s}
+.guest-credit a:hover{color:#fff}
+.guest-credit img{width:24px;height:24px;object-fit:contain}
+@media(max-width:600px){.guest-venue-map iframe{height:300px}.guest-credit{padding-top:10px}.guest-venue-map figcaption{justify-content:center}}
+/* Couple names always remain a single, balanced line. */
+.guest-hero h1{white-space:nowrap;font-size:clamp(28px,3.05vw,54px)}
+.guest-signature{white-space:nowrap;font-size:clamp(23px,3.2vw,49px)}
+.guest-art-inscription strong{white-space:nowrap;font-size:clamp(20px,2vw,30px)}
+@media(max-width:960px){.guest-hero h1{font-size:clamp(28px,5.8vw,52px)}}
+@media(max-width:600px){.guest-hero h1{font-size:clamp(21px,6.15vw,35px)}.guest-signature{font-size:clamp(21px,6vw,28px)}.guest-art-inscription strong{font-size:22px}}

@@ -4,7 +4,7 @@
 .mobile-opening-shade{position:absolute;inset:0;pointer-events:none;background:linear-gradient(180deg,#02112765,transparent 20%,transparent 75%,#02112780)}
 .mobile-opening-mark{position:absolute;top:max(25px,calc(env(safe-area-inset-top) + 12px));left:max(25px,calc(env(safe-area-inset-left) + 16px));color:#daeaf6;font:28px 'Cormorant Garamond',serif;letter-spacing:.08em;pointer-events:none}
 .mobile-opening-mark i{font-size:18px}
-.mobile-opening-skip{position:absolute;top:max(22px,calc(env(safe-area-inset-top) + 12px));right:max(22px,calc(env(safe-area-inset-right) + 12px));bottom:auto;min-height:44px;min-width:120px;border:1px solid #b7ccda88;background:#071b32b8;color:#f1f7fc;padding:10px 18px;font:13px 'Jost',sans-serif;letter-spacing:.04em;border-radius:2px;backdrop-filter:blur(8px)}
+.mobile-opening-skip{position:absolute;top:auto;right:max(22px,calc(env(safe-area-inset-right) + 12px));bottom:max(22px,calc(env(safe-area-inset-bottom) + 12px));min-height:44px;min-width:88px;border:1px solid #b7ccda88;background:#071b32b8;color:#f1f7fc;padding:10px 18px;font:13px 'Jost',sans-serif;letter-spacing:.04em;border-radius:2px;backdrop-filter:blur(8px)}
 .mobile-opening-skip span{margin-left:14px}.mobile-opening-skip:hover{background:#1e405d}.mobile-opening-skip:focus-visible{outline:3px solid #d5ebfa;outline-offset:4px}
 .mobile-opening-status{position:absolute;top:45%;left:25px;right:25px;text-align:center;font:italic 23px 'Cormorant Garamond',serif;color:#d2e3f1}
 @media(prefers-reduced-motion:reduce){.mobile-opening-video{transition:none}}

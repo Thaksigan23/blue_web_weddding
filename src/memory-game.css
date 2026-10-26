@@ -1,0 +1,25 @@
+.guest-memory{background:radial-gradient(ellipse at top,#dbe9f3,transparent 70%),#eaf2f7;text-align:center}
+.memory-shell{max-width:720px;margin:auto}
+.guest-memory .guest-copy{max-width:540px;margin:20px auto 0}
+.memory-stats{display:flex;justify-content:center;gap:clamp(28px,6vw,64px);margin:30px 0 24px}
+.memory-stats dt{font-size:11px;text-transform:uppercase;letter-spacing:.1em;color:#405c70}
+.memory-stats dd{margin:6px 0 0;font:30px 'Cormorant Garamond',serif;font-variant-numeric:tabular-nums}
+.memory-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;max-width:520px;margin:0 auto;padding:0;list-style:none}
+.memory-grid li{min-width:0;aspect-ratio:1}
+.memory-card{display:block;width:100%;height:100%;padding:0;border:0;background:none;perspective:850px;border-radius:7px;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.memory-card[aria-disabled=true]{cursor:default}
+.memory-card-inner{position:relative;display:block;width:100%;height:100%;transform-style:preserve-3d;transition:transform .45s cubic-bezier(.2,.65,.3,1)}
+.memory-card.is-open .memory-card-inner{transform:rotateY(180deg)}
+.memory-card-back,.memory-card-front{position:absolute;inset:0;border:1px solid #8ca9be;border-radius:7px;overflow:hidden;backface-visibility:hidden;-webkit-backface-visibility:hidden;box-shadow:0 4px 12px #173c5712}
+.memory-card-back{display:flex;flex-direction:column;align-items:center;justify-content:center;background:linear-gradient(145deg,#1c425e,#071b31);color:#cddfec}
+.memory-card-back .sr-monogram{width:57%;height:auto}
+.memory-card-back>span{font-size:8px;letter-spacing:.15em;margin-top:4px}
+.memory-card-front{transform:rotateY(180deg);background:#102b43;display:flex;flex-direction:column}
+.memory-card-front img{display:block;width:100%;height:calc(100% - 25px);min-height:0;object-fit:cover}
+.memory-card-front>span{height:25px;display:flex;align-items:center;justify-content:center;color:#edf5fb;font-size:11px}
+.memory-card.is-matched .memory-card-front{border-color:#517f9b;box-shadow:0 0 0 2px #709ab34d}
+.memory-card:focus-visible{outline:3px solid #325c7a;outline-offset:4px}
+.memory-card:not([aria-disabled=true]):hover .memory-card-back{border-color:#e2eef7}
+.memory-status{font-size:14px;line-height:1.7;max-width:520px;min-height:3.4em;margin:24px auto 20px;color:#405c70}
+@media(max-width:600px){.memory-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;max-width:390px}.guest-memory h2{font-size:38px}.memory-stats{gap:30px}.memory-card-back>span{font-size:7px}.memory-card-front>span{font-size:10px}}
+@media(prefers-reduced-motion:reduce){.memory-card-inner{transition:none}}

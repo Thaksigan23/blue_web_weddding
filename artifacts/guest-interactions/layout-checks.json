@@ -1,0 +1,102 @@
+[
+  {
+    "cardCount": 12,
+    "names": [
+      {
+        "nowrap": "nowrap",
+        "scroll": 297,
+        "text": "S. Sharon & R. Ramaniya",
+        "width": 297
+      },
+      {
+        "nowrap": "nowrap",
+        "scroll": 160,
+        "text": "Sharon & Ramaniya",
+        "width": 160
+      },
+      {
+        "nowrap": "nowrap",
+        "scroll": 297,
+        "text": "S. Sharon & R. Ramaniya",
+        "width": 297
+      }
+    ],
+    "overflow": false,
+    "width": 360
+  },
+  {
+    "cardCount": 12,
+    "names": [
+      {
+        "nowrap": "nowrap",
+        "scroll": 312,
+        "text": "S. Sharon & R. Ramaniya",
+        "width": 312
+      },
+      {
+        "nowrap": "nowrap",
+        "scroll": 160,
+        "text": "Sharon & Ramaniya",
+        "width": 160
+      },
+      {
+        "nowrap": "nowrap",
+        "scroll": 312,
+        "text": "S. Sharon & R. Ramaniya",
+        "width": 312
+      }
+    ],
+    "overflow": false,
+    "width": 375
+  },
+  {
+    "cardCount": 12,
+    "names": [
+      {
+        "nowrap": "nowrap",
+        "scroll": 367,
+        "text": "S. Sharon & R. Ramaniya",
+        "width": 367
+      },
+      {
+        "nowrap": "nowrap",
+        "scroll": 160,
+        "text": "Sharon & Ramaniya",
+        "width": 160
+      },
+      {
+        "nowrap": "nowrap",
+        "scroll": 367,
+        "text": "S. Sharon & R. Ramaniya",
+        "width": 367
+      }
+    ],
+    "overflow": false,
+    "width": 430
+  },
+  {
+    "cardCount": 12,
+    "names": [
+      {
+        "nowrap": "nowrap",
+        "scroll": 534,
+        "text": "S. Sharon & R. Ramaniya",
+        "width": 534
+      },
+      {
+        "nowrap": "nowrap",
+        "scroll": 183,
+        "text": "Sharon & Ramaniya",
+        "width": 183
+      },
+      {
+        "nowrap": "nowrap",
+        "scroll": 1111,
+        "text": "S. Sharon & R. Ramaniya",
+        "width": 1111
+      }
+    ],
+    "overflow": false,
+    "width": 1280
+  }
+]

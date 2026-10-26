@@ -13,3 +13,6 @@ test('calendar export has a UTC start, escaped venue and no invented ending',()=
 });
 test('unconfirmed content remains empty',()=>{assert.deepEqual(invitationContent,{story:[],dressCode:null,gallery:[]});});
 test('calendar lines respect the interoperable 75-byte line limit',()=>{for(const line of calendarEvent().split('\r\n'))assert.ok(new TextEncoder().encode(line).length<=75);});
+test('venue action uses the observed Concord Grand Maps property listing',()=>{
+ const url=new URL(engagement.directions);assert.equal(url.origin,'https://www.google.com');assert.ok(url.pathname.startsWith('/maps/place/Concord+Grand+Hotel/'));assert.ok(url.pathname.includes('0x3ae25b06f5c9d0ef:0xff94a529ccb1fab'));assert.ok(url.pathname.includes('1tpb9dmy'));
+});

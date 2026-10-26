@@ -1,0 +1,66 @@
+[
+  {
+    "label": "Body",
+    "fg": "#16344b",
+    "bg": "#eaf2f7",
+    "ratio": 11.4,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "label": "Secondary copy",
+    "fg": "#405c70",
+    "bg": "#eaf2f7",
+    "ratio": 6.22,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "label": "Heading italic (large)",
+    "fg": "#54758e",
+    "bg": "#eaf2f7",
+    "ratio": 4.3,
+    "minimum": 3,
+    "pass": true
+  },
+  {
+    "label": "Family label",
+    "fg": "#4c667a",
+    "bg": "#f5f8fa",
+    "ratio": 5.64,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "label": "Event label",
+    "fg": "#58728a",
+    "bg": "#f7fafc",
+    "ratio": 4.78,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "label": "Countdown label",
+    "fg": "#b5ccde",
+    "bg": "#173c59",
+    "ratio": 6.93,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "label": "Footer",
+    "fg": "#b7ccde",
+    "bg": "#06162b",
+    "ratio": 10.98,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "label": "Action",
+    "fg": "#eff7fc",
+    "bg": "#102f47",
+    "ratio": 12.75,
+    "minimum": 4.5,
+    "pass": true
+  }
+]

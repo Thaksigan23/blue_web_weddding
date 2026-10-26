@@ -4,7 +4,7 @@ export const engagement = {
   startsAt: '2026-12-14T18:00:00+05:30',
   venue: 'Concord Grand', location: 'Dehiwala',
   parents: ['Mr. & Mrs. Sathiyamoorthy', 'Mr. & Mrs. Rajendran'],
-  directions: 'https://www.google.com/maps/search/?api=1&query=Concord+Grand+Dehiwala',
+  directions: 'https://www.google.com/maps/place/Concord+Grand+Hotel/@6.8553074,79.8655746,17z/data=!4m9!3m8!1s0x3ae25b06f5c9d0ef:0xff94a529ccb1fab!5m2!4m1!1i2!8m2!3d6.8553074!4d79.8655746!16s%2Fg%2F1tpb9dmy',
 };
 // Publish only real, approved content. Empty optional sections stay hidden.
 export const invitationContent = { story: [], dressCode: null, gallery: [] };
@@ -27,4 +27,6 @@ export function calendarEvent() {
   // No end time is supplied because the ceremony duration is unconfirmed.
   return ['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Sharon and Ramaniya//Engagement//EN','CALSCALE:GREGORIAN','BEGIN:VEVENT','UID:sharon-ramaniya-20261214@engagement.local',`DTSTAMP:${new Date().toISOString().replace(/[-:]/g,'').replace(/\.\d{3}Z/,'Z')}`,'DTSTART:20261214T123000Z',`SUMMARY:${escapeICS(engagement.names + ' — Engagement Ceremony')}`,`LOCATION:${escapeICS(engagement.venue + ', ' + engagement.location)}`,'DESCRIPTION:Join us for our engagement ceremony. All event times are Sri Lanka time.','END:VEVENT','END:VCALENDAR',''].map(foldICS).join('\r\n');
 }
+
+
 

@@ -43,3 +43,6 @@ test('background playback pauses, resumes when visible, and unmount suppresses s
  const s=setup();s.video.dispatchEvent(new Event('playing'));s.doc.hidden=true;s.doc.dispatchEvent(new Event('visibilitychange'));assert.equal(s.video.pauses,1);s.doc.hidden=false;s.doc.dispatchEvent(new Event('visibilitychange'));assert.equal(s.video.plays,2);s.dispose();s.video.dispatchEvent(new Event('ended'));s.video.dispatchEvent(new Event('error'));await tick(0);assert.deepEqual(s.calls,['playing']);
 });
 
+test('the natural ending is driven by ended, never an early time cutoff',()=>{
+ const s=setup();s.video.dispatchEvent(new Event('playing'));s.video.currentTime=9.999;s.video.dispatchEvent(new Event('timeupdate'));assert.deepEqual(s.calls,['playing']);s.video.dispatchEvent(new Event('ended'));assert.deepEqual(s.calls,['playing','ended']);s.dispose();
+});

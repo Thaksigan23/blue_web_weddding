@@ -1,0 +1,71 @@
+{
+  "videoPolish": {
+    "inline": true,
+    "logo": {
+      "bottom": 83.23749923706055,
+      "height": 58.23749923706055,
+      "left": 25,
+      "right": 103,
+      "top": 25,
+      "width": 78,
+      "x": 25,
+      "y": 25
+    },
+    "muted": true,
+    "position": "50% 50%",
+    "skip": {
+      "bottom": 66,
+      "height": 44,
+      "left": 241.625,
+      "right": 368.4000015258789,
+      "top": 22,
+      "width": 126.7750015258789,
+      "x": 241.625,
+      "y": 22
+    },
+    "time": 0.020187
+  },
+  "fullFrame": {
+    "ended": false,
+    "hero": false,
+    "time": 9.711273
+  },
+  "dissolve": {
+    "ended": true,
+    "hero": true,
+    "heroOpacity": "1",
+    "sweep": false,
+    "time": 10.005,
+    "videoOpacity": "0.534671"
+  },
+  "videoActions": [
+    {
+      "logoRight": 103,
+      "skipLeft": 211.2250061035156,
+      "time": 0.086837,
+      "width": 360,
+      "invitation": true
+    },
+    {
+      "logoRight": 103,
+      "skipLeft": 226.4250030517578,
+      "time": 0.110482,
+      "width": 375,
+      "invitation": true
+    },
+    {
+      "logoRight": 103,
+      "skipLeft": 241.625,
+      "time": 0.151551,
+      "width": 390,
+      "invitation": true
+    },
+    {
+      "logoRight": 103,
+      "skipLeft": 281.625,
+      "time": 0.126852,
+      "width": 430,
+      "invitation": true
+    }
+  ]
+}

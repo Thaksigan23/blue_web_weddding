@@ -1,0 +1,9 @@
+.sr-monogram{display:block;width:84px;height:auto;aspect-ratio:150/112;object-fit:contain;flex-shrink:0}
+.guest-monogram{display:inline-flex;align-items:center;min-width:96px;min-height:60px;text-decoration:none!important}
+.guest-header .sr-monogram{width:82px}
+.guest-footer .sr-monogram{width:80px}
+.guest-empty-art .sr-monogram{position:relative;width:140px;opacity:.78}
+.mobile-opening-mark{top:max(18px,calc(env(safe-area-inset-top) + 10px));left:max(21px,calc(env(safe-area-inset-left) + 12px))}
+.mobile-opening-mark .sr-monogram{width:78px}
+.topline .sr-monogram{width:76px}
+@media(max-width:600px){.guest-header .sr-monogram{width:72px}.guest-monogram{min-height:54px;min-width:82px}.guest-footer .sr-monogram{width:72px}}

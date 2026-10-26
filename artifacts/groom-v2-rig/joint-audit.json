@@ -1,0 +1,1719 @@
+{
+  "thighShiftTests": [
+    {
+      "shift": 0,
+      "samples": [
+        {
+          "pose": "standing",
+          "knees": [
+            1,
+            1
+          ],
+          "hips": [
+            1,
+            0.875784190715182
+          ],
+          "waist": [
+            0.13705583756345177,
+            0.04060913705583756
+          ]
+        },
+        {
+          "pose": "Left contact",
+          "knees": [
+            1,
+            1
+          ],
+          "hips": [
+            1,
+            0.8720200752823086
+          ],
+          "waist": [
+            0.27918781725888325,
+            0.04060913705583756
+          ]
+        },
+        {
+          "pose": "Left down",
+          "knees": [
+            1,
+            1
+          ],
+          "hips": [
+            1,
+            0.8745294855708908
+          ],
+          "waist": [
+            0.3096446700507614,
+            0.04060913705583756
+          ]
+        },
+        {
+          "pose": "Left passing",
+          "knees": [
+            1,
+            0.9950445986124876
+          ],
+          "hips": [
+            1,
+            0.8732747804265998
+          ],
+          "waist": [
+            0.19796954314720813,
+            0.04060913705583756
+          ]
+        },
+        {
+          "pose": "Left up",
+          "knees": [
+            1,
+            1
+          ],
+          "hips": [
+            1,
+            0.8732747804265998
+          ],
+          "waist": [
+            0.13705583756345177,
+            0.04060913705583756
+          ]
+        },
+        {
+          "pose": "Right contact",
+          "knees": [
+            1,
+            1
+          ],
+          "hips": [
+            1,
+            0.8732747804265998
+          ],
+          "waist": [
+            0.20304568527918782,
+            0.04060913705583756
+          ]
+        },
+        {
+          "pose": "Right down",
+          "knees": [
+            1,
+            1
+          ],
+          "hips": [
+            1,
+            0.8745294855708908
+          ],
+          "waist": [
+            0.19289340101522842,
+            0.04060913705583756
+          ]
+        },
+        {
+          "pose": "Right passing",
+          "knees": [
+            1,
+            1
+          ],
+          "hips": [
+            1,
+            0.877038895859473
+          ],
+          "waist": [
+            0.4263959390862944,
+            0.04060913705583756
+          ]
+        },
+        {
+          "pose": "Right up",
+          "knees": [
+            1,
+            1
+          ],
+          "hips": [
+            1,
+            0.8745294855708908
+          ],
+          "waist": [
+            0.4010152284263959,
+            0.04060913705583756
+          ]
+        }
+      ],
+      "minKnee": 0.9950445986124876,
+      "minHip": 0.8720200752823086,
+      "minWaist": 0.04060913705583756
+    },
+    {
+      "shift": -2,
+      "samples": [
+        {
+          "pose": "standing",
+          "knees": [
+            1,
+            1
+          ],
+          "hips": [
+            1,
+            1
+          ],
+          "waist": [
+            0.7360406091370558,
+            0.27411167512690354
+          ]
+        },
+        {
+          "pose": "Left contact",
+          "knees": [
+            1,
+            1
+          ],
+          "hips": [
+            1,
+            1
+          ],
+          "waist": [
+            0.8934010152284264,
+            0.41624365482233505
+          ]
+        },
+        {
+          "pose": "Left down",
+          "knees": [
+            1,
+            0.9990089197224975
+          ],
+          "hips": [
+            1,
+            1
+          ],
+          "waist": [
+            0.9086294416243654,
+            0.233502538071066
+          ]
+        },
+        {
+          "pose": "Left passing",
+          "knees": [
+            1,
+            0.9900891972249752
+          ],
+          "hips": [
+            1,
+            1
+          ],
+          "waist": [
+            0.8071065989847716,
+            0.36548223350253806
+          ]
+        },
+        {
+          "pose": "Left up",
+          "knees": [
+            1,
+            1
+          ],
+          "hips": [
+            1,
+            1
+          ],
+          "waist": [
+            0.7360406091370558,
+            0.36548223350253806
+          ]
+        },
+        {
+          "pose": "Right contact",
+          "knees": [
+            1,
+            1
+          ],
+          "hips": [
+            1,
+            1
+          ],
+          "waist": [
+            0.8121827411167513,
+            0.27411167512690354
+          ]
+        },
+        {
+          "pose": "Right down",
+          "knees": [
+            1,
+            1
+          ],
+          "hips": [
+            1,
+            1
+          ],
+          "waist": [
+            0.8020304568527918,
+            0.29441624365482233
+          ]
+        },
+        {
+          "pose": "Right passing",
+          "knees": [
+            1,
+            1
+          ],
+          "hips": [
+            1,
+            1
+          ],
+          "waist": [
+            0.9644670050761421,
+            0.233502538071066
+          ]
+        },
+        {
+          "pose": "Right up",
+          "knees": [
+            1,
+            1
+          ],
+          "hips": [
+            1,
+            1
+          ],
+          "waist": [
+            0.9593908629441624,
+            0.25888324873096447
+          ]
+        }
+      ],
+      "minKnee": 0.9900891972249752,
+      "minHip": 1,
+      "minWaist": 0.233502538071066
+    },
+    {
+      "shift": -3,
+      "samples": [
+        {
+          "pose": "standing",
+          "knees": [
+            1,
+            1
+          ],
+          "hips": [
+            1,
+            1
+          ],
+          "waist": [
+            1,
+            0.5685279187817259
+          ]
+        },
+        {
+          "pose": "Left contact",
+          "knees": [
+            1,
+            1
+          ],
+          "hips": [
+            1,
+            1
+          ],
+          "waist": [
+            1,
+            0.7309644670050761
+          ]
+        },
+        {
+          "pose": "Left down",
+          "knees": [
+            1,
+            0.9910802775024777
+          ],
+          "hips": [
+            1,
+            1
+          ],
+          "waist": [
+            1,
+            0.5329949238578681
+          ]
+        },
+        {
+          "pose": "Left passing",
+          "knees": [
+            1,
+            0.9722497522299306
+          ],
+          "hips": [
+            1,
+            1
+          ],
+          "waist": [
+            1,
+            0.6548223350253807
+          ]
+        },
+        {
+          "pose": "Left up",
+          "knees": [
+            1,
+            0.998017839444995
+          ],
+          "hips": [
+            1,
+            1
+          ],
+          "waist": [
+            1,
+            0.649746192893401
+          ]
+        },
+        {
+          "pose": "Right contact",
+          "knees": [
+            1,
+            1
+          ],
+          "hips": [
+            1,
+            1
+          ],
+          "waist": [
+            1,
+            0.583756345177665
+          ]
+        },
+        {
+          "pose": "Right down",
+          "knees": [
+            1,
+            1
+          ],
+          "hips": [
+            1,
+            1
+          ],
+          "waist": [
+            1,
+            0.5939086294416244
+          ]
+        },
+        {
+          "pose": "Right passing",
+          "knees": [
+            1,
+            1
+          ],
+          "hips": [
+            1,
+            1
+          ],
+          "waist": [
+            1,
+            0.5228426395939086
+          ]
+        },
+        {
+          "pose": "Right up",
+          "knees": [
+            1,
+            1
+          ],
+          "hips": [
+            1,
+            1
+          ],
+          "waist": [
+            1,
+            0.5482233502538071
+          ]
+        }
+      ],
+      "minKnee": 0.9722497522299306,
+      "minHip": 1,
+      "minWaist": 0.5228426395939086
+    },
+    {
+      "shift": -4,
+      "samples": [
+        {
+          "pose": "standing",
+          "knees": [
+            1,
+            1
+          ],
+          "hips": [
+            1,
+            1
+          ],
+          "waist": [
+            1,
+            0.8629441624365483
+          ]
+        },
+        {
+          "pose": "Left contact",
+          "knees": [
+            1,
+            1
+          ],
+          "hips": [
+            1,
+            1
+          ],
+          "waist": [
+            1,
+            0.9644670050761421
+          ]
+        },
+        {
+          "pose": "Left down",
+          "knees": [
+            1,
+            0.9762140733399405
+          ],
+          "hips": [
+            1,
+            1
+          ],
+          "waist": [
+            1,
+            0.8324873096446701
+          ]
+        },
+        {
+          "pose": "Left passing",
+          "knees": [
+            1,
+            0.9524281466798811
+          ],
+          "hips": [
+            1,
+            1
+          ],
+          "waist": [
+            1,
+            0.9289340101522843
+          ]
+        },
+        {
+          "pose": "Left up",
+          "knees": [
+            1,
+            0.9871159563924677
+          ],
+          "hips": [
+            1,
+            1
+          ],
+          "waist": [
+            1,
+            0.9289340101522843
+          ]
+        },
+        {
+          "pose": "Right contact",
+          "knees": [
+            1,
+            1
+          ],
+          "hips": [
+            1,
+            1
+          ],
+          "waist": [
+            1,
+            0.868020304568528
+          ]
+        },
+        {
+          "pose": "Right down",
+          "knees": [
+            1,
+            0.9950445986124876
+          ],
+          "hips": [
+            1,
+            1
+          ],
+          "waist": [
+            1,
+            0.8781725888324873
+          ]
+        },
+        {
+          "pose": "Right passing",
+          "knees": [
+            0.9940535183349851,
+            0.9970267591674926
+          ],
+          "hips": [
+            1,
+            1
+          ],
+          "waist": [
+            1,
+            0.8324873096446701
+          ]
+        },
+        {
+          "pose": "Right up",
+          "knees": [
+            1,
+            1
+          ],
+          "hips": [
+            1,
+            1
+          ],
+          "waist": [
+            1,
+            0.8477157360406091
+          ]
+        }
+      ],
+      "minKnee": 0.9524281466798811,
+      "minHip": 1,
+      "minWaist": 0.8324873096446701
+    }
+  ],
+  "neckTests": [
+    {
+      "degrees": -4,
+      "samples": 441,
+      "covered": 441,
+      "fraction": 1
+    },
+    {
+      "degrees": 0,
+      "samples": 441,
+      "covered": 441,
+      "fraction": 1
+    },
+    {
+      "degrees": 4,
+      "samples": 441,
+      "covered": 441,
+      "fraction": 1
+    }
+  ],
+  "elbowTests": [
+    {
+      "degrees": 0,
+      "samples": 613,
+      "covered": 613,
+      "fraction": 1,
+      "contact": [
+        31,
+        148
+      ],
+      "sharedGripTarget": [
+        61.5,
+        136
+      ],
+      "targetError": 32.775753233144776
+    },
+    {
+      "degrees": -15,
+      "samples": 613,
+      "covered": 613,
+      "fraction": 1,
+      "contact": [
+        40.07570366544368,
+        146.93681344266867
+      ],
+      "sharedGripTarget": [
+        61.5,
+        136
+      ],
+      "targetError": 24.054404206103737
+    },
+    {
+      "degrees": -30,
+      "samples": 613,
+      "covered": 613,
+      "fraction": 1,
+      "contact": [
+        48.56698729810776,
+        143.56088913245534
+      ],
+      "sharedGripTarget": [
+        61.5,
+        136
+      ],
+      "targetError": 14.980983346248912
+    },
+    {
+      "degrees": -45,
+      "samples": 613,
+      "covered": 613,
+      "fraction": 1,
+      "contact": [
+        55.89518395093589,
+        138.10229073212244
+      ],
+      "sharedGripTarget": [
+        61.5,
+        136
+      ],
+      "targetError": 5.98611637593311
+    },
+    {
+      "degrees": -59.85,
+      "samples": 613,
+      "covered": 613,
+      "fraction": 1,
+      "contact": [
+        61.51383765163375,
+        131.01165038027813
+      ],
+      "sharedGripTarget": [
+        61.5,
+        136
+      ],
+      "targetError": 4.988368812465865
+    }
+  ],
+  "textureCorrections": {
+    "thigh-left": {
+      "proximalClothCenter": -0.32214765100671183,
+      "distalClothCenter": -0.32214765100671094,
+      "rigidRestRotationDegrees": 1.0601848938211723e-15,
+      "matrix": [
+        1,
+        1.850371707708594e-17,
+        -1.850371707708594e-17,
+        1,
+        0.32214765100671183,
+        5.960928991276016e-18
+      ],
+      "verifiedAnatomicalJoint": false
+    },
+    "thigh-right": {
+      "proximalClothCenter": 1.7718120805369129,
+      "distalClothCenter": -3.8657718120805367,
+      "rigidRestRotationDegrees": -6.698681087587723,
+      "matrix": [
+        0.9931733349615314,
+        -0.11664787491158925,
+        0.11664787491158925,
+        0.9931733349615314,
+        -1.7597165129519752,
+        0.2066781139373125
+      ],
+      "verifiedAnatomicalJoint": false
+    },
+    "shin-left": {
+      "proximalClothCenter": 0.32214765100671183,
+      "distalClothCenter": -2.899328859060403,
+      "rigidRestRotationDegrees": -3.8395963379534725,
+      "matrix": [
+        0.9977554290246456,
+        -0.06696345161239235,
+        0.06696345161239235,
+        0.9977554290246456,
+        -0.3214245677394836,
+        0.021572118640233805
+      ],
+      "verifiedAnatomicalJoint": false
+    },
+    "shin-right": {
+      "proximalClothCenter": -0.16107382550335592,
+      "distalClothCenter": 0.4832214765100673,
+      "rigidRestRotationDegrees": 0.7690246825780408,
+      "matrix": [
+        0.9999099261392517,
+        0.0134216097468356,
+        -0.0134216097468356,
+        0.9999099261392517,
+        0.16105931696202733,
+        0.0021618700263359384
+      ],
+      "verifiedAnatomicalJoint": false
+    }
+  },
+  "status": "DIAGNOSTIC_ONLY_DO_NOT_ACTIVATE",
+  "sourceManifestUnchanged": true,
+  "sourceManifestSha256": "df5a50d80d9048f26f9824dc2b6baf25c5b144ebeae4b0734b8dd22baa1be6aa",
+  "assets": [
+    {
+      "id": "torso-front-with-sleeves",
+      "file": "layers/torso-front-with-sleeves.png",
+      "sha256": "1ea5f1084a8d79a78aa5e8a94913597d553c6aa3d4088024b8335f10816d4791"
+    },
+    {
+      "id": "pelvis-with-coat",
+      "file": "layers/pelvis-with-coat.png",
+      "sha256": "1bfe6f3b79b4f1ecdc513e34bc18c6c358025c644b71f2e88883220c94e771cb"
+    },
+    {
+      "id": "neck-collar",
+      "file": "layers/neck-collar.png",
+      "sha256": "f49cfec6a9fa2fbc0c6266ee972f90462dc95fe4dc9f1873852cf3b148e75eab"
+    },
+    {
+      "id": "head-3q-right",
+      "file": "layers/head-3q-right.png",
+      "sha256": "322640799115439e0f863e3a1acca95a2e053c4f296ccdf6d79045ff65d57030"
+    },
+    {
+      "id": "hand-left-relaxed-v1",
+      "file": "layers/hand-left-relaxed-v1.png",
+      "sha256": "d79f647e193caaac4a3be186c8f45d31c65071acf396582299cb8efd94af0f9b"
+    },
+    {
+      "id": "hand-right-relaxed",
+      "file": "layers/hand-right-relaxed.png",
+      "sha256": "3856eafa3a50290250b651b8703f54a86bcc78427d1ad9dfb81867589fb6f315"
+    },
+    {
+      "id": "hand-right-hold",
+      "file": "layers/hand-right-hold.png",
+      "sha256": "6db4b6f067bbec4a7ee3952f1a456564a29c4ff5b10c3a79c94505ffda667c67"
+    },
+    {
+      "id": "thigh-left",
+      "file": "layers/thigh-left.png",
+      "sha256": "6caff0ea8cc01dfa920e146af91b8233ed8e6667f1a896923f8a241c32f5f85b"
+    },
+    {
+      "id": "thigh-right",
+      "file": "layers/thigh-right.png",
+      "sha256": "e22da72be9d6ccfcf5a643acb96cbe0e0b9d776d453f45f3d861f7b72610e4a6"
+    },
+    {
+      "id": "shin-left",
+      "file": "layers/shin-left.png",
+      "sha256": "46c3ffd01f4c0000b84523079bb26e3d6a387a3d10dd58f315205c92cab46cd8"
+    },
+    {
+      "id": "shin-right",
+      "file": "layers/shin-right.png",
+      "sha256": "434a4fb797d242e06b3e59cf6bb11359308c6fe0ece57d2d759958852c6167ef"
+    },
+    {
+      "id": "shoe-left-side",
+      "file": "layers/shoe-left-side.png",
+      "sha256": "220022a37440b8d35b2d96063780302bb1c16a2f9572cb7652e163dfedd47ffb"
+    },
+    {
+      "id": "shoe-right-side",
+      "file": "layers/shoe-right-side.png",
+      "sha256": "2ca7ae1494c19399816ecc897f8dae43fcf9611626087f79eb3b9aed8554f9d8"
+    }
+  ],
+  "method": "Existing PNGs referenced through SVG clip paths and rigid transforms only. No pixel generation, stretching, recoloring, new extraction or paint duplication to invent anatomy.",
+  "results": [
+    {
+      "pose": "standing",
+      "phase": null,
+      "joints": [
+        {
+          "joint": "hip-left",
+          "samples": 797,
+          "covered": 797,
+          "fraction": 1,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "knee-left",
+          "samples": 1009,
+          "covered": 1009,
+          "fraction": 1,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "ankle-left",
+          "samples": 1009,
+          "covered": 1009,
+          "fraction": 1,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "hip-right",
+          "samples": 797,
+          "covered": 698,
+          "fraction": 0.875784190715182,
+          "alphaCoveragePass": false,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "knee-right",
+          "samples": 1009,
+          "covered": 1009,
+          "fraction": 1,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "ankle-right",
+          "samples": 1009,
+          "covered": 1009,
+          "fraction": 1,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        }
+      ],
+      "wrists": [
+        {
+          "joint": "wrist-left",
+          "samples": 288,
+          "covered": 288,
+          "fraction": 1,
+          "limit": "static relaxed hand only; holding pose not verified"
+        },
+        {
+          "joint": "wrist-right",
+          "samples": 288,
+          "covered": 287,
+          "fraction": 0.9965277777777778,
+          "limit": "static relaxed hand only; holding pose not verified"
+        }
+      ],
+      "waistBridge": [
+        {
+          "samples": 197,
+          "covered": 27,
+          "fraction": 0.13705583756345177
+        },
+        {
+          "samples": 197,
+          "covered": 8,
+          "fraction": 0.04060913705583756
+        }
+      ],
+      "fullRigPass": false,
+      "blockers": [
+        "elbow overlap experimental; material continuity not approved",
+        "holding-hand endpoint cannot reach shared grip with static sleeve",
+        "hidden lateral hip surfaces and cloth perspective need visual review",
+        "left shoe roll/contact landmarks not approved"
+      ]
+    },
+    {
+      "pose": "Left contact",
+      "phase": 0,
+      "joints": [
+        {
+          "joint": "hip-left",
+          "samples": 797,
+          "covered": 797,
+          "fraction": 1,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "knee-left",
+          "samples": 1009,
+          "covered": 1009,
+          "fraction": 1,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "ankle-left",
+          "samples": 1009,
+          "covered": 1009,
+          "fraction": 1,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "hip-right",
+          "samples": 797,
+          "covered": 695,
+          "fraction": 0.8720200752823086,
+          "alphaCoveragePass": false,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "knee-right",
+          "samples": 1009,
+          "covered": 1009,
+          "fraction": 1,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "ankle-right",
+          "samples": 1009,
+          "covered": 1009,
+          "fraction": 1,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        }
+      ],
+      "wrists": [
+        {
+          "joint": "wrist-left",
+          "samples": 288,
+          "covered": 288,
+          "fraction": 1,
+          "limit": "static relaxed hand only; holding pose not verified"
+        },
+        {
+          "joint": "wrist-right",
+          "samples": 288,
+          "covered": 287,
+          "fraction": 0.9965277777777778,
+          "limit": "static relaxed hand only; holding pose not verified"
+        }
+      ],
+      "waistBridge": [
+        {
+          "samples": 197,
+          "covered": 55,
+          "fraction": 0.27918781725888325
+        },
+        {
+          "samples": 197,
+          "covered": 8,
+          "fraction": 0.04060913705583756
+        }
+      ],
+      "fullRigPass": false,
+      "blockers": [
+        "elbow overlap experimental; material continuity not approved",
+        "holding-hand endpoint cannot reach shared grip with static sleeve",
+        "hidden lateral hip surfaces and cloth perspective need visual review",
+        "left shoe roll/contact landmarks not approved"
+      ]
+    },
+    {
+      "pose": "Left down",
+      "phase": 0.125,
+      "joints": [
+        {
+          "joint": "hip-left",
+          "samples": 797,
+          "covered": 797,
+          "fraction": 1,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "knee-left",
+          "samples": 1009,
+          "covered": 1009,
+          "fraction": 1,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "ankle-left",
+          "samples": 1009,
+          "covered": 1009,
+          "fraction": 1,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "hip-right",
+          "samples": 797,
+          "covered": 697,
+          "fraction": 0.8745294855708908,
+          "alphaCoveragePass": false,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "knee-right",
+          "samples": 1009,
+          "covered": 1009,
+          "fraction": 1,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "ankle-right",
+          "samples": 1009,
+          "covered": 1009,
+          "fraction": 1,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        }
+      ],
+      "wrists": [
+        {
+          "joint": "wrist-left",
+          "samples": 288,
+          "covered": 288,
+          "fraction": 1,
+          "limit": "static relaxed hand only; holding pose not verified"
+        },
+        {
+          "joint": "wrist-right",
+          "samples": 288,
+          "covered": 287,
+          "fraction": 0.9965277777777778,
+          "limit": "static relaxed hand only; holding pose not verified"
+        }
+      ],
+      "waistBridge": [
+        {
+          "samples": 197,
+          "covered": 61,
+          "fraction": 0.3096446700507614
+        },
+        {
+          "samples": 197,
+          "covered": 8,
+          "fraction": 0.04060913705583756
+        }
+      ],
+      "fullRigPass": false,
+      "blockers": [
+        "elbow overlap experimental; material continuity not approved",
+        "holding-hand endpoint cannot reach shared grip with static sleeve",
+        "hidden lateral hip surfaces and cloth perspective need visual review",
+        "left shoe roll/contact landmarks not approved"
+      ]
+    },
+    {
+      "pose": "Left passing",
+      "phase": 0.25,
+      "joints": [
+        {
+          "joint": "hip-left",
+          "samples": 797,
+          "covered": 797,
+          "fraction": 1,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "knee-left",
+          "samples": 1009,
+          "covered": 1009,
+          "fraction": 1,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "ankle-left",
+          "samples": 1008,
+          "covered": 1008,
+          "fraction": 1,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "hip-right",
+          "samples": 797,
+          "covered": 696,
+          "fraction": 0.8732747804265998,
+          "alphaCoveragePass": false,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "knee-right",
+          "samples": 1009,
+          "covered": 1004,
+          "fraction": 0.9950445986124876,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "ankle-right",
+          "samples": 1009,
+          "covered": 1009,
+          "fraction": 1,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        }
+      ],
+      "wrists": [
+        {
+          "joint": "wrist-left",
+          "samples": 288,
+          "covered": 288,
+          "fraction": 1,
+          "limit": "static relaxed hand only; holding pose not verified"
+        },
+        {
+          "joint": "wrist-right",
+          "samples": 288,
+          "covered": 287,
+          "fraction": 0.9965277777777778,
+          "limit": "static relaxed hand only; holding pose not verified"
+        }
+      ],
+      "waistBridge": [
+        {
+          "samples": 197,
+          "covered": 39,
+          "fraction": 0.19796954314720813
+        },
+        {
+          "samples": 197,
+          "covered": 8,
+          "fraction": 0.04060913705583756
+        }
+      ],
+      "fullRigPass": false,
+      "blockers": [
+        "elbow overlap experimental; material continuity not approved",
+        "holding-hand endpoint cannot reach shared grip with static sleeve",
+        "hidden lateral hip surfaces and cloth perspective need visual review",
+        "left shoe roll/contact landmarks not approved"
+      ]
+    },
+    {
+      "pose": "Left up",
+      "phase": 0.375,
+      "joints": [
+        {
+          "joint": "hip-left",
+          "samples": 797,
+          "covered": 797,
+          "fraction": 1,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "knee-left",
+          "samples": 1009,
+          "covered": 1009,
+          "fraction": 1,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "ankle-left",
+          "samples": 1009,
+          "covered": 1009,
+          "fraction": 1,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "hip-right",
+          "samples": 797,
+          "covered": 696,
+          "fraction": 0.8732747804265998,
+          "alphaCoveragePass": false,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "knee-right",
+          "samples": 1009,
+          "covered": 1009,
+          "fraction": 1,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "ankle-right",
+          "samples": 1009,
+          "covered": 1009,
+          "fraction": 1,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        }
+      ],
+      "wrists": [
+        {
+          "joint": "wrist-left",
+          "samples": 288,
+          "covered": 288,
+          "fraction": 1,
+          "limit": "static relaxed hand only; holding pose not verified"
+        },
+        {
+          "joint": "wrist-right",
+          "samples": 288,
+          "covered": 287,
+          "fraction": 0.9965277777777778,
+          "limit": "static relaxed hand only; holding pose not verified"
+        }
+      ],
+      "waistBridge": [
+        {
+          "samples": 197,
+          "covered": 27,
+          "fraction": 0.13705583756345177
+        },
+        {
+          "samples": 197,
+          "covered": 8,
+          "fraction": 0.04060913705583756
+        }
+      ],
+      "fullRigPass": false,
+      "blockers": [
+        "elbow overlap experimental; material continuity not approved",
+        "holding-hand endpoint cannot reach shared grip with static sleeve",
+        "hidden lateral hip surfaces and cloth perspective need visual review",
+        "left shoe roll/contact landmarks not approved"
+      ]
+    },
+    {
+      "pose": "Right contact",
+      "phase": 0.5,
+      "joints": [
+        {
+          "joint": "hip-left",
+          "samples": 797,
+          "covered": 797,
+          "fraction": 1,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "knee-left",
+          "samples": 1009,
+          "covered": 1009,
+          "fraction": 1,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "ankle-left",
+          "samples": 1009,
+          "covered": 1009,
+          "fraction": 1,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "hip-right",
+          "samples": 797,
+          "covered": 696,
+          "fraction": 0.8732747804265998,
+          "alphaCoveragePass": false,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "knee-right",
+          "samples": 1009,
+          "covered": 1009,
+          "fraction": 1,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "ankle-right",
+          "samples": 1009,
+          "covered": 1009,
+          "fraction": 1,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        }
+      ],
+      "wrists": [
+        {
+          "joint": "wrist-left",
+          "samples": 288,
+          "covered": 288,
+          "fraction": 1,
+          "limit": "static relaxed hand only; holding pose not verified"
+        },
+        {
+          "joint": "wrist-right",
+          "samples": 288,
+          "covered": 287,
+          "fraction": 0.9965277777777778,
+          "limit": "static relaxed hand only; holding pose not verified"
+        }
+      ],
+      "waistBridge": [
+        {
+          "samples": 197,
+          "covered": 40,
+          "fraction": 0.20304568527918782
+        },
+        {
+          "samples": 197,
+          "covered": 8,
+          "fraction": 0.04060913705583756
+        }
+      ],
+      "fullRigPass": false,
+      "blockers": [
+        "elbow overlap experimental; material continuity not approved",
+        "holding-hand endpoint cannot reach shared grip with static sleeve",
+        "hidden lateral hip surfaces and cloth perspective need visual review",
+        "left shoe roll/contact landmarks not approved"
+      ]
+    },
+    {
+      "pose": "Right down",
+      "phase": 0.625,
+      "joints": [
+        {
+          "joint": "hip-left",
+          "samples": 796,
+          "covered": 796,
+          "fraction": 1,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "knee-left",
+          "samples": 1009,
+          "covered": 1009,
+          "fraction": 1,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "ankle-left",
+          "samples": 1009,
+          "covered": 1009,
+          "fraction": 1,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "hip-right",
+          "samples": 797,
+          "covered": 697,
+          "fraction": 0.8745294855708908,
+          "alphaCoveragePass": false,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "knee-right",
+          "samples": 1009,
+          "covered": 1009,
+          "fraction": 1,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "ankle-right",
+          "samples": 1009,
+          "covered": 1009,
+          "fraction": 1,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        }
+      ],
+      "wrists": [
+        {
+          "joint": "wrist-left",
+          "samples": 288,
+          "covered": 288,
+          "fraction": 1,
+          "limit": "static relaxed hand only; holding pose not verified"
+        },
+        {
+          "joint": "wrist-right",
+          "samples": 288,
+          "covered": 287,
+          "fraction": 0.9965277777777778,
+          "limit": "static relaxed hand only; holding pose not verified"
+        }
+      ],
+      "waistBridge": [
+        {
+          "samples": 197,
+          "covered": 38,
+          "fraction": 0.19289340101522842
+        },
+        {
+          "samples": 197,
+          "covered": 8,
+          "fraction": 0.04060913705583756
+        }
+      ],
+      "fullRigPass": false,
+      "blockers": [
+        "elbow overlap experimental; material continuity not approved",
+        "holding-hand endpoint cannot reach shared grip with static sleeve",
+        "hidden lateral hip surfaces and cloth perspective need visual review",
+        "left shoe roll/contact landmarks not approved"
+      ]
+    },
+    {
+      "pose": "Right passing",
+      "phase": 0.75,
+      "joints": [
+        {
+          "joint": "hip-left",
+          "samples": 797,
+          "covered": 797,
+          "fraction": 1,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "knee-left",
+          "samples": 1009,
+          "covered": 1009,
+          "fraction": 1,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "ankle-left",
+          "samples": 1009,
+          "covered": 1009,
+          "fraction": 1,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "hip-right",
+          "samples": 797,
+          "covered": 699,
+          "fraction": 0.877038895859473,
+          "alphaCoveragePass": false,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "knee-right",
+          "samples": 1009,
+          "covered": 1009,
+          "fraction": 1,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "ankle-right",
+          "samples": 1009,
+          "covered": 1009,
+          "fraction": 1,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        }
+      ],
+      "wrists": [
+        {
+          "joint": "wrist-left",
+          "samples": 288,
+          "covered": 288,
+          "fraction": 1,
+          "limit": "static relaxed hand only; holding pose not verified"
+        },
+        {
+          "joint": "wrist-right",
+          "samples": 288,
+          "covered": 287,
+          "fraction": 0.9965277777777778,
+          "limit": "static relaxed hand only; holding pose not verified"
+        }
+      ],
+      "waistBridge": [
+        {
+          "samples": 197,
+          "covered": 84,
+          "fraction": 0.4263959390862944
+        },
+        {
+          "samples": 197,
+          "covered": 8,
+          "fraction": 0.04060913705583756
+        }
+      ],
+      "fullRigPass": false,
+      "blockers": [
+        "elbow overlap experimental; material continuity not approved",
+        "holding-hand endpoint cannot reach shared grip with static sleeve",
+        "hidden lateral hip surfaces and cloth perspective need visual review",
+        "left shoe roll/contact landmarks not approved"
+      ]
+    },
+    {
+      "pose": "Right up",
+      "phase": 0.875,
+      "joints": [
+        {
+          "joint": "hip-left",
+          "samples": 796,
+          "covered": 796,
+          "fraction": 1,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "knee-left",
+          "samples": 1009,
+          "covered": 1009,
+          "fraction": 1,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "ankle-left",
+          "samples": 1009,
+          "covered": 1009,
+          "fraction": 1,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "hip-right",
+          "samples": 797,
+          "covered": 697,
+          "fraction": 0.8745294855708908,
+          "alphaCoveragePass": false,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "knee-right",
+          "samples": 1009,
+          "covered": 1009,
+          "fraction": 1,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        },
+        {
+          "joint": "ankle-right",
+          "samples": 1009,
+          "covered": 1009,
+          "fraction": 1,
+          "alphaCoveragePass": true,
+          "materialContinuity": "visual-review-required"
+        }
+      ],
+      "wrists": [
+        {
+          "joint": "wrist-left",
+          "samples": 288,
+          "covered": 288,
+          "fraction": 1,
+          "limit": "static relaxed hand only; holding pose not verified"
+        },
+        {
+          "joint": "wrist-right",
+          "samples": 288,
+          "covered": 287,
+          "fraction": 0.9965277777777778,
+          "limit": "static relaxed hand only; holding pose not verified"
+        }
+      ],
+      "waistBridge": [
+        {
+          "samples": 197,
+          "covered": 79,
+          "fraction": 0.4010152284263959
+        },
+        {
+          "samples": 197,
+          "covered": 8,
+          "fraction": 0.04060913705583756
+        }
+      ],
+      "fullRigPass": false,
+      "blockers": [
+        "elbow overlap experimental; material continuity not approved",
+        "holding-hand endpoint cannot reach shared grip with static sleeve",
+        "hidden lateral hip surfaces and cloth perspective need visual review",
+        "left shoe roll/contact landmarks not approved"
+      ]
+    }
+  ],
+  "sleeveTests": [
+    {
+      "degrees": -3,
+      "shoulders": [
+        {
+          "side": "left",
+          "samples": 3198,
+          "covered": 3198,
+          "fraction": 1
+        },
+        {
+          "side": "right",
+          "samples": 3156,
+          "covered": 3156,
+          "fraction": 1
+        }
+      ],
+      "status": "not-certified-until-visual-review"
+    },
+    {
+      "degrees": -2,
+      "shoulders": [
+        {
+          "side": "left",
+          "samples": 3198,
+          "covered": 3198,
+          "fraction": 1
+        },
+        {
+          "side": "right",
+          "samples": 3156,
+          "covered": 3156,
+          "fraction": 1
+        }
+      ],
+      "status": "not-certified-until-visual-review"
+    },
+    {
+      "degrees": 0,
+      "shoulders": [
+        {
+          "side": "left",
+          "samples": 3198,
+          "covered": 3198,
+          "fraction": 1
+        },
+        {
+          "side": "right",
+          "samples": 3156,
+          "covered": 3156,
+          "fraction": 1
+        }
+      ],
+      "status": "not-certified-until-visual-review"
+    },
+    {
+      "degrees": 2,
+      "shoulders": [
+        {
+          "side": "left",
+          "samples": 3198,
+          "covered": 3198,
+          "fraction": 1
+        },
+        {
+          "side": "right",
+          "samples": 3156,
+          "covered": 3151,
+          "fraction": 0.9984157160963245
+        }
+      ],
+      "status": "not-certified-until-visual-review"
+    },
+    {
+      "degrees": 3,
+      "shoulders": [
+        {
+          "side": "left",
+          "samples": 3198,
+          "covered": 3198,
+          "fraction": 1
+        },
+        {
+          "side": "right",
+          "samples": 3156,
+          "covered": 3152,
+          "fraction": 0.9987325728770595
+        }
+      ],
+      "status": "not-certified-until-visual-review"
+    }
+  ],
+  "scope": "Alpha-disc coverage is a local seam diagnostic, not proof of correct anatomy, cloth shading, grip, global sole contact or hidden surfaces.",
+  "activationApproved": false,
+  "visualReview": {
+    "activationApproved": false,
+    "standingPass": false,
+    "walkingPass": false,
+    "torsoCoat": "restricted-view-pass",
+    "relaxedWrists": "static-pass",
+    "shoulders": "candidate-only-plus-minus-2-degrees; static in gait tests",
+    "rightElbow": "experimental overlap; material continuity and grip not approved",
+    "neck": "alpha closed; dark artifact and shading seam fail",
+    "pelvis": "waist and outer hip gaps fail",
+    "knees": "alpha mostly closed; shin-top rims fail visual continuity",
+    "ankles": "sampled overlap passes; shoe facing and heel/toe contact unapproved",
+    "rejectedThighShift": "Moving cloth upward trades waist gaps for knee gaps; retain original shift 0",
+    "evidence": [
+      "standing.png",
+      "walking-phases.png",
+      "arm-tests.png"
+    ],
+    "missingArtwork": "MISSING_ARTWORK.md"
+  }
+}

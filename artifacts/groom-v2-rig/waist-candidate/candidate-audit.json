@@ -1,0 +1,412 @@
+{
+  "enabled": false,
+  "file": "public/characters/groom-waist-hip-bridge-CANDIDATE.png",
+  "sha256": "61bc245bf79f60fb3013192db02a8452e28aa9f8ae264ef72fe2b036333ca284",
+  "width": 440,
+  "height": 250,
+  "alpha": {
+    "transparent": 38034,
+    "partial": 70742,
+    "opaque": 1224,
+    "total": 110000
+  },
+  "pivot": {
+    "x": 220,
+    "y": 140,
+    "status": "explicit registration, not independently verified artwork landmark"
+  },
+  "scale": 0.1,
+  "bodyAnchor": {
+    "x": 0,
+    "y": 177
+  },
+  "bounds": {
+    "x": -22,
+    "y": 163,
+    "width": 44,
+    "height": 25
+  },
+  "drawOrder": "above both moving thighs, below torso/coat",
+  "existingPelvis": "suppressed in candidate comparison only; source untouched",
+  "stretching": "none: uniform scale 0.1; no deformation",
+  "metrics": [
+    {
+      "pose": "Standing",
+      "before": [
+        {
+          "samples": 197,
+          "covered": 27,
+          "fraction": 0.13705583756345177
+        },
+        {
+          "samples": 197,
+          "covered": 8,
+          "fraction": 0.04060913705583756
+        }
+      ],
+      "after": [
+        {
+          "samples": 197,
+          "covered": 197,
+          "fraction": 1
+        },
+        {
+          "samples": 197,
+          "covered": 197,
+          "fraction": 1
+        }
+      ],
+      "hipsAfter": [
+        {
+          "samples": 797,
+          "covered": 797,
+          "fraction": 1
+        },
+        {
+          "samples": 797,
+          "covered": 797,
+          "fraction": 1
+        }
+      ],
+      "visualPass": false
+    },
+    {
+      "pose": "Left contact",
+      "before": [
+        {
+          "samples": 197,
+          "covered": 55,
+          "fraction": 0.27918781725888325
+        },
+        {
+          "samples": 197,
+          "covered": 8,
+          "fraction": 0.04060913705583756
+        }
+      ],
+      "after": [
+        {
+          "samples": 197,
+          "covered": 197,
+          "fraction": 1
+        },
+        {
+          "samples": 197,
+          "covered": 197,
+          "fraction": 1
+        }
+      ],
+      "hipsAfter": [
+        {
+          "samples": 797,
+          "covered": 797,
+          "fraction": 1
+        },
+        {
+          "samples": 797,
+          "covered": 797,
+          "fraction": 1
+        }
+      ],
+      "visualPass": false
+    },
+    {
+      "pose": "Left down",
+      "before": [
+        {
+          "samples": 197,
+          "covered": 61,
+          "fraction": 0.3096446700507614
+        },
+        {
+          "samples": 197,
+          "covered": 8,
+          "fraction": 0.04060913705583756
+        }
+      ],
+      "after": [
+        {
+          "samples": 197,
+          "covered": 197,
+          "fraction": 1
+        },
+        {
+          "samples": 197,
+          "covered": 197,
+          "fraction": 1
+        }
+      ],
+      "hipsAfter": [
+        {
+          "samples": 797,
+          "covered": 797,
+          "fraction": 1
+        },
+        {
+          "samples": 797,
+          "covered": 797,
+          "fraction": 1
+        }
+      ],
+      "visualPass": false
+    },
+    {
+      "pose": "Left passing",
+      "before": [
+        {
+          "samples": 197,
+          "covered": 39,
+          "fraction": 0.19796954314720813
+        },
+        {
+          "samples": 197,
+          "covered": 8,
+          "fraction": 0.04060913705583756
+        }
+      ],
+      "after": [
+        {
+          "samples": 197,
+          "covered": 197,
+          "fraction": 1
+        },
+        {
+          "samples": 197,
+          "covered": 197,
+          "fraction": 1
+        }
+      ],
+      "hipsAfter": [
+        {
+          "samples": 797,
+          "covered": 797,
+          "fraction": 1
+        },
+        {
+          "samples": 797,
+          "covered": 797,
+          "fraction": 1
+        }
+      ],
+      "visualPass": false
+    },
+    {
+      "pose": "Left up",
+      "before": [
+        {
+          "samples": 197,
+          "covered": 27,
+          "fraction": 0.13705583756345177
+        },
+        {
+          "samples": 197,
+          "covered": 8,
+          "fraction": 0.04060913705583756
+        }
+      ],
+      "after": [
+        {
+          "samples": 197,
+          "covered": 197,
+          "fraction": 1
+        },
+        {
+          "samples": 197,
+          "covered": 197,
+          "fraction": 1
+        }
+      ],
+      "hipsAfter": [
+        {
+          "samples": 797,
+          "covered": 797,
+          "fraction": 1
+        },
+        {
+          "samples": 797,
+          "covered": 797,
+          "fraction": 1
+        }
+      ],
+      "visualPass": false
+    },
+    {
+      "pose": "Right contact",
+      "before": [
+        {
+          "samples": 197,
+          "covered": 40,
+          "fraction": 0.20304568527918782
+        },
+        {
+          "samples": 197,
+          "covered": 8,
+          "fraction": 0.04060913705583756
+        }
+      ],
+      "after": [
+        {
+          "samples": 197,
+          "covered": 197,
+          "fraction": 1
+        },
+        {
+          "samples": 197,
+          "covered": 197,
+          "fraction": 1
+        }
+      ],
+      "hipsAfter": [
+        {
+          "samples": 797,
+          "covered": 797,
+          "fraction": 1
+        },
+        {
+          "samples": 797,
+          "covered": 797,
+          "fraction": 1
+        }
+      ],
+      "visualPass": false
+    },
+    {
+      "pose": "Right down",
+      "before": [
+        {
+          "samples": 197,
+          "covered": 38,
+          "fraction": 0.19289340101522842
+        },
+        {
+          "samples": 197,
+          "covered": 8,
+          "fraction": 0.04060913705583756
+        }
+      ],
+      "after": [
+        {
+          "samples": 197,
+          "covered": 197,
+          "fraction": 1
+        },
+        {
+          "samples": 197,
+          "covered": 197,
+          "fraction": 1
+        }
+      ],
+      "hipsAfter": [
+        {
+          "samples": 796,
+          "covered": 796,
+          "fraction": 1
+        },
+        {
+          "samples": 797,
+          "covered": 797,
+          "fraction": 1
+        }
+      ],
+      "visualPass": false
+    },
+    {
+      "pose": "Right passing",
+      "before": [
+        {
+          "samples": 197,
+          "covered": 84,
+          "fraction": 0.4263959390862944
+        },
+        {
+          "samples": 197,
+          "covered": 8,
+          "fraction": 0.04060913705583756
+        }
+      ],
+      "after": [
+        {
+          "samples": 197,
+          "covered": 197,
+          "fraction": 1
+        },
+        {
+          "samples": 197,
+          "covered": 197,
+          "fraction": 1
+        }
+      ],
+      "hipsAfter": [
+        {
+          "samples": 797,
+          "covered": 797,
+          "fraction": 1
+        },
+        {
+          "samples": 797,
+          "covered": 797,
+          "fraction": 1
+        }
+      ],
+      "visualPass": false
+    },
+    {
+      "pose": "Right up",
+      "before": [
+        {
+          "samples": 197,
+          "covered": 79,
+          "fraction": 0.4010152284263959
+        },
+        {
+          "samples": 197,
+          "covered": 8,
+          "fraction": 0.04060913705583756
+        }
+      ],
+      "after": [
+        {
+          "samples": 197,
+          "covered": 197,
+          "fraction": 1
+        },
+        {
+          "samples": 197,
+          "covered": 197,
+          "fraction": 1
+        }
+      ],
+      "hipsAfter": [
+        {
+          "samples": 796,
+          "covered": 796,
+          "fraction": 1
+        },
+        {
+          "samples": 797,
+          "covered": 797,
+          "fraction": 1
+        }
+      ],
+      "visualPass": false
+    }
+  ],
+  "activationApproved": false,
+  "visualReview": {
+    "verdict": "FAIL_AS_ANIMATION_ARTWORK",
+    "dimensionPass": true,
+    "realAlpha": true,
+    "pivotRegistration": "(220,140) explicitly assigned; artwork anatomical pivot unverified",
+    "gapSampling": "Both radius-2 waist discs reach 100% alpha>0.5 coverage in standing and all eight phases; this is local coverage only.",
+    "stretching": "No geometric stretching; candidate remains rigid at uniform 0.1 scale.",
+    "failures": [
+      "Candidate contains coat embroidery visible below existing coat. Polygon mask removes lateral embroidery but a small upper embroidered strip remains.",
+      "Painted shorts hems create an obvious horizontal transition over moving trousers.",
+      "Existing flared thigh-root rims protrude beside the rigid candidate, especially in passing and contact phases.",
+      "Candidate fold direction, brightness and fabric shading do not continue into original thighs."
+    ],
+    "correction": "Retain 440x250 canvas and pivot (220,140). Deliver white trouser waist/hip cloth only: remove all coat embroidery and finished shorts hems. Paint concealed hip/crotch overlap and folds matched to registered thigh skins. Integration must mask the existing open thigh-root rims and blend the new overlap into moving thigh surfaces; a single rigid shorts silhouette cannot replace joint-compatible cloth. Re-test all eight phases before approval.",
+    "activationApproved": false,
+    "liveWebsiteChanged": false
+  }
+}

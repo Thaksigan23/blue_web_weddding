@@ -1,0 +1,438 @@
+{
+  "status": "BLOCKED_BEFORE_STANDING_APPROVAL",
+  "activeReplacement": false,
+  "standing": {
+    "status": "failed-completeness-gate",
+    "reason": "Missing independent torso, pelvis, articulated sleeves and grip; overlaps/rest orientations unverified."
+  },
+  "walking": [
+    {
+      "phase": "Left contact",
+      "status": "not-run",
+      "reason": "Standing completeness gate failed; moving incomplete cutouts would not verify a replacement."
+    },
+    {
+      "phase": "Left down",
+      "status": "not-run",
+      "reason": "Standing completeness gate failed; moving incomplete cutouts would not verify a replacement."
+    },
+    {
+      "phase": "Left passing",
+      "status": "not-run",
+      "reason": "Standing completeness gate failed; moving incomplete cutouts would not verify a replacement."
+    },
+    {
+      "phase": "Left up",
+      "status": "not-run",
+      "reason": "Standing completeness gate failed; moving incomplete cutouts would not verify a replacement."
+    },
+    {
+      "phase": "Right contact",
+      "status": "not-run",
+      "reason": "Standing completeness gate failed; moving incomplete cutouts would not verify a replacement."
+    },
+    {
+      "phase": "Right down",
+      "status": "not-run",
+      "reason": "Standing completeness gate failed; moving incomplete cutouts would not verify a replacement."
+    },
+    {
+      "phase": "Right passing",
+      "status": "not-run",
+      "reason": "Standing completeness gate failed; moving incomplete cutouts would not verify a replacement."
+    },
+    {
+      "phase": "Right up",
+      "status": "not-run",
+      "reason": "Standing completeness gate failed; moving incomplete cutouts would not verify a replacement."
+    }
+  ],
+  "romanticStop": {
+    "status": "not-run",
+    "reason": "Missing compatible head/neck and connected grip."
+  },
+  "manifest": {
+    "sha256": "2a2792db083617747fe8426f6c0b0343741ae439928b9c6e320fa43b0d690ca2",
+    "unchanged": true,
+    "reason": "No artwork registration was verified; no pivot or rigReady field was promoted."
+  },
+  "sourceMasterUnchanged": true,
+  "exportInventory": [
+    {
+      "id": "heads-left-front-merged-reference",
+      "file": "layers/heads-left-front-merged-reference.png",
+      "exists": true,
+      "registration": "provisional-not-verified",
+      "rigReady": false,
+      "blockers": [
+        "Source parts touch/overlap in one alpha component; retained together as reference ONLY; repaint independent parts"
+      ]
+    },
+    {
+      "id": "head-right",
+      "file": "layers/head-right.png",
+      "exists": true,
+      "registration": "provisional-not-verified",
+      "rigReady": false,
+      "blockers": [
+        "alternate view only; neck/collar merged"
+      ]
+    },
+    {
+      "id": "head-back",
+      "file": "layers/head-back.png",
+      "exists": true,
+      "registration": "provisional-not-verified",
+      "rigReady": false,
+      "blockers": [
+        "alternate view only; no independently separated hair"
+      ]
+    },
+    {
+      "id": "torsos-front-back-merged-reference",
+      "file": "layers/torsos-front-back-merged-reference.png",
+      "exists": true,
+      "registration": "provisional-not-verified",
+      "rigReady": false,
+      "blockers": [
+        "Source parts touch/overlap in one alpha component; retained together as reference ONLY; repaint independent parts"
+      ]
+    },
+    {
+      "id": "coat-panels-merged-reference",
+      "file": "layers/coat-panels-merged-reference.png",
+      "exists": true,
+      "registration": "provisional-not-verified",
+      "rigReady": false,
+      "blockers": [
+        "Source parts touch/overlap in one alpha component; retained together as reference ONLY; repaint independent parts"
+      ]
+    },
+    {
+      "id": "sleeve-left-upper-reference",
+      "file": "layers/sleeve-left-upper-reference.png",
+      "exists": true,
+      "registration": "provisional-not-verified",
+      "rigReady": false,
+      "blockers": [
+        "bent complete sleeve includes elbow and cuff; not a clean upper-arm bone skin"
+      ]
+    },
+    {
+      "id": "sleeve-left-lower-reference",
+      "file": "layers/sleeve-left-lower-reference.png",
+      "exists": true,
+      "registration": "provisional-not-verified",
+      "rigReady": false,
+      "blockers": [
+        "contains a long sleeve section and cuff; elbow cut and hidden fill missing"
+      ]
+    },
+    {
+      "id": "sleeve-right-upper-reference",
+      "file": "layers/sleeve-right-upper-reference.png",
+      "exists": true,
+      "registration": "provisional-not-verified",
+      "rigReady": false,
+      "blockers": [
+        "bent complete sleeve includes elbow and cuff; not a clean upper-arm bone skin"
+      ]
+    },
+    {
+      "id": "sleeve-right-lower-reference",
+      "file": "layers/sleeve-right-lower-reference.png",
+      "exists": true,
+      "registration": "provisional-not-verified",
+      "rigReady": false,
+      "blockers": [
+        "angled cuffed sleeve; matching elbow attachment requires reconstruction"
+      ]
+    },
+    {
+      "id": "hand-left-relaxed",
+      "file": "layers/hand-left-relaxed.png",
+      "exists": true,
+      "registration": "provisional-not-verified",
+      "rigReady": false,
+      "blockers": [
+        "cuff included; wrist seam, anatomy side and contact pose need verification"
+      ]
+    },
+    {
+      "id": "hand-right-relaxed",
+      "file": "layers/hand-right-relaxed.png",
+      "exists": true,
+      "registration": "provisional-not-verified",
+      "rigReady": false,
+      "blockers": [
+        "cuff included; wrist seam, anatomy side and contact pose need verification"
+      ]
+    },
+    {
+      "id": "hands-hold-reference",
+      "file": "layers/hands-hold-reference.png",
+      "exists": true,
+      "registration": "provisional-not-verified",
+      "rigReady": false,
+      "blockers": [
+        "two fused hands; cannot use as a separated groom hand; redraw holding pose and wrist"
+      ]
+    },
+    {
+      "id": "hand-left-open",
+      "file": "layers/hand-left-open.png",
+      "exists": true,
+      "registration": "provisional-not-verified",
+      "rigReady": false,
+      "blockers": [
+        "alternative hand pose; includes cuff; fingers must remain intact"
+      ]
+    },
+    {
+      "id": "hand-right-open",
+      "file": "layers/hand-right-open.png",
+      "exists": true,
+      "registration": "provisional-not-verified",
+      "rigReady": false,
+      "blockers": [
+        "alternative hand pose; includes cuff; verify wrist orientation"
+      ]
+    },
+    {
+      "id": "thigh-left",
+      "file": "layers/thigh-left.png",
+      "exists": true,
+      "registration": "provisional-not-verified",
+      "rigReady": false,
+      "blockers": [
+        "visible trouser section only; hidden hip and knee caps/8-unit overlap missing"
+      ]
+    },
+    {
+      "id": "shin-left",
+      "file": "layers/shin-left.png",
+      "exists": true,
+      "registration": "provisional-not-verified",
+      "rigReady": false,
+      "blockers": [
+        "open cut ends; hidden knee and ankle overlap missing"
+      ]
+    },
+    {
+      "id": "thigh-right",
+      "file": "layers/thigh-right.png",
+      "exists": true,
+      "registration": "provisional-not-verified",
+      "rigReady": false,
+      "blockers": [
+        "visible trouser section only; hidden hip and knee caps/8-unit overlap missing"
+      ]
+    },
+    {
+      "id": "shin-right",
+      "file": "layers/shin-right.png",
+      "exists": true,
+      "registration": "provisional-not-verified",
+      "rigReady": false,
+      "blockers": [
+        "open cut ends; hidden knee and ankle overlap missing"
+      ]
+    },
+    {
+      "id": "shoe-left-side",
+      "file": "layers/shoe-left-side.png",
+      "exists": true,
+      "registration": "provisional-not-verified",
+      "rigReady": false,
+      "blockers": [
+        "intact isolated shoe; facing left; rest angle/heel/toe need registration"
+      ]
+    },
+    {
+      "id": "shoe-right-side",
+      "file": "layers/shoe-right-side.png",
+      "exists": true,
+      "registration": "provisional-not-verified",
+      "rigReady": false,
+      "blockers": [
+        "intact isolated shoe; rest angle/heel/toe need registration"
+      ]
+    },
+    {
+      "id": "shoe-left-front-reference",
+      "file": "layers/shoe-left-front-reference.png",
+      "exists": true,
+      "registration": "provisional-not-verified",
+      "rigReady": false,
+      "blockers": [
+        "one isolated front-view shoe; alternative view, not a side-view walking foot"
+      ]
+    },
+    {
+      "id": "shoe-left-back-reference",
+      "file": "layers/shoe-left-back-reference.png",
+      "exists": true,
+      "registration": "provisional-not-verified",
+      "rigReady": false,
+      "blockers": [
+        "one isolated back-view shoe; alternative view, not a side-view walking foot"
+      ]
+    }
+  ],
+  "requiredArtwork": [
+    {
+      "file": "groom-head-3q-right.png",
+      "region": "Head",
+      "requirement": "Right-looking three-quarter view matching the original full-body face. Complete jaw/neck attachment; no collar or adjacent head pixels.",
+      "reason": "The existing clean head-right is left-facing; the desired head is merged with another view.",
+      "status": "required-unless-equivalent-existing-art-is-verified"
+    },
+    {
+      "file": "groom-neck.png",
+      "region": "Neck",
+      "requirement": "Fully painted neck behind beard and collar, with hidden overlap.",
+      "reason": "Not independently present.",
+      "status": "required-unless-equivalent-existing-art-is-verified"
+    },
+    {
+      "file": "groom-hair-front.png",
+      "region": "Hair",
+      "requirement": "Front hair separate from face, with a complete hidden root.",
+      "reason": "Hair is baked into head images.",
+      "status": "required-unless-equivalent-existing-art-is-verified"
+    },
+    {
+      "file": "groom-hair-back.png",
+      "region": "Hair",
+      "requirement": "Back hair separate, matching the same approved head.",
+      "reason": "Back-view head is not a front-facing hair layer.",
+      "status": "required-unless-equivalent-existing-art-is-verified"
+    },
+    {
+      "file": "groom-torso-front.png",
+      "region": "Torso",
+      "requirement": "Sleeve-free embroidered front torso with painted shoulder/armpit surfaces.",
+      "reason": "Front/back torso group touches and includes baked sleeves.",
+      "status": "required-unless-equivalent-existing-art-is-verified"
+    },
+    {
+      "file": "groom-torso-back.png",
+      "region": "Torso",
+      "requirement": "Matching back torso skin with completed shoulder joins.",
+      "reason": "No isolated compatible back skin.",
+      "status": "required-unless-equivalent-existing-art-is-verified"
+    },
+    {
+      "file": "groom-pelvis.png",
+      "region": "Pelvis",
+      "requirement": "Complete trouser waist, pelvis and hidden hip surfaces behind sherwani.",
+      "reason": "Entirely absent from the source parts.",
+      "status": "required-unless-equivalent-existing-art-is-verified"
+    },
+    {
+      "file": "groom-coat-front-left.png",
+      "region": "Coat",
+      "requirement": "Independent front hem panel, complete waist attachment and embroidery continuity.",
+      "reason": "Visible coat drawings touch; cannot separate complete panels cleanly.",
+      "status": "required-unless-equivalent-existing-art-is-verified"
+    },
+    {
+      "file": "groom-coat-front-right.png",
+      "region": "Coat",
+      "requirement": "Matching other front hem panel, same lighting and weave.",
+      "reason": "No verified separate panel.",
+      "status": "required-unless-equivalent-existing-art-is-verified"
+    },
+    {
+      "file": "groom-coat-back.png",
+      "region": "Coat",
+      "requirement": "Back hem surface behind both moving legs, including hidden waist overlap.",
+      "reason": "Not supplied as an independent matching panel.",
+      "status": "required-unless-equivalent-existing-art-is-verified"
+    },
+    {
+      "file": "groom-upper-arm-left.png",
+      "region": "Arm",
+      "requirement": "Upper sleeve only; painted shoulder and elbow caps.",
+      "reason": "Existing upper-arm reference contains a bent whole sleeve and cuff.",
+      "status": "required-unless-equivalent-existing-art-is-verified"
+    },
+    {
+      "file": "groom-upper-arm-right.png",
+      "region": "Arm",
+      "requirement": "Other upper sleeve only, from the same character master.",
+      "reason": "Same mixed upper/lower anatomy problem.",
+      "status": "required-unless-equivalent-existing-art-is-verified"
+    },
+    {
+      "file": "groom-forearm-left.png",
+      "region": "Arm",
+      "requirement": "Forearm sleeve only; matching elbow and wrist attachment.",
+      "reason": "Existing lower sleeve rest orientation and elbow fill are unverified.",
+      "status": "required-unless-equivalent-existing-art-is-verified"
+    },
+    {
+      "file": "groom-forearm-right.png",
+      "region": "Arm",
+      "requirement": "Other forearm sleeve only; compatible with holding wrist.",
+      "reason": "Hidden elbow/wrist surfaces need repainting.",
+      "status": "required-unless-equivalent-existing-art-is-verified"
+    },
+    {
+      "file": "groom-hand-right-hold-back.png",
+      "region": "Grip",
+      "requirement": "Groom hand only: rear palm/fingers, matched wrist and shared contact landmark.",
+      "reason": "Paired holding-hands image contains fused anatomy.",
+      "status": "required-unless-equivalent-existing-art-is-verified"
+    },
+    {
+      "file": "groom-hand-right-hold-front.png",
+      "region": "Grip",
+      "requirement": "Matching foreground thumb/finger occlusion layer; no bride skin baked in.",
+      "reason": "Needed to interleave the connected hands without duplicating anatomy.",
+      "status": "required-unless-equivalent-existing-art-is-verified"
+    },
+    {
+      "file": "groom-thigh-left-complete.png",
+      "region": "Leg",
+      "requirement": "Reuse the existing white cloth pixels; repaint hidden hip and knee caps.",
+      "reason": "Visible piece has open cut ends and no verified overlap.",
+      "status": "required-unless-equivalent-existing-art-is-verified"
+    },
+    {
+      "file": "groom-thigh-right-complete.png",
+      "region": "Leg",
+      "requirement": "Same for the other thigh; preserve complete opaque white trousers.",
+      "reason": "Same missing hip/knee overlap.",
+      "status": "required-unless-equivalent-existing-art-is-verified"
+    },
+    {
+      "file": "groom-shin-left-complete.png",
+      "region": "Leg",
+      "requirement": "Reuse current cloth; paint concealed knee/ankle surfaces and folds.",
+      "reason": "Knee and ankle overlap is absent.",
+      "status": "required-unless-equivalent-existing-art-is-verified"
+    },
+    {
+      "file": "groom-shin-right-complete.png",
+      "region": "Leg",
+      "requirement": "Same for the other shin, consistent rest perspective.",
+      "reason": "Open ends cannot pass flexion checks.",
+      "status": "required-unless-equivalent-existing-art-is-verified"
+    },
+    {
+      "file": "groom-shoe-left-3q.png",
+      "region": "Foot",
+      "requirement": "Matched walking-view black shoe with ankle, heel and toe landmarks.",
+      "reason": "Current side-view pair points in opposite directions.",
+      "status": "required-unless-equivalent-existing-art-is-verified"
+    },
+    {
+      "file": "groom-shoe-right-3q.png",
+      "region": "Foot",
+      "requirement": "Matched opposite foot. Existing right shoe may be reused if its perspective is approved.",
+      "reason": "No verified matched-perspective pair or contact landmarks.",
+      "status": "required-unless-equivalent-existing-art-is-verified"
+    }
+  ]
+}

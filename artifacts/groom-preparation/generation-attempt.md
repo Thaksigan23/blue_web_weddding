@@ -1,0 +1,7 @@
+# Discarded image-generation attempt
+
+The built-in image generation tool was used for an initial transparent-background edit attempt. Its result was **not used** in any layer or preview: inspecting the original RGBA pixels showed that an existing alpha mask could be isolated deterministically without redrawing the art. The final exports are original-pixel component extractions, not generated replacements.
+
+Prompt used:
+
+> Precise extraction / background removal only. This supplied labeled 1536x1024 South Asian groom character parts reference sheet must become a transparent cutout sheet. Keep every character, body-part panel, face, hair, navy sherwani embroidery, white trouser piece, black shoe, accessory in EXACTLY its existing position, scale, orientation and appearance. Do not redesign, redraw, rearrange, add anatomy, change faces, add missing limbs, or infer hidden artwork. Remove only the painted multicolored background, lighting haze, and ALL text labels and rounded label boxes. Preserve white trousers fully opaque, fine dark hair edges and intricate silver jewelry. Output same landscape composition, original framing and generous original spacing, as real RGBA transparency. This is an extraction candidate for animation rig registration, so coordinate stability and fidelity to the original are essential. Do not include checkerboard pixels, text or any background. Leave existing visible cut-off joint ends as they are, do not invent hidden extensions.

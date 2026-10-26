@@ -1,0 +1,62 @@
+{
+  "enabled": false,
+  "baseRig": "../rig.json",
+  "candidateLayer": {
+    "enabled": false,
+    "file": "public/characters/groom-waist-hip-bridge-CANDIDATE.png",
+    "sha256": "61bc245bf79f60fb3013192db02a8452e28aa9f8ae264ef72fe2b036333ca284",
+    "width": 440,
+    "height": 250,
+    "alpha": {
+      "transparent": 38034,
+      "partial": 70742,
+      "opaque": 1224,
+      "total": 110000
+    },
+    "pivot": {
+      "x": 220,
+      "y": 140,
+      "status": "explicit registration, not independently verified artwork landmark"
+    },
+    "scale": 0.1,
+    "bodyAnchor": {
+      "x": 0,
+      "y": 177
+    },
+    "bounds": {
+      "x": -22,
+      "y": 163,
+      "width": 44,
+      "height": 25
+    },
+    "drawOrder": "above both moving thighs, below torso/coat",
+    "existingPelvis": "suppressed in candidate comparison only; source untouched",
+    "stretching": "none: uniform scale 0.1; no deformation",
+    "activationApproved": false
+  },
+  "maskedTrial": {
+    "enabled": false,
+    "mask": {
+      "type": "poly",
+      "points": [
+        [
+          -13,
+          164
+        ],
+        [
+          13,
+          164
+        ],
+        [
+          19.5,
+          188
+        ],
+        [
+          -19.5,
+          188
+        ]
+      ]
+    },
+    "purpose": "Hide candidate coat embroidery non-destructively. Not a repair of shorts hem or mismatched thigh silhouettes."
+  }
+}

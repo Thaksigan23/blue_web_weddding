@@ -1,0 +1,14 @@
+{
+  "files": 27,
+  "newV2Exports": 26,
+  "reusedV1Layers": 1,
+  "mastersPreserved": true,
+  "visiblePixelsChecked": 295947,
+  "allRetainedRgbaMatchesDeclaredSource": true,
+  "transparentExteriors": true,
+  "noVisiblePixelsTouchCropBoundary": true,
+  "matteArtistApproved": false,
+  "standingRigComplete": false,
+  "walkingTests": "NOT RUN - standing rig incomplete",
+  "liveRendererChanged": false
+}

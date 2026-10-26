@@ -1,0 +1,922 @@
+{
+  "enabled": false,
+  "sourceManifest": "artifacts/groom-v2-preparation/manifest.json",
+  "repairs": {
+    "neck": "Masked original neck strip closes sampled alpha only; dark mark/shading seam remains blocked.",
+    "pelvis": "White original lower-torso pixels only, masked; no blue tabs follow the legs.",
+    "coat": "Separate upper body/core, sleeve masks and lower coat foreground reference the same original pixels. Coat remains torso-anchored.",
+    "wrist": "Relaxed hands masked above skin and placed behind original cuffs at measured (-32,144)/(31,144).",
+    "knee": "Original shin under original thigh; open thigh rim clipped at local y50. No painted cap inserted.",
+    "ankle": "Shoe behind shin; dark open shin rim clipped at local y48.2. Foot source orientation remains unapproved."
+  },
+  "staticSleeves": true,
+  "upperBodyMask": {
+    "type": "poly",
+    "points": [
+      [
+        -22,
+        62
+      ],
+      [
+        22,
+        62
+      ],
+      [
+        26,
+        78
+      ],
+      [
+        20,
+        97
+      ],
+      [
+        21,
+        122
+      ],
+      [
+        21.5,
+        124
+      ],
+      [
+        -21.5,
+        124
+      ],
+      [
+        -21,
+        122
+      ],
+      [
+        -20,
+        97
+      ],
+      [
+        -26,
+        78
+      ]
+    ]
+  },
+  "pelvisMask": {
+    "type": "poly",
+    "points": [
+      [
+        -7.5,
+        168
+      ],
+      [
+        7.5,
+        168
+      ],
+      [
+        8.5,
+        176
+      ],
+      [
+        0,
+        173.8
+      ],
+      [
+        -8.5,
+        177
+      ]
+    ]
+  },
+  "shoulderMask": {
+    "left": {
+      "type": "poly",
+      "points": [
+        [
+          -40,
+          75
+        ],
+        [
+          -25,
+          72
+        ],
+        [
+          -17,
+          81
+        ],
+        [
+          -18,
+          100
+        ],
+        [
+          -19,
+          120
+        ],
+        [
+          -23,
+          148
+        ],
+        [
+          -40,
+          148
+        ]
+      ]
+    },
+    "right": {
+      "type": "poly",
+      "points": [
+        [
+          40,
+          75
+        ],
+        [
+          25,
+          72
+        ],
+        [
+          17,
+          81
+        ],
+        [
+          18,
+          100
+        ],
+        [
+          19,
+          120
+        ],
+        [
+          23,
+          148
+        ],
+        [
+          40,
+          148
+        ]
+      ]
+    }
+  },
+  "registrationStatus": "diagnostic-estimates-only",
+  "artworkPixelsModified": false,
+  "textureRestCorrections": {
+    "thigh-left": {
+      "proximalClothCenter": -0.32214765100671183,
+      "distalClothCenter": -0.32214765100671094,
+      "rigidRestRotationDegrees": 1.0601848938211723e-15,
+      "matrix": [
+        1,
+        1.850371707708594e-17,
+        -1.850371707708594e-17,
+        1,
+        0.32214765100671183,
+        5.960928991276016e-18
+      ],
+      "verifiedAnatomicalJoint": false
+    },
+    "thigh-right": {
+      "proximalClothCenter": 1.7718120805369129,
+      "distalClothCenter": -3.8657718120805367,
+      "rigidRestRotationDegrees": -6.698681087587723,
+      "matrix": [
+        0.9931733349615314,
+        -0.11664787491158925,
+        0.11664787491158925,
+        0.9931733349615314,
+        -1.7597165129519752,
+        0.2066781139373125
+      ],
+      "verifiedAnatomicalJoint": false
+    },
+    "shin-left": {
+      "proximalClothCenter": 0.32214765100671183,
+      "distalClothCenter": -2.899328859060403,
+      "rigidRestRotationDegrees": -3.8395963379534725,
+      "matrix": [
+        0.9977554290246456,
+        -0.06696345161239235,
+        0.06696345161239235,
+        0.9977554290246456,
+        -0.3214245677394836,
+        0.021572118640233805
+      ],
+      "verifiedAnatomicalJoint": false
+    },
+    "shin-right": {
+      "proximalClothCenter": -0.16107382550335592,
+      "distalClothCenter": 0.4832214765100673,
+      "rigidRestRotationDegrees": 0.7690246825780408,
+      "matrix": [
+        0.9999099261392517,
+        0.0134216097468356,
+        -0.0134216097468356,
+        0.9999099261392517,
+        0.16105931696202733,
+        0.0021618700263359384
+      ],
+      "verifiedAnatomicalJoint": false
+    }
+  },
+  "visualReview": {
+    "activationApproved": false,
+    "standingPass": false,
+    "walkingPass": false,
+    "torsoCoat": "restricted-view-pass",
+    "relaxedWrists": "static-pass",
+    "shoulders": "candidate-only-plus-minus-2-degrees; static in gait tests",
+    "rightElbow": "experimental overlap; material continuity and grip not approved",
+    "neck": "alpha closed; dark artifact and shading seam fail",
+    "pelvis": "waist and outer hip gaps fail",
+    "knees": "alpha mostly closed; shin-top rims fail visual continuity",
+    "ankles": "sampled overlap passes; shoe facing and heel/toe contact unapproved",
+    "rejectedThighShift": "Moving cloth upward trades waist gaps for knee gaps; retain original shift 0",
+    "evidence": [
+      "standing.png",
+      "walking-phases.png",
+      "arm-tests.png"
+    ],
+    "missingArtwork": "MISSING_ARTWORK.md"
+  },
+  "layers": [
+    {
+      "id": "shoe-left-side",
+      "source": "layers/shoe-left-side.png",
+      "parentBone": "ankle-left",
+      "pivotInSourcePixels": {
+        "x": 84,
+        "y": 15
+      },
+      "uniformScale": 0.22,
+      "placementInBone": {
+        "x": 0,
+        "y": 0
+      },
+      "standingBoneToWorld": [
+        1,
+        1.734723475976807e-18,
+        -1.734723475976807e-18,
+        1,
+        -11.999999999999993,
+        267.999
+      ],
+      "rigidArtworkCorrection": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "clip": null,
+      "drawOrder": 0,
+      "animationApproved": false
+    },
+    {
+      "id": "shin-left",
+      "source": "layers/shin-left.png",
+      "parentBone": "knee-left",
+      "pivotInSourcePixels": {
+        "x": 29,
+        "y": 18
+      },
+      "uniformScale": 0.3221476510067114,
+      "placementInBone": {
+        "x": 0,
+        "y": 0
+      },
+      "standingBoneToWorld": [
+        0.9999895833333333,
+        0.004564342759525454,
+        -0.004564342759525454,
+        0.9999895833333333,
+        -11.780911547542772,
+        219.9995
+      ],
+      "rigidArtworkCorrection": [
+        0.9977554290246456,
+        -0.06696345161239235,
+        0.06696345161239235,
+        0.9977554290246456,
+        -0.3214245677394836,
+        0.021572118640233805
+      ],
+      "clip": {
+        "type": "rect",
+        "x": -30,
+        "y": -20,
+        "w": 60,
+        "h": 68.2
+      },
+      "drawOrder": 1,
+      "animationApproved": false
+    },
+    {
+      "id": "thigh-left",
+      "source": "layers/thigh-left.png",
+      "parentBone": "hip-left",
+      "pivotInSourcePixels": {
+        "x": 33,
+        "y": 16
+      },
+      "uniformScale": 0.3221476510067114,
+      "placementInBone": {
+        "x": 0,
+        "y": 0
+      },
+      "standingBoneToWorld": [
+        0.9999895833333333,
+        -0.004564342759525607,
+        0.004564342759525607,
+        0.9999895833333333,
+        -12,
+        172
+      ],
+      "rigidArtworkCorrection": [
+        1,
+        1.850371707708594e-17,
+        -1.850371707708594e-17,
+        1,
+        0.32214765100671183,
+        5.960928991276016e-18
+      ],
+      "clip": {
+        "type": "rect",
+        "x": -30,
+        "y": -20,
+        "w": 60,
+        "h": 70
+      },
+      "drawOrder": 2,
+      "animationApproved": false
+    },
+    {
+      "id": "shoe-right-side",
+      "source": "layers/shoe-right-side.png",
+      "parentBone": "ankle-right",
+      "pivotInSourcePixels": {
+        "x": 36,
+        "y": 15
+      },
+      "uniformScale": 0.22,
+      "placementInBone": {
+        "x": 0,
+        "y": 0
+      },
+      "standingBoneToWorld": [
+        1,
+        1.734723475976807e-18,
+        -1.734723475976807e-18,
+        1,
+        12.000000000000007,
+        267.999
+      ],
+      "rigidArtworkCorrection": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "clip": null,
+      "drawOrder": 3,
+      "animationApproved": false
+    },
+    {
+      "id": "shin-right",
+      "source": "layers/shin-right.png",
+      "parentBone": "knee-right",
+      "pivotInSourcePixels": {
+        "x": 27,
+        "y": 17
+      },
+      "uniformScale": 0.3221476510067114,
+      "placementInBone": {
+        "x": 0,
+        "y": 0
+      },
+      "standingBoneToWorld": [
+        0.9999895833333333,
+        0.004564342759525454,
+        -0.004564342759525454,
+        0.9999895833333333,
+        12.219088452457228,
+        219.9995
+      ],
+      "rigidArtworkCorrection": [
+        0.9999099261392517,
+        0.0134216097468356,
+        -0.0134216097468356,
+        0.9999099261392517,
+        0.16105931696202733,
+        0.0021618700263359384
+      ],
+      "clip": {
+        "type": "rect",
+        "x": -30,
+        "y": -20,
+        "w": 60,
+        "h": 68.2
+      },
+      "drawOrder": 4,
+      "animationApproved": false
+    },
+    {
+      "id": "thigh-right",
+      "source": "layers/thigh-right.png",
+      "parentBone": "hip-right",
+      "pivotInSourcePixels": {
+        "x": 33,
+        "y": 16
+      },
+      "uniformScale": 0.3221476510067114,
+      "placementInBone": {
+        "x": 0,
+        "y": 0
+      },
+      "standingBoneToWorld": [
+        0.9999895833333333,
+        -0.004564342759525607,
+        0.004564342759525607,
+        0.9999895833333333,
+        12,
+        172
+      ],
+      "rigidArtworkCorrection": [
+        0.9931733349615314,
+        -0.11664787491158925,
+        0.11664787491158925,
+        0.9931733349615314,
+        -1.7597165129519752,
+        0.2066781139373125
+      ],
+      "clip": {
+        "type": "rect",
+        "x": -30,
+        "y": -20,
+        "w": 60,
+        "h": 70
+      },
+      "drawOrder": 5,
+      "animationApproved": false
+    },
+    {
+      "id": "neck-underlap",
+      "source": "layers/neck-collar.png",
+      "parentBone": "body",
+      "pivotInSourcePixels": {
+        "x": 62,
+        "y": 47
+      },
+      "uniformScale": 0.22,
+      "placementInBone": {
+        "x": 0,
+        "y": 65
+      },
+      "standingBoneToWorld": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        -5
+      ],
+      "rigidArtworkCorrection": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "clip": {
+        "type": "rect",
+        "x": -5.5,
+        "y": 60,
+        "w": 11,
+        "h": 8
+      },
+      "drawOrder": 6,
+      "animationApproved": false
+    },
+    {
+      "id": "pelvis",
+      "source": "layers/pelvis-with-coat.png",
+      "parentBone": "body",
+      "pivotInSourcePixels": {
+        "x": 63,
+        "y": 18
+      },
+      "uniformScale": 0.25,
+      "placementInBone": {
+        "x": 0,
+        "y": 147
+      },
+      "standingBoneToWorld": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        -5
+      ],
+      "rigidArtworkCorrection": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "clip": {
+        "type": "poly",
+        "points": [
+          [
+            -7.5,
+            168
+          ],
+          [
+            7.5,
+            168
+          ],
+          [
+            8.5,
+            176
+          ],
+          [
+            0,
+            173.8
+          ],
+          [
+            -8.5,
+            177
+          ]
+        ]
+      },
+      "drawOrder": 7,
+      "animationApproved": false
+    },
+    {
+      "id": "left-static-hand",
+      "source": "layers/hand-left-relaxed-v1.png",
+      "parentBone": "body",
+      "pivotInSourcePixels": {
+        "x": 61,
+        "y": 80
+      },
+      "uniformScale": 0.16,
+      "placementInBone": {
+        "x": -32,
+        "y": 144
+      },
+      "standingBoneToWorld": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        -5
+      ],
+      "rigidArtworkCorrection": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "clip": {
+        "type": "rect",
+        "x": -60,
+        "y": 142,
+        "w": 120,
+        "h": 30
+      },
+      "drawOrder": 8,
+      "animationApproved": false
+    },
+    {
+      "id": "right-static-hand",
+      "source": "layers/hand-right-relaxed.png",
+      "parentBone": "body",
+      "pivotInSourcePixels": {
+        "x": 30,
+        "y": 97
+      },
+      "uniformScale": 0.16,
+      "placementInBone": {
+        "x": 31,
+        "y": 144
+      },
+      "standingBoneToWorld": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        -5
+      ],
+      "rigidArtworkCorrection": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "clip": {
+        "type": "rect",
+        "x": -60,
+        "y": 142,
+        "w": 120,
+        "h": 30
+      },
+      "drawOrder": 9,
+      "animationApproved": false
+    },
+    {
+      "id": "body-core",
+      "source": "layers/torso-front-with-sleeves.png",
+      "parentBone": "body",
+      "pivotInSourcePixels": {
+        "x": 80,
+        "y": 16
+      },
+      "uniformScale": 0.48,
+      "placementInBone": {
+        "x": 0,
+        "y": 70
+      },
+      "standingBoneToWorld": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        -5
+      ],
+      "rigidArtworkCorrection": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "clip": {
+        "type": "poly",
+        "points": [
+          [
+            -22,
+            62
+          ],
+          [
+            22,
+            62
+          ],
+          [
+            26,
+            78
+          ],
+          [
+            20,
+            97
+          ],
+          [
+            21,
+            122
+          ],
+          [
+            21.5,
+            124
+          ],
+          [
+            -21.5,
+            124
+          ],
+          [
+            -21,
+            122
+          ],
+          [
+            -20,
+            97
+          ],
+          [
+            -26,
+            78
+          ]
+        ]
+      },
+      "drawOrder": 10,
+      "animationApproved": false
+    },
+    {
+      "id": "left-sleeve",
+      "source": "layers/torso-front-with-sleeves.png",
+      "parentBone": "body",
+      "pivotInSourcePixels": {
+        "x": 80,
+        "y": 16
+      },
+      "uniformScale": 0.48,
+      "placementInBone": {
+        "x": 0,
+        "y": 70
+      },
+      "standingBoneToWorld": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        -5
+      ],
+      "rigidArtworkCorrection": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "clip": {
+        "type": "poly",
+        "points": [
+          [
+            -40,
+            75
+          ],
+          [
+            -25,
+            72
+          ],
+          [
+            -17,
+            81
+          ],
+          [
+            -18,
+            100
+          ],
+          [
+            -19,
+            120
+          ],
+          [
+            -23,
+            148
+          ],
+          [
+            -40,
+            148
+          ]
+        ]
+      },
+      "drawOrder": 11,
+      "animationApproved": false
+    },
+    {
+      "id": "right-sleeve",
+      "source": "layers/torso-front-with-sleeves.png",
+      "parentBone": "body",
+      "pivotInSourcePixels": {
+        "x": 80,
+        "y": 16
+      },
+      "uniformScale": 0.48,
+      "placementInBone": {
+        "x": 0,
+        "y": 70
+      },
+      "standingBoneToWorld": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        -5
+      ],
+      "rigidArtworkCorrection": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "clip": {
+        "type": "poly",
+        "points": [
+          [
+            40,
+            75
+          ],
+          [
+            25,
+            72
+          ],
+          [
+            17,
+            81
+          ],
+          [
+            18,
+            100
+          ],
+          [
+            19,
+            120
+          ],
+          [
+            23,
+            148
+          ],
+          [
+            40,
+            148
+          ]
+        ]
+      },
+      "drawOrder": 12,
+      "animationApproved": false
+    },
+    {
+      "id": "coat-foreground",
+      "source": "layers/torso-front-with-sleeves.png",
+      "parentBone": "body",
+      "pivotInSourcePixels": {
+        "x": 80,
+        "y": 16
+      },
+      "uniformScale": 0.48,
+      "placementInBone": {
+        "x": 0,
+        "y": 70
+      },
+      "standingBoneToWorld": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        -5
+      ],
+      "rigidArtworkCorrection": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "clip": {
+        "type": "poly",
+        "points": [
+          [
+            -21.5,
+            123.5
+          ],
+          [
+            21.5,
+            123.5
+          ],
+          [
+            30,
+            171
+          ],
+          [
+            -30,
+            171
+          ]
+        ]
+      },
+      "drawOrder": 13,
+      "animationApproved": false
+    },
+    {
+      "id": "head",
+      "source": "layers/head-3q-right.png",
+      "parentBone": "body",
+      "pivotInSourcePixels": {
+        "x": 70,
+        "y": 158
+      },
+      "uniformScale": 0.22,
+      "placementInBone": {
+        "x": 0,
+        "y": 65
+      },
+      "standingBoneToWorld": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        -5
+      ],
+      "rigidArtworkCorrection": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "clip": null,
+      "drawOrder": 14,
+      "animationApproved": false
+    }
+  ]
+}

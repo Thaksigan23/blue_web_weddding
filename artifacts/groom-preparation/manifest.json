@@ -1,0 +1,1338 @@
+{
+  "schemaVersion": 1,
+  "status": "INCOMPLETE_DO_NOT_ACTIVATE",
+  "enabled": false,
+  "source": {
+    "file": "public/characters/groom_reference.png",
+    "sha256": "68f23482ab247d8f02f902367ea5d882f22c96423c44f977966116715033c5a4",
+    "width": 1536,
+    "height": 1024,
+    "originalPreserved": true
+  },
+  "coordinateSystem": {
+    "viewBox": [
+      -65,
+      -6,
+      255,
+      290
+    ],
+    "units": "existing SVG logical units",
+    "note": "Raster pixels use positive y down. Left/right names follow source labels, not verified anatomical sides."
+  },
+  "registrationVerified": false,
+  "bones": {
+    "body": {
+      "parent": null,
+      "translation": [
+        0,
+        0
+      ]
+    },
+    "upper-body": {
+      "parent": "body",
+      "rotationPivot": [
+        0,
+        160
+      ]
+    },
+    "head": {
+      "parent": "upper-body",
+      "rotationPivot": [
+        0,
+        65
+      ]
+    },
+    "hip-left": {
+      "parent": "body",
+      "translation": [
+        -12,
+        177
+      ]
+    },
+    "hip-right": {
+      "parent": "body",
+      "translation": [
+        12,
+        177
+      ]
+    },
+    "knee-left": {
+      "parent": "hip-left",
+      "translation": [
+        0,
+        48
+      ]
+    },
+    "knee-right": {
+      "parent": "hip-right",
+      "translation": [
+        0,
+        48
+      ]
+    },
+    "ankle-left": {
+      "parent": "knee-left",
+      "translation": [
+        0,
+        48
+      ]
+    },
+    "ankle-right": {
+      "parent": "knee-right",
+      "translation": [
+        0,
+        48
+      ]
+    },
+    "upper-arm-left": {
+      "parent": "upper-body",
+      "translation": [
+        -23,
+        83
+      ]
+    },
+    "upper-arm-right": {
+      "parent": "upper-body",
+      "translation": [
+        23,
+        83
+      ]
+    },
+    "forearm-left": {
+      "parent": "upper-arm-left",
+      "translation": [
+        0,
+        35
+      ]
+    },
+    "forearm-right": {
+      "parent": "upper-arm-right",
+      "translation": [
+        0,
+        35
+      ]
+    }
+  },
+  "missing": [
+    "separate neck",
+    "separate front/back hair",
+    "clean torso with no attached sleeves",
+    "pelvis/hidden coat base",
+    "true separated upper arms and forearms with joint caps",
+    "independent connected-hand pose",
+    "hidden hip/knee/ankle fill",
+    "verified heel/toe and rest-angle landmarks"
+  ],
+  "layers": [
+    {
+      "id": "heads-left-front-merged-reference",
+      "file": "layers/heads-left-front-merged-reference.png",
+      "sourceBoundsPx": {
+        "x": 332,
+        "y": 61,
+        "width": 267,
+        "height": 207
+      },
+      "pixelDimensions": {
+        "width": 267,
+        "height": 207
+      },
+      "sourcePivotPx": {
+        "x": 405,
+        "y": 217
+      },
+      "pivotInLayerPx": {
+        "x": 73,
+        "y": 156
+      },
+      "parentBone": "head",
+      "drawOrder": 70,
+      "registration": {
+        "status": "provisional-not-verified",
+        "uniformScale": 0.22,
+        "targetPivotInParent": {
+          "x": 0,
+          "y": 65
+        },
+        "boundsInParent": {
+          "x": -16.06,
+          "y": 30.68,
+          "width": 58.74,
+          "height": 45.54
+        },
+        "rotationDegrees": 0,
+        "requiredOverlapLogical": 8,
+        "verifiedOverlapLogical": 0
+      },
+      "extraction": {
+        "method": "original-alpha connected-component isolation, source RGB retained, 3px antialias recovery; no generated pixels",
+        "transparentPixels": 18130,
+        "visiblePixels": 34854,
+        "minAlpha": 0,
+        "maxAlpha": 254,
+        "visiblePixelsOnCropBoundary": 0,
+        "needsCropReview": false
+      },
+      "rigReady": false,
+      "blockers": [
+        "Source parts touch/overlap in one alpha component; retained together as reference ONLY; repaint independent parts"
+      ],
+      "previewAssembly": false
+    },
+    {
+      "id": "head-right",
+      "file": "layers/head-right.png",
+      "sourceBoundsPx": {
+        "x": 595,
+        "y": 63,
+        "width": 145,
+        "height": 203
+      },
+      "pixelDimensions": {
+        "width": 145,
+        "height": 203
+      },
+      "sourcePivotPx": {
+        "x": 668,
+        "y": 218
+      },
+      "pivotInLayerPx": {
+        "x": 73,
+        "y": 155
+      },
+      "parentBone": "head",
+      "drawOrder": 70,
+      "registration": {
+        "status": "provisional-not-verified",
+        "uniformScale": 0.22,
+        "targetPivotInParent": {
+          "x": 0,
+          "y": 65
+        },
+        "boundsInParent": {
+          "x": -16.06,
+          "y": 30.9,
+          "width": 31.9,
+          "height": 44.660000000000004
+        },
+        "rotationDegrees": 0,
+        "requiredOverlapLogical": 8,
+        "verifiedOverlapLogical": 0
+      },
+      "extraction": {
+        "method": "original-alpha connected-component isolation, source RGB retained, 3px antialias recovery; no generated pixels",
+        "transparentPixels": 10317,
+        "visiblePixels": 17923,
+        "minAlpha": 0,
+        "maxAlpha": 254,
+        "visiblePixelsOnCropBoundary": 0,
+        "needsCropReview": false
+      },
+      "rigReady": false,
+      "blockers": [
+        "alternate view only; neck/collar merged"
+      ],
+      "previewAssembly": false
+    },
+    {
+      "id": "head-back",
+      "file": "layers/head-back.png",
+      "sourceBoundsPx": {
+        "x": 754,
+        "y": 65,
+        "width": 131,
+        "height": 179
+      },
+      "pixelDimensions": {
+        "width": 131,
+        "height": 179
+      },
+      "sourcePivotPx": {
+        "x": 821,
+        "y": 220
+      },
+      "pivotInLayerPx": {
+        "x": 67,
+        "y": 155
+      },
+      "parentBone": "head",
+      "drawOrder": 70,
+      "registration": {
+        "status": "provisional-not-verified",
+        "uniformScale": 0.22,
+        "targetPivotInParent": {
+          "x": 0,
+          "y": 65
+        },
+        "boundsInParent": {
+          "x": -14.74,
+          "y": 30.9,
+          "width": 28.82,
+          "height": 39.38
+        },
+        "rotationDegrees": 0,
+        "requiredOverlapLogical": 8,
+        "verifiedOverlapLogical": 0
+      },
+      "extraction": {
+        "method": "original-alpha connected-component isolation, source RGB retained, 3px antialias recovery; no generated pixels",
+        "transparentPixels": 6606,
+        "visiblePixels": 15755,
+        "minAlpha": 0,
+        "maxAlpha": 254,
+        "visiblePixelsOnCropBoundary": 0,
+        "needsCropReview": false
+      },
+      "rigReady": false,
+      "blockers": [
+        "alternate view only; no independently separated hair"
+      ],
+      "previewAssembly": false
+    },
+    {
+      "id": "torsos-front-back-merged-reference",
+      "file": "layers/torsos-front-back-merged-reference.png",
+      "sourceBoundsPx": {
+        "x": 900,
+        "y": 37,
+        "width": 375,
+        "height": 330
+      },
+      "pixelDimensions": {
+        "width": 375,
+        "height": 330
+      },
+      "sourcePivotPx": {
+        "x": 1004,
+        "y": 78
+      },
+      "pivotInLayerPx": {
+        "x": 104,
+        "y": 41
+      },
+      "parentBone": "upper-body",
+      "drawOrder": 50,
+      "registration": {
+        "status": "provisional-not-verified",
+        "uniformScale": 0.42,
+        "targetPivotInParent": {
+          "x": 0,
+          "y": 70
+        },
+        "boundsInParent": {
+          "x": -43.68,
+          "y": 52.78,
+          "width": 157.5,
+          "height": 138.6
+        },
+        "rotationDegrees": 0,
+        "requiredOverlapLogical": 8,
+        "verifiedOverlapLogical": 0
+      },
+      "extraction": {
+        "method": "original-alpha connected-component isolation, source RGB retained, 3px antialias recovery; no generated pixels",
+        "transparentPixels": 25508,
+        "visiblePixels": 92489,
+        "minAlpha": 0,
+        "maxAlpha": 254,
+        "visiblePixelsOnCropBoundary": 0,
+        "needsCropReview": false
+      },
+      "rigReady": false,
+      "blockers": [
+        "Source parts touch/overlap in one alpha component; retained together as reference ONLY; repaint independent parts"
+      ],
+      "previewAssembly": false
+    },
+    {
+      "id": "coat-panels-merged-reference",
+      "file": "layers/coat-panels-merged-reference.png",
+      "sourceBoundsPx": {
+        "x": 1260,
+        "y": 44,
+        "width": 264,
+        "height": 291
+      },
+      "pixelDimensions": {
+        "width": 264,
+        "height": 291
+      },
+      "sourcePivotPx": {
+        "x": 1324,
+        "y": 63
+      },
+      "pivotInLayerPx": {
+        "x": 64,
+        "y": 19
+      },
+      "parentBone": "upper-body",
+      "drawOrder": 45,
+      "registration": {
+        "status": "provisional-not-verified",
+        "uniformScale": 0.39,
+        "targetPivotInParent": {
+          "x": 0,
+          "y": 112
+        },
+        "boundsInParent": {
+          "x": -24.96,
+          "y": 104.59,
+          "width": 102.96000000000001,
+          "height": 113.49000000000001
+        },
+        "rotationDegrees": 0,
+        "requiredOverlapLogical": 8,
+        "verifiedOverlapLogical": 0
+      },
+      "extraction": {
+        "method": "original-alpha connected-component isolation, source RGB retained, 3px antialias recovery; no generated pixels",
+        "transparentPixels": 25319,
+        "visiblePixels": 48585,
+        "minAlpha": 0,
+        "maxAlpha": 254,
+        "visiblePixelsOnCropBoundary": 0,
+        "needsCropReview": false
+      },
+      "rigReady": false,
+      "blockers": [
+        "Source parts touch/overlap in one alpha component; retained together as reference ONLY; repaint independent parts"
+      ],
+      "previewAssembly": false
+    },
+    {
+      "id": "sleeve-left-upper-reference",
+      "file": "layers/sleeve-left-upper-reference.png",
+      "sourceBoundsPx": {
+        "x": 357,
+        "y": 408,
+        "width": 113,
+        "height": 207
+      },
+      "pixelDimensions": {
+        "width": 113,
+        "height": 207
+      },
+      "sourcePivotPx": {
+        "x": 410,
+        "y": 425
+      },
+      "pivotInLayerPx": {
+        "x": 53,
+        "y": 17
+      },
+      "parentBone": "upper-arm-left",
+      "drawOrder": 30,
+      "registration": {
+        "status": "provisional-not-verified",
+        "uniformScale": 0.33,
+        "targetPivotInParent": {
+          "x": 0,
+          "y": 0
+        },
+        "boundsInParent": {
+          "x": -17.490000000000002,
+          "y": -5.61,
+          "width": 37.29,
+          "height": 68.31
+        },
+        "rotationDegrees": 0,
+        "requiredOverlapLogical": 8,
+        "verifiedOverlapLogical": 0
+      },
+      "extraction": {
+        "method": "original-alpha connected-component isolation, source RGB retained, 3px antialias recovery; no generated pixels",
+        "transparentPixels": 10239,
+        "visiblePixels": 12084,
+        "minAlpha": 0,
+        "maxAlpha": 254,
+        "visiblePixelsOnCropBoundary": 0,
+        "needsCropReview": false
+      },
+      "rigReady": false,
+      "blockers": [
+        "bent complete sleeve includes elbow and cuff; not a clean upper-arm bone skin"
+      ],
+      "previewAssembly": false
+    },
+    {
+      "id": "sleeve-left-lower-reference",
+      "file": "layers/sleeve-left-lower-reference.png",
+      "sourceBoundsPx": {
+        "x": 487,
+        "y": 405,
+        "width": 103,
+        "height": 207
+      },
+      "pixelDimensions": {
+        "width": 103,
+        "height": 207
+      },
+      "sourcePivotPx": {
+        "x": 527,
+        "y": 421
+      },
+      "pivotInLayerPx": {
+        "x": 40,
+        "y": 16
+      },
+      "parentBone": "forearm-left",
+      "drawOrder": 31,
+      "registration": {
+        "status": "provisional-not-verified",
+        "uniformScale": 0.29,
+        "targetPivotInParent": {
+          "x": 0,
+          "y": 0
+        },
+        "boundsInParent": {
+          "x": -11.6,
+          "y": -4.64,
+          "width": 29.869999999999997,
+          "height": 60.029999999999994
+        },
+        "rotationDegrees": 0,
+        "requiredOverlapLogical": 8,
+        "verifiedOverlapLogical": 0
+      },
+      "extraction": {
+        "method": "original-alpha connected-component isolation, source RGB retained, 3px antialias recovery; no generated pixels",
+        "transparentPixels": 8643,
+        "visiblePixels": 11599,
+        "minAlpha": 0,
+        "maxAlpha": 254,
+        "visiblePixelsOnCropBoundary": 0,
+        "needsCropReview": false
+      },
+      "rigReady": false,
+      "blockers": [
+        "contains a long sleeve section and cuff; elbow cut and hidden fill missing"
+      ],
+      "previewAssembly": false
+    },
+    {
+      "id": "sleeve-right-upper-reference",
+      "file": "layers/sleeve-right-upper-reference.png",
+      "sourceBoundsPx": {
+        "x": 619,
+        "y": 408,
+        "width": 114,
+        "height": 206
+      },
+      "pixelDimensions": {
+        "width": 114,
+        "height": 206
+      },
+      "sourcePivotPx": {
+        "x": 651,
+        "y": 425
+      },
+      "pivotInLayerPx": {
+        "x": 32,
+        "y": 17
+      },
+      "parentBone": "upper-arm-right",
+      "drawOrder": 60,
+      "registration": {
+        "status": "provisional-not-verified",
+        "uniformScale": 0.33,
+        "targetPivotInParent": {
+          "x": 0,
+          "y": 0
+        },
+        "boundsInParent": {
+          "x": -10.56,
+          "y": -5.61,
+          "width": 37.620000000000005,
+          "height": 67.98
+        },
+        "rotationDegrees": 0,
+        "requiredOverlapLogical": 8,
+        "verifiedOverlapLogical": 0
+      },
+      "extraction": {
+        "method": "original-alpha connected-component isolation, source RGB retained, 3px antialias recovery; no generated pixels",
+        "transparentPixels": 9859,
+        "visiblePixels": 12518,
+        "minAlpha": 0,
+        "maxAlpha": 254,
+        "visiblePixelsOnCropBoundary": 0,
+        "needsCropReview": false
+      },
+      "rigReady": false,
+      "blockers": [
+        "bent complete sleeve includes elbow and cuff; not a clean upper-arm bone skin"
+      ],
+      "previewAssembly": false
+    },
+    {
+      "id": "sleeve-right-lower-reference",
+      "file": "layers/sleeve-right-lower-reference.png",
+      "sourceBoundsPx": {
+        "x": 737,
+        "y": 408,
+        "width": 128,
+        "height": 171
+      },
+      "pixelDimensions": {
+        "width": 128,
+        "height": 171
+      },
+      "sourcePivotPx": {
+        "x": 750,
+        "y": 433
+      },
+      "pivotInLayerPx": {
+        "x": 13,
+        "y": 25
+      },
+      "parentBone": "forearm-right",
+      "drawOrder": 61,
+      "registration": {
+        "status": "provisional-not-verified",
+        "uniformScale": 0.29,
+        "targetPivotInParent": {
+          "x": 0,
+          "y": 0
+        },
+        "boundsInParent": {
+          "x": -3.7699999999999996,
+          "y": -7.249999999999999,
+          "width": 37.12,
+          "height": 49.589999999999996
+        },
+        "rotationDegrees": 0,
+        "requiredOverlapLogical": 8,
+        "verifiedOverlapLogical": 0
+      },
+      "extraction": {
+        "method": "original-alpha connected-component isolation, source RGB retained, 3px antialias recovery; no generated pixels",
+        "transparentPixels": 11496,
+        "visiblePixels": 9453,
+        "minAlpha": 0,
+        "maxAlpha": 254,
+        "visiblePixelsOnCropBoundary": 0,
+        "needsCropReview": false
+      },
+      "rigReady": false,
+      "blockers": [
+        "angled cuffed sleeve; matching elbow attachment requires reconstruction"
+      ],
+      "previewAssembly": false
+    },
+    {
+      "id": "hand-left-relaxed",
+      "file": "layers/hand-left-relaxed.png",
+      "sourceBoundsPx": {
+        "x": 874,
+        "y": 410,
+        "width": 97,
+        "height": 174
+      },
+      "pixelDimensions": {
+        "width": 97,
+        "height": 174
+      },
+      "sourcePivotPx": {
+        "x": 935,
+        "y": 490
+      },
+      "pivotInLayerPx": {
+        "x": 61,
+        "y": 80
+      },
+      "parentBone": "forearm-left",
+      "drawOrder": 65,
+      "registration": {
+        "status": "provisional-not-verified",
+        "uniformScale": 0.16,
+        "targetPivotInParent": {
+          "x": 0,
+          "y": 38
+        },
+        "boundsInParent": {
+          "x": -9.76,
+          "y": 25.2,
+          "width": 15.52,
+          "height": 27.84
+        },
+        "rotationDegrees": 0,
+        "requiredOverlapLogical": 8,
+        "verifiedOverlapLogical": 0
+      },
+      "extraction": {
+        "method": "original-alpha connected-component isolation, source RGB retained, 3px antialias recovery; no generated pixels",
+        "transparentPixels": 7600,
+        "visiblePixels": 8228,
+        "minAlpha": 0,
+        "maxAlpha": 254,
+        "visiblePixelsOnCropBoundary": 0,
+        "needsCropReview": false
+      },
+      "rigReady": false,
+      "blockers": [
+        "cuff included; wrist seam, anatomy side and contact pose need verification"
+      ],
+      "previewAssembly": true
+    },
+    {
+      "id": "hand-right-relaxed",
+      "file": "layers/hand-right-relaxed.png",
+      "sourceBoundsPx": {
+        "x": 977,
+        "y": 410,
+        "width": 98,
+        "height": 178
+      },
+      "pixelDimensions": {
+        "width": 98,
+        "height": 178
+      },
+      "sourcePivotPx": {
+        "x": 1019,
+        "y": 488
+      },
+      "pivotInLayerPx": {
+        "x": 42,
+        "y": 78
+      },
+      "parentBone": "forearm-right",
+      "drawOrder": 66,
+      "registration": {
+        "status": "provisional-not-verified",
+        "uniformScale": 0.16,
+        "targetPivotInParent": {
+          "x": 0,
+          "y": 38
+        },
+        "boundsInParent": {
+          "x": -6.72,
+          "y": 25.52,
+          "width": 15.68,
+          "height": 28.48
+        },
+        "rotationDegrees": 0,
+        "requiredOverlapLogical": 8,
+        "verifiedOverlapLogical": 0
+      },
+      "extraction": {
+        "method": "original-alpha connected-component isolation, source RGB retained, 3px antialias recovery; no generated pixels",
+        "transparentPixels": 7650,
+        "visiblePixels": 8811,
+        "minAlpha": 0,
+        "maxAlpha": 254,
+        "visiblePixelsOnCropBoundary": 0,
+        "needsCropReview": false
+      },
+      "rigReady": false,
+      "blockers": [
+        "cuff included; wrist seam, anatomy side and contact pose need verification"
+      ],
+      "previewAssembly": true
+    },
+    {
+      "id": "hands-hold-reference",
+      "file": "layers/hands-hold-reference.png",
+      "sourceBoundsPx": {
+        "x": 1076,
+        "y": 425,
+        "width": 208,
+        "height": 161
+      },
+      "pixelDimensions": {
+        "width": 208,
+        "height": 161
+      },
+      "sourcePivotPx": {
+        "x": 1186,
+        "y": 515
+      },
+      "pivotInLayerPx": {
+        "x": 110,
+        "y": 90
+      },
+      "parentBone": "pair-world",
+      "drawOrder": 80,
+      "registration": {
+        "status": "provisional-not-verified",
+        "uniformScale": 0.16,
+        "targetPivotInParent": {
+          "x": 61.5,
+          "y": 136
+        },
+        "boundsInParent": {
+          "x": 43.9,
+          "y": 121.6,
+          "width": 33.28,
+          "height": 25.76
+        },
+        "rotationDegrees": 0,
+        "requiredOverlapLogical": 8,
+        "verifiedOverlapLogical": 0
+      },
+      "extraction": {
+        "method": "original-alpha connected-component isolation, source RGB retained, 3px antialias recovery; no generated pixels",
+        "transparentPixels": 17448,
+        "visiblePixels": 14716,
+        "minAlpha": 0,
+        "maxAlpha": 254,
+        "visiblePixelsOnCropBoundary": 0,
+        "needsCropReview": false
+      },
+      "rigReady": false,
+      "blockers": [
+        "two fused hands; cannot use as a separated groom hand; redraw holding pose and wrist"
+      ],
+      "previewAssembly": false
+    },
+    {
+      "id": "hand-left-open",
+      "file": "layers/hand-left-open.png",
+      "sourceBoundsPx": {
+        "x": 1276,
+        "y": 413,
+        "width": 124,
+        "height": 173
+      },
+      "pixelDimensions": {
+        "width": 124,
+        "height": 173
+      },
+      "sourcePivotPx": {
+        "x": 1330,
+        "y": 490
+      },
+      "pivotInLayerPx": {
+        "x": 54,
+        "y": 77
+      },
+      "parentBone": "forearm-left",
+      "drawOrder": 65,
+      "registration": {
+        "status": "provisional-not-verified",
+        "uniformScale": 0.16,
+        "targetPivotInParent": {
+          "x": 0,
+          "y": 38
+        },
+        "boundsInParent": {
+          "x": -8.64,
+          "y": 25.68,
+          "width": 19.84,
+          "height": 27.68
+        },
+        "rotationDegrees": 0,
+        "requiredOverlapLogical": 8,
+        "verifiedOverlapLogical": 0
+      },
+      "extraction": {
+        "method": "original-alpha connected-component isolation, source RGB retained, 3px antialias recovery; no generated pixels",
+        "transparentPixels": 11746,
+        "visiblePixels": 8699,
+        "minAlpha": 0,
+        "maxAlpha": 254,
+        "visiblePixelsOnCropBoundary": 0,
+        "needsCropReview": false
+      },
+      "rigReady": false,
+      "blockers": [
+        "alternative hand pose; includes cuff; fingers must remain intact"
+      ],
+      "previewAssembly": false
+    },
+    {
+      "id": "hand-right-open",
+      "file": "layers/hand-right-open.png",
+      "sourceBoundsPx": {
+        "x": 1412,
+        "y": 412,
+        "width": 104,
+        "height": 175
+      },
+      "pixelDimensions": {
+        "width": 104,
+        "height": 175
+      },
+      "sourcePivotPx": {
+        "x": 1476,
+        "y": 486
+      },
+      "pivotInLayerPx": {
+        "x": 64,
+        "y": 74
+      },
+      "parentBone": "forearm-right",
+      "drawOrder": 66,
+      "registration": {
+        "status": "provisional-not-verified",
+        "uniformScale": 0.16,
+        "targetPivotInParent": {
+          "x": 0,
+          "y": 38
+        },
+        "boundsInParent": {
+          "x": -10.24,
+          "y": 26.16,
+          "width": 16.64,
+          "height": 28
+        },
+        "rotationDegrees": 0,
+        "requiredOverlapLogical": 8,
+        "verifiedOverlapLogical": 0
+      },
+      "extraction": {
+        "method": "original-alpha connected-component isolation, source RGB retained, 3px antialias recovery; no generated pixels",
+        "transparentPixels": 9245,
+        "visiblePixels": 7882,
+        "minAlpha": 0,
+        "maxAlpha": 254,
+        "visiblePixelsOnCropBoundary": 0,
+        "needsCropReview": false
+      },
+      "rigReady": false,
+      "blockers": [
+        "alternative hand pose; includes cuff; verify wrist orientation"
+      ],
+      "previewAssembly": false
+    },
+    {
+      "id": "thigh-left",
+      "file": "layers/thigh-left.png",
+      "sourceBoundsPx": {
+        "x": 351,
+        "y": 696,
+        "width": 90,
+        "height": 267
+      },
+      "pixelDimensions": {
+        "width": 90,
+        "height": 267
+      },
+      "sourcePivotPx": {
+        "x": 396,
+        "y": 718
+      },
+      "pivotInLayerPx": {
+        "x": 45,
+        "y": 22
+      },
+      "parentBone": "hip-left",
+      "drawOrder": 10,
+      "registration": {
+        "status": "provisional-not-verified",
+        "uniformScale": 0.21052631578947367,
+        "targetPivotInParent": {
+          "x": 0,
+          "y": 0
+        },
+        "boundsInParent": {
+          "x": -9.473684210526315,
+          "y": -4.631578947368421,
+          "width": 18.94736842105263,
+          "height": 56.21052631578947
+        },
+        "rotationDegrees": 0,
+        "requiredOverlapLogical": 8,
+        "verifiedOverlapLogical": 0
+      },
+      "extraction": {
+        "method": "original-alpha connected-component isolation, source RGB retained, 3px antialias recovery; no generated pixels",
+        "transparentPixels": 6915,
+        "visiblePixels": 15634,
+        "minAlpha": 0,
+        "maxAlpha": 254,
+        "visiblePixelsOnCropBoundary": 0,
+        "needsCropReview": false
+      },
+      "rigReady": false,
+      "blockers": [
+        "visible trouser section only; hidden hip and knee caps/8-unit overlap missing"
+      ],
+      "previewAssembly": true
+    },
+    {
+      "id": "shin-left",
+      "file": "layers/shin-left.png",
+      "sourceBoundsPx": {
+        "x": 476,
+        "y": 728,
+        "width": 84,
+        "height": 236
+      },
+      "pixelDimensions": {
+        "width": 84,
+        "height": 236
+      },
+      "sourcePivotPx": {
+        "x": 515,
+        "y": 745
+      },
+      "pivotInLayerPx": {
+        "x": 39,
+        "y": 17
+      },
+      "parentBone": "knee-left",
+      "drawOrder": 11,
+      "registration": {
+        "status": "provisional-not-verified",
+        "uniformScale": 0.24242424242424243,
+        "targetPivotInParent": {
+          "x": 0,
+          "y": 0
+        },
+        "boundsInParent": {
+          "x": -9.454545454545455,
+          "y": -4.121212121212121,
+          "width": 20.363636363636363,
+          "height": 57.21212121212121
+        },
+        "rotationDegrees": 0,
+        "requiredOverlapLogical": 8,
+        "verifiedOverlapLogical": 0
+      },
+      "extraction": {
+        "method": "original-alpha connected-component isolation, source RGB retained, 3px antialias recovery; no generated pixels",
+        "transparentPixels": 6313,
+        "visiblePixels": 12152,
+        "minAlpha": 0,
+        "maxAlpha": 254,
+        "visiblePixelsOnCropBoundary": 0,
+        "needsCropReview": false
+      },
+      "rigReady": false,
+      "blockers": [
+        "open cut ends; hidden knee and ankle overlap missing"
+      ],
+      "previewAssembly": true
+    },
+    {
+      "id": "thigh-right",
+      "file": "layers/thigh-right.png",
+      "sourceBoundsPx": {
+        "x": 614,
+        "y": 696,
+        "width": 96,
+        "height": 268
+      },
+      "pixelDimensions": {
+        "width": 96,
+        "height": 268
+      },
+      "sourcePivotPx": {
+        "x": 664,
+        "y": 716
+      },
+      "pivotInLayerPx": {
+        "x": 50,
+        "y": 20
+      },
+      "parentBone": "hip-right",
+      "drawOrder": 12,
+      "registration": {
+        "status": "provisional-not-verified",
+        "uniformScale": 0.21052631578947367,
+        "targetPivotInParent": {
+          "x": 0,
+          "y": 0
+        },
+        "boundsInParent": {
+          "x": -10.526315789473683,
+          "y": -4.2105263157894735,
+          "width": 20.210526315789473,
+          "height": 56.421052631578945
+        },
+        "rotationDegrees": 0,
+        "requiredOverlapLogical": 8,
+        "verifiedOverlapLogical": 0
+      },
+      "extraction": {
+        "method": "original-alpha connected-component isolation, source RGB retained, 3px antialias recovery; no generated pixels",
+        "transparentPixels": 9148,
+        "visiblePixels": 15094,
+        "minAlpha": 0,
+        "maxAlpha": 254,
+        "visiblePixelsOnCropBoundary": 0,
+        "needsCropReview": false
+      },
+      "rigReady": false,
+      "blockers": [
+        "visible trouser section only; hidden hip and knee caps/8-unit overlap missing"
+      ],
+      "previewAssembly": true
+    },
+    {
+      "id": "shin-right",
+      "file": "layers/shin-right.png",
+      "sourceBoundsPx": {
+        "x": 758,
+        "y": 724,
+        "width": 79,
+        "height": 239
+      },
+      "pixelDimensions": {
+        "width": 79,
+        "height": 239
+      },
+      "sourcePivotPx": {
+        "x": 794,
+        "y": 744
+      },
+      "pivotInLayerPx": {
+        "x": 36,
+        "y": 20
+      },
+      "parentBone": "knee-right",
+      "drawOrder": 13,
+      "registration": {
+        "status": "provisional-not-verified",
+        "uniformScale": 0.24242424242424243,
+        "targetPivotInParent": {
+          "x": 0,
+          "y": 0
+        },
+        "boundsInParent": {
+          "x": -8.727272727272727,
+          "y": -4.848484848484849,
+          "width": 19.151515151515152,
+          "height": 57.93939393939394
+        },
+        "rotationDegrees": 0,
+        "requiredOverlapLogical": 8,
+        "verifiedOverlapLogical": 0
+      },
+      "extraction": {
+        "method": "original-alpha connected-component isolation, source RGB retained, 3px antialias recovery; no generated pixels",
+        "transparentPixels": 5980,
+        "visiblePixels": 11598,
+        "minAlpha": 0,
+        "maxAlpha": 254,
+        "visiblePixelsOnCropBoundary": 0,
+        "needsCropReview": false
+      },
+      "rigReady": false,
+      "blockers": [
+        "open cut ends; hidden knee and ankle overlap missing"
+      ],
+      "previewAssembly": true
+    },
+    {
+      "id": "shoe-left-side",
+      "file": "layers/shoe-left-side.png",
+      "sourceBoundsPx": {
+        "x": 876,
+        "y": 713,
+        "width": 157,
+        "height": 88
+      },
+      "pixelDimensions": {
+        "width": 157,
+        "height": 88
+      },
+      "sourcePivotPx": {
+        "x": 993,
+        "y": 745
+      },
+      "pivotInLayerPx": {
+        "x": 117,
+        "y": 32
+      },
+      "parentBone": "ankle-left",
+      "drawOrder": 14,
+      "registration": {
+        "status": "provisional-not-verified",
+        "uniformScale": 0.14,
+        "targetPivotInParent": {
+          "x": 0,
+          "y": 0
+        },
+        "boundsInParent": {
+          "x": -16.380000000000003,
+          "y": -4.48,
+          "width": 21.98,
+          "height": 12.32
+        },
+        "rotationDegrees": 0,
+        "requiredOverlapLogical": 8,
+        "verifiedOverlapLogical": 0
+      },
+      "extraction": {
+        "method": "original-alpha connected-component isolation, source RGB retained, 3px antialias recovery; no generated pixels",
+        "transparentPixels": 5542,
+        "visiblePixels": 7422,
+        "minAlpha": 0,
+        "maxAlpha": 253,
+        "visiblePixelsOnCropBoundary": 0,
+        "needsCropReview": false
+      },
+      "rigReady": false,
+      "blockers": [
+        "intact isolated shoe; facing left; rest angle/heel/toe need registration"
+      ],
+      "previewAssembly": true
+    },
+    {
+      "id": "shoe-right-side",
+      "file": "layers/shoe-right-side.png",
+      "sourceBoundsPx": {
+        "x": 1066,
+        "y": 712,
+        "width": 154,
+        "height": 87
+      },
+      "pixelDimensions": {
+        "width": 154,
+        "height": 87
+      },
+      "sourcePivotPx": {
+        "x": 1106,
+        "y": 744
+      },
+      "pivotInLayerPx": {
+        "x": 40,
+        "y": 32
+      },
+      "parentBone": "ankle-right",
+      "drawOrder": 15,
+      "registration": {
+        "status": "provisional-not-verified",
+        "uniformScale": 0.14,
+        "targetPivotInParent": {
+          "x": 0,
+          "y": 0
+        },
+        "boundsInParent": {
+          "x": -5.6000000000000005,
+          "y": -4.48,
+          "width": 21.560000000000002,
+          "height": 12.180000000000001
+        },
+        "rotationDegrees": 0,
+        "requiredOverlapLogical": 8,
+        "verifiedOverlapLogical": 0
+      },
+      "extraction": {
+        "method": "original-alpha connected-component isolation, source RGB retained, 3px antialias recovery; no generated pixels",
+        "transparentPixels": 5110,
+        "visiblePixels": 7452,
+        "minAlpha": 0,
+        "maxAlpha": 254,
+        "visiblePixelsOnCropBoundary": 0,
+        "needsCropReview": false
+      },
+      "rigReady": false,
+      "blockers": [
+        "intact isolated shoe; rest angle/heel/toe need registration"
+      ],
+      "previewAssembly": true
+    },
+    {
+      "id": "shoe-left-front-reference",
+      "file": "layers/shoe-left-front-reference.png",
+      "sourceBoundsPx": {
+        "x": 884,
+        "y": 843,
+        "width": 78,
+        "height": 107
+      },
+      "pixelDimensions": {
+        "width": 78,
+        "height": 107
+      },
+      "sourcePivotPx": {
+        "x": 959,
+        "y": 866
+      },
+      "pivotInLayerPx": {
+        "x": 75,
+        "y": 23
+      },
+      "parentBone": "ankle",
+      "drawOrder": 15,
+      "registration": {
+        "status": "provisional-not-verified",
+        "uniformScale": 0.14,
+        "targetPivotInParent": {
+          "x": 0,
+          "y": 48
+        },
+        "boundsInParent": {
+          "x": -10.500000000000002,
+          "y": 44.78,
+          "width": 10.920000000000002,
+          "height": 14.980000000000002
+        },
+        "rotationDegrees": 0,
+        "requiredOverlapLogical": 8,
+        "verifiedOverlapLogical": 0
+      },
+      "extraction": {
+        "method": "original-alpha connected-component isolation, source RGB retained, 3px antialias recovery; no generated pixels",
+        "transparentPixels": 2414,
+        "visiblePixels": 5311,
+        "minAlpha": 0,
+        "maxAlpha": 253,
+        "visiblePixelsOnCropBoundary": 0,
+        "needsCropReview": false
+      },
+      "rigReady": false,
+      "blockers": [
+        "one isolated front-view shoe; alternative view, not a side-view walking foot"
+      ],
+      "previewAssembly": false
+    },
+    {
+      "id": "shoe-left-back-reference",
+      "file": "layers/shoe-left-back-reference.png",
+      "sourceBoundsPx": {
+        "x": 1052,
+        "y": 853,
+        "width": 78,
+        "height": 96
+      },
+      "pixelDimensions": {
+        "width": 78,
+        "height": 96
+      },
+      "sourcePivotPx": {
+        "x": 1125,
+        "y": 868
+      },
+      "pivotInLayerPx": {
+        "x": 73,
+        "y": 15
+      },
+      "parentBone": "ankle",
+      "drawOrder": 15,
+      "registration": {
+        "status": "provisional-not-verified",
+        "uniformScale": 0.14,
+        "targetPivotInParent": {
+          "x": 0,
+          "y": 48
+        },
+        "boundsInParent": {
+          "x": -10.22,
+          "y": 45.9,
+          "width": 10.920000000000002,
+          "height": 13.440000000000001
+        },
+        "rotationDegrees": 0,
+        "requiredOverlapLogical": 8,
+        "verifiedOverlapLogical": 0
+      },
+      "extraction": {
+        "method": "original-alpha connected-component isolation, source RGB retained, 3px antialias recovery; no generated pixels",
+        "transparentPixels": 1980,
+        "visiblePixels": 4953,
+        "minAlpha": 0,
+        "maxAlpha": 253,
+        "visiblePixelsOnCropBoundary": 0,
+        "needsCropReview": false
+      },
+      "rigReady": false,
+      "blockers": [
+        "one isolated back-view shoe; alternative view, not a side-view walking foot"
+      ],
+      "previewAssembly": false
+    }
+  ]
+}

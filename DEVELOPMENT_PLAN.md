@@ -115,3 +115,9 @@ Venue follow-up in this pass: live Google Maps resolved the search to Concord Gr
 - Real Google map now replaces the decorative location card; verified rendering displays Concord Grand Hotel. Existing directions link remains available outside the iframe.
 - Footer reuses the original Techloom mark with “Made with love by”.
 - Validation: 19 unit tests and production build pass. Browser checks cover card mismatch/completion/restart, audio playback/pause/volume, butterfly response, map rendering, mobile replay/Skip, and responsive name layout. Physical iOS audio/volume and external WhatsApp completion remain device checks.
+
+## Hero and butterfly refinement — 27 October 2026
+- Refined the invitation hero with larger single-line couple names, restrained uppercase ceremony label, silver divider and editorial serif date/venue styling.
+- Increased butterflies to six on mobile and eight on desktop with wider drifting paths and faster wing motion; tap/hover flight and reduced-motion opt-out remain intact.
+- Removed the volume button, slider, panel state and listeners. Music play/pause remains, with a gentle initial volume and normal device volume controls.
+- Production build and all 19 automated tests pass.

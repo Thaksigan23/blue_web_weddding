@@ -1,0 +1,23 @@
+[
+  {
+    "butterflies": 6,
+    "headingFits": true,
+    "overflow": false,
+    "volumeControl": false,
+    "width": 360
+  },
+  {
+    "butterflies": 6,
+    "headingFits": true,
+    "overflow": false,
+    "volumeControl": false,
+    "width": 430
+  },
+  {
+    "butterflies": 8,
+    "headingFits": true,
+    "overflow": false,
+    "volumeControl": false,
+    "width": 1280
+  }
+]

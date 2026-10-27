@@ -24,10 +24,10 @@ const links = [
 
 export default function InvitationExtras({reduced}) {
   const audio = useRef(null);
-  const panel = useRef(null);
+
   const [playing,setPlaying] = useState(false);
-  const [volume,setVolume] = useState(.35);
-  const [volumeOpen,setVolumeOpen] = useState(false);
+
+
   const [audioError,setAudioError] = useState('');
   const [active,setActive] = useState('welcome');
   useEffect(() => {
@@ -38,13 +38,7 @@ export default function InvitationExtras({reduced}) {
     links.forEach(([id]) => {const section=document.getElementById(id);if(section)observer.observe(section)});
     return () => observer.disconnect();
   }, []);
-  useEffect(() => {if(audio.current) audio.current.volume=volume}, [volume]);
-  useEffect(() => {
-    if(!volumeOpen)return;
-    const close = event => {if(event.key==='Escape'||(event.type==='pointerdown'&&!panel.current?.contains(event.target)))setVolumeOpen(false)};
-    document.addEventListener('pointerdown',close);document.addEventListener('keydown',close);
-    return()=>{document.removeEventListener('pointerdown',close);document.removeEventListener('keydown',close)};
-  }, [volumeOpen]);
+  useEffect(() => {if(audio.current) audio.current.volume=.35}, []);
   const toggleMusic = async () => {
     const player=audio.current;
     if(!player)return;
@@ -59,10 +53,8 @@ export default function InvitationExtras({reduced}) {
   return <>
     <audio ref={audio} src="/audio/wedding-music.mp3" loop preload="none" onPlay={()=>setPlaying(true)} onPause={()=>setPlaying(false)} onError={()=>{setPlaying(false);setAudioError('Music is unavailable right now.')}}/>
     {!reduced&&<Butterflies/>}
-    <div className="invitation-side-controls" ref={panel}>
+    <div className="invitation-side-controls">
       <button type="button" className="invitation-round whatsapp-control" onClick={share} aria-label="Share this invitation on WhatsApp" title="Share on WhatsApp"><Icon name="whatsapp"/></button>
-      <button type="button" className="invitation-round" onClick={()=>setVolumeOpen(value=>!value)} aria-expanded={volumeOpen} aria-controls="invitation-volume" aria-label="Music volume" title="Music volume"><Icon name="volume"/></button>
-      {volumeOpen&&<div className="invitation-volume" id="invitation-volume"><label htmlFor="music-volume">Music volume <output>{Math.round(volume*100)}%</output></label><input id="music-volume" type="range" min="0" max="1" step=".05" value={volume} onChange={event=>setVolume(Number(event.target.value))}/><small>Some phones use the device volume buttons.</small></div>}
     </div>
     <div className="invitation-mobile-dock"><nav aria-label="Quick invitation navigation">{links.map(([id,icon,label])=><a key={id} href={`#${id}`} aria-label={label} title={label} aria-current={active===id?'location':undefined}><Icon name={icon}/></a>)}</nav><button type="button" className={`invitation-round music-control ${playing?'is-playing':''}`} aria-label={playing?'Pause wedding music':'Play wedding music'} aria-pressed={playing} title={playing?'Pause music':'Play music'} onClick={toggleMusic}><Icon name={playing?'pause':'music'}/></button></div>
     {audioError&&<p className="invitation-audio-error" role="status">{audioError}</p>}
@@ -78,4 +70,4 @@ function Butterfly({index}) {
     <svg viewBox="0 0 60 50" aria-hidden="true"><g className="butterfly-left"><path d="M30 25C12-5-5 1 9 23-2 35 16 49 30 27Z" fill="#6ab9ec"/><path d="M28 24C16 9 8 9 14 22m14 5C17 28 12 35 18 37" fill="none" stroke="#c4e8ff" strokeWidth="1"/></g><g className="butterfly-right"><path d="M30 25C48-5 65 1 51 23c11 12-7 26-21 4Z" fill="#3893ce"/><path d="M32 24C44 9 52 9 46 22m-14 5c11 1 16 8 10 10" fill="none" stroke="#c4e8ff" strokeWidth="1"/></g><path d="M30 32V20m0 1-5-7m5 7 5-7" fill="none" stroke="#153d60" strokeWidth="1.5"/></svg>
   </button>;
 }
-function Butterflies(){return <div className="invitation-butterflies">{[0,1,2].map(index=><Butterfly index={index} key={index}/>)}</div>}
+function Butterflies(){return <div className="invitation-butterflies">{[0,1,2,3,4,5,6,7].map(index=><Butterfly index={index} key={index}/>)}</div>}

@@ -7,16 +7,22 @@ test('deck contains exactly two of each of the six symbols', () => {
   assert.equal(new Set(deck.map(card => card.uid)).size, 12);
   for (const symbol of symbols) assert.equal(deck.filter(card => card.id === symbol.id).length, 2);
 });
+test('matching cards use the Tamil wedding illustration set', () => {
+  assert.deepEqual(symbols.map(({id}) => id), [
+    'thaali', 'kuthu-vilakku', 'kolam', 'malligai', 'kalasam', 'maavilai-thoranam',
+  ]);
+  for (const {src} of symbols) assert.match(src, /^\/images\/game\/icon-[a-z-]+\.svg$/);
+});
 test('mismatch locks the board until concealment and duplicate clicks do not count', () => {
   let game = newGame();
-  game = flip(game, 'rings-0');
-  assert.equal(flip(game, 'rings-0'), game);
-  game = flip(game, 'bell-0');
+  game = flip(game, 'thaali-0');
+  assert.equal(flip(game, 'thaali-0'), game);
+  game = flip(game, 'kalasam-0');
   assert.equal(game.moves, 1);
-  assert.equal(flip(game, 'lotus-0'), game);
+  assert.equal(flip(game, 'malligai-0'), game);
   game = gameReducer(game, {type: 'hide'});
   assert.equal(game.flipped.length, 0);
-  assert.equal(flip(game, 'rings-0').flipped.length, 1);
+  assert.equal(flip(game, 'thaali-0').flipped.length, 1);
 });
 test('six matched pairs win once, remain unavailable, and restart resets progress', () => {
   let game = newGame();

@@ -14,8 +14,8 @@ function setup(options={}){
  const calls=[];const dispose=startOpeningPlayback(video,{src:'/real-file-added-later.mp4',documentRef:doc,onPlaying:()=>calls.push('playing'),onEnded:()=>calls.push('ended'),onFallback:reason=>calls.push(reason),loadTimeoutMs:200,stallTimeoutMs:20,...options});
  return {video,doc,calls,dispose};
 }
-test('enabled video selection excludes desktop, reduced motion, disabled configuration and failed attempts',()=>{
- assert.equal(mobileOpening.enabled,true);
+test('the active opening uses the illustration while the optional video selector remains gated',()=>{
+ assert.equal(mobileOpening.enabled,false);
  const enabled={...mobileOpening,enabled:true};
  for(const conditions of [{config:{...mobileOpening,enabled:false},mobile:true},{config:enabled,mobile:false},{config:enabled,mobile:true,reduced:true},{config:enabled,mobile:true,failed:true},{config:{...enabled,src:''},mobile:true}])assert.equal(shouldUseMobileVideo(conditions),false);
  assert.equal(shouldUseMobileVideo({config:enabled,mobile:true}),true);

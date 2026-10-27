@@ -8,7 +8,7 @@ The live site still uses the existing illustrated SVG fallback. No realistic ani
 
 ## Artwork and performance to commission
 
-Use the supplied `public/images/light-invitation.jpg` as the identity, clothing and illustration reference. Build approved, full-length, human-proportioned South Asian character masters before animation. Preserve the groom's styled black hair, natural beard, navy kurta/sherwani, ivory-white trousers and black shoes. Preserve the bride's long brown-black waves, silver jewelry, royal-blue embroidered lehenga and sheer dupatta. Deliver realistic skin shading, textile detail and consistent silver embroidery, with restrained moonlit blue rim lighting. Avoid large cartoon heads, changing facial identity, flickering embroidery and limb distortion.
+Use `public/images/blue-couple-opening.png` as the approved appearance and face reference. Build full-length, human-proportioned South Asian character masters before animation. Preserve the groom's styled black hair and natural beard, with a navy embroidered sherwani, ivory veshti/dhoti, and blue accents. Preserve the bride's long dark hair styled with jasmine, and use the same deep-blue saree with silver-blue embroidery and jewelry shown in the reference. Keep their facial appearance, clothing colors, and proportions consistent. Avoid large cartoon heads, changing facial identity, flickering embroidery and limb distortion.
 
 The characters must hold hands throughout. Use a proper alternating two-step gait with heel strike, toe-off, knee flexion, pelvis/shoulder counter-rotation, weight transfer and restrained secondary cloth/hair motion. A 3D rig with foot contact constraints, shared hand constraints and cloth simulation is preferred. Do not regenerate each frame independently.
 

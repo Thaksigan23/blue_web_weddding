@@ -1,7 +1,11 @@
 export const symbols = [
-  ['rings', 'Rings'], ['thaali', 'Thaali'], ['lantern', 'Lantern'],
-  ['kumbam', 'Kumbam'], ['bell', 'Bell'], ['lotus', 'Lotus'],
-].map(([id, label]) => ({id, label, src: `/images/game/icon-${id}.jpg`}));
+  ['thaali', 'Thirumangalyam · Thaali'],
+  ['kuthu-vilakku', 'Kuthu Vilakku'],
+  ['kolam', 'Kolam'],
+  ['malligai', 'Malligai Garland'],
+  ['kalasam', 'Kalasam'],
+  ['maavilai-thoranam', 'Mango-leaf Thoranam'],
+].map(([id, label]) => ({id, label, src: `/images/game/icon-${id}.svg`}));
 
 export function newGame(random = Math.random) {
   const deck = symbols.flatMap(symbol => [0, 1].map(copy => ({...symbol, uid: `${symbol.id}-${copy}`})));

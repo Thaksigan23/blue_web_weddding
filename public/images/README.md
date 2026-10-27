@@ -1,7 +1,5 @@
 # Original invitation artwork
 
-`dark-invitation.jpg` and `light-invitation.jpg` are the supplied original JPEGs, copied without changing their pixels. The full light reference is displayed without cropping as the invitation artwork.
+`dark-invitation.jpg` and `light-invitation.jpg` are the supplied original JPEGs, copied without changing their pixels. They remain preserved as references. `blue-couple-opening.png` is the approved supplied blue couple artwork, used unchanged in the opening and guest hero.
 
-The opening uses the existing vector characters and a procedural skeletal animation system, not generated sprites. No walking sprite manifest is fetched. Character shapes and shading live in `src/WalkingCouple.jsx`; gait and IK math live in `src/walkMath.js`.
-
-The vector characters preserve the established navy kurta, ivory trousers, brown wavy hair, earrings and embroidered blue dress. They remain an illustrated approximation of the original portrait.
+The opening animates the complete image with a gentle reveal and subtle floating sway. Since the image is flattened, it does not support independent body or face animation.

@@ -1,6 +1,18 @@
 export const PHASES = ['Left contact','Left down','Left passing','Left up','Right contact','Right down','Right passing','Right up'];
+export const CEREMONY_END = 11.6;
 const clamp = (x,a=0,b=1)=>Math.min(b,Math.max(a,x));
 export const smooth = x=>{x=clamp(x);return x*x*(3-2*x)};
+export function ceremonyTimeline(t) {
+  return {
+    bow:smooth((t-6.25)/.35)*(1-smooth((t-6.85)/.35)),
+    face:smooth((t-6.2)/.8),
+    release:smooth((t-6.35)/.45)*(1-smooth((t-9.2)/.55)),
+    raise:smooth((t-7)/.65)*(1-smooth((t-8.75)/.65)),
+    transfer:smooth((t-7.45)/1.15),
+    transferVisible:smooth((t-7.25)/.35)*(1-smooth((t-9.1)/.4)),
+    malas:smooth((t-8.5)/.6)
+  };
+}
 export function weightShift(phase){
   const positions=[0,2.5,0,-2,0,2.5,0,-2,0];
   const frame=((phase%1+1)%1)*8,index=Math.floor(frame);

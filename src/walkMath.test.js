@@ -1,6 +1,6 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {journey,footTarget,solveJoint,weightShift,PHASES,footContact} from './walkMath.js';
+import {journey,footTarget,solveJoint,weightShift,PHASES,footContact,ceremonyTimeline,CEREMONY_END} from './walkMath.js';
 
 test('stance soles stay planted in world space and IK preserves bone lengths',()=>{
   for(let distance=0;distance<500;distance+=.2){
@@ -31,4 +31,15 @@ test('heel and toe roll preserve the grounded contact point',()=>{
     assert.ok(Math.abs(roll.x+anchor*Math.cos(angle)-10*Math.sin(angle)-anchor)<1e-9);
     assert.ok(Math.abs(-roll.lift+anchor*Math.sin(angle)+10*Math.cos(angle)-10)<1e-9);
   }
+});
+
+test('ceremony choreography bows, exchanges garlands, and ends joined',()=>{
+  const approach=ceremonyTimeline(6),exchange=ceremonyTimeline(8.2),finish=ceremonyTimeline(CEREMONY_END);
+  assert.equal(approach.transferVisible,0);
+  assert.ok(ceremonyTimeline(6.6).bow>0);
+  assert.ok(exchange.raise>0);
+  assert.ok(exchange.transferVisible>0);
+  assert.equal(finish.raise,0);
+  assert.equal(finish.transferVisible,0);
+  assert.equal(finish.malas,1);
 });

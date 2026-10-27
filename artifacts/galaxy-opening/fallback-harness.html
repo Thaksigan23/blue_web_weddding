@@ -1,0 +1,5 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="/assets/index-DZK0_pvR.css"><title>Local galaxy fallback check</title></head><body><div id="root"></div><script>
+const mode=new URLSearchParams(location.search).get('qa');
+if(mode==='no-canvas') HTMLCanvasElement.prototype.getContext=function(){return null};
+if(mode==='reduced') {const original=window.matchMedia.bind(window);window.matchMedia=query=>query==='(prefers-reduced-motion: reduce)'?{matches:true,media:query,addEventListener(){},removeEventListener(){},addListener(){},removeListener(){},dispatchEvent(){return true}}:original(query)}
+</script><script type="module" src="/assets/index-DKSipELe.js"></script></body></html>

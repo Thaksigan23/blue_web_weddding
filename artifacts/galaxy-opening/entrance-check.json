@@ -1,0 +1,13 @@
+{
+  "realBefore": {
+    "filter": "blur(8px)",
+    "opacity": "0",
+    "transform": "matrix(0.78, 0, 0, 0.78, 0, 36)"
+  },
+  "realAfter": {
+    "filter": "blur(0px)",
+    "opacity": "1",
+    "transform": "none"
+  },
+  "manualArrival": true
+}

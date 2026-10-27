@@ -2,13 +2,13 @@
 
 React + Vite + Tailwind CSS v4 + Framer Motion. Run `npm install`, `npm run dev`; production: `npm run build` and `npm run preview`.
 
-The blue Tamil-inspired opening and guest invitation artwork use the exact approved transparent couple illustration at `public/images/blue-couple-opening.png`. The opening gives the complete image a gentle fade and subtle floating sway; its flattened figures do not independently walk or exchange garlands. This is a browser animation, not an exported video file; the optional mobile MP4 path remains inactive. Reduced-motion preferences bypass the opening and disable decorative motion. Intro can be skipped by keyboard or pointer.
+The centered opening animates the supplied floral SR logo and the names Sharon & Ramaniya. It contains no couple photo or Skip control. Click to Open has a soft glow pulse and starts a blue galaxy journey into the invitation. A seven-second timer starts the same journey automatically. The galaxy lasts about 2.5 seconds and dissolves into the page; a timeout guarantees arrival even without canvas support. Reduced-motion preferences bypass the opening. Replay controls are removed.
 
 The original invitation images remain unchanged. The guest hero uses the approved blue couple artwork at `public/images/blue-couple-opening.png`.
 
 The earlier articulated SVG character rig remains in `src/WalkingCouple.jsx` with its gait and ceremony math in `src/walkMath.js`, but it is not used in the opening or invitation artwork. The supplied couple image is preserved as one image and is not separated into independently animated body parts.
 
-The opening and guest hero both use the same supplied blue artwork. Run `node --test src/walkMath.test.js` for the retained articulated-rig math and ceremony timeline regression checks.
+The guest hero retains the supplied blue couple artwork; the opening is logo and text only. Run `node --test src/walkMath.test.js` for the retained articulated-rig math and ceremony timeline regression checks.
 
 Confirmed event data, countdown and calendar export are in `src/engagement.js`; guest sections are in `src/InvitationPage.jsx`. Typography uses Google Fonts with local serif/cursive fallbacks; the page works without network font access. Garden visuals are local SVG/CSS. No invitation responses or personal data are collected.
 

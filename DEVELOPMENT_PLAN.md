@@ -130,3 +130,40 @@ Venue follow-up in this pass: live Google Maps resolved the search to Concord Gr
 
 ## Merge reconciliation — 27 October 2026
 Merged the friend's illustration opening and updated game artwork with the local hero refinement. The owner explicitly selected the new illustration opening for all screen sizes; the old video and SVG rig remain preserved but inactive. Local single-line hero typography, silver divider, six/eight butterflies and removed volume control remain active. This supersedes earlier notes describing active video playback and volume sliders.
+
+## Midnight presentation — 27 October 2026
+- Desktop/laptop screens (1024px+) show the live mobile invitation in a centered silver-edged phone on an original navy floral backdrop. The same-origin iframe provides a genuine narrow viewport, so existing fixed controls, navigation and scroll behavior stay within the phone. A query guard prevents recursive frames. Sharing strips that internal query flag.
+- Phones and smaller tablets keep the existing full-width layout, with a unified midnight-blue theme, icy typography, silver accents and original floral line work across all sections. No RSVP or experimental rigs introduced.
+- Venue section uses a real Concord Grand property exterior photograph, navy overlay, confirmed address and date, Maps link, calendar download, and an optional expandable live map. The photo is hotel property imagery, not a claim about a specific ballroom; provenance is recorded in public/images/venue/README.md.
+- Ambient butterflies: 10 visible on mobile and 14 on larger full-page views, in varied sizes and flight paths. The overlay never captures pointer input; a passive observer scatters nearby butterflies when guests touch, preserving the underlying action. No tab stops or screen-reader noise; reduced-motion mode removes them.
+- Previous song remains active pending the user's replacement audio file. Music play/pause remains; the removed volume control stays absent.
+- Production build and 21 automated tests pass. Browser validation covers desktop phone rendering, mobile layout, venue map disclosure and existing controls.
+
+### Supplied floral background and slimmer desktop phone
+The supplied dark navy floral artwork is preserved as public/images/midnight-floral-background.png and used for the desktop backdrop. Replaced the broad, short device with a 384 × 880 logical frame that scales proportionally to the available viewport height. Verified complete frame visibility at 1024 × 600, 1366 × 768 and 1920 × 1080, and no desktop frame or horizontal overflow at 390px mobile. Actual mobile layout is unchanged. Production build and 21 tests pass; no push performed.
+
+### Floral background inside every invitation section — 28 October 2026
+Extended the supplied midnight floral artwork to the opening, header, hero, introduction, countdown, ceremony, gallery, game, closing, footer and couple artwork panel. Each section sizes the image proportionally at its top and bottom, with a dark center overlay for legibility. The venue retains its real property photo with a matching floral overlay. Desktop frame sizing, music, navigation and guest interactions are unchanged. Production build and all 21 tests pass; browser style checks confirm all sections carry the artwork, with no console errors.
+
+### Coordinated designs and desktop-wide butterflies — 28 October 2026
+Supersedes the repeated-background approach: the supplied landscape image now appears only in the outer desktop backdrop. A new original portrait-floral-corner.svg provides related blue petals, silver foliage and restrained white buds for the opening, guest sections, header and venue accents in every inner invitation view. The photo-backed venue remains intact. Reused AmbientButterflies adds 20 passive butterflies across the outer desktop presentation behind the phone; inner invitation butterflies and reduced-motion support remain. Build and all 21 tests pass; browser confirms separate portrait background, one-line names, 20 non-intercepting desktop butterflies and no console errors.
+
+### Supplied portrait background and floral logo — 28 October 2026
+The newly supplied tall floral PNG now forms one fixed, non-interactive backdrop behind normal scrolling invitation content, replacing the earlier per-section vector-corner treatment. No background-attachment:fixed, scroll interception or scroll trapping is used. Venue photography remains. Desktop phone view hides its navigation links and scrollbar through the embedded-view class, while retaining scrolling and music; actual mobile navigation remains visible. The supplied transparent blue-gold SR PNG replaces the old visible monogram and favicon, preserving original colors and aspect ratio; original vector assets remain archived in place. Browser confirms section-link scrolling, pointer-events:none backdrop, mobile dock retained and no horizontal overflow or console errors. Build and all 21 tests pass.
+
+## Current guest experience — 28 October 2026
+- Names are Sharon & Ramaniya throughout visible content, accessible labels, metadata and calendar summary; initials removed from written names, while the approved SR logo remains.
+- Intro is now a centered, staggered logo-and-text reveal with an immediate Click to Open action and a 7-second auto-open timer. No couple picture, Skip or Replay controls. Reduced motion bypasses the intro. Original assets and dormant rigs remain preserved.
+- Header and footer are simplified to centered logos with existing footer credit. Removed Discover the Celebration, WhatsApp sharing, the extra AND between parents, and the game navigation entry. The game section remains accessible by scrolling.
+- The mobile bar holds five section links plus the music control in one pill. Desktop phone view continues to hide section navigation and retains the music control.
+- Active music is the existing traditional nadaswaram instrumental, loaded on demand with play/pause. Both original audio assets are preserved.
+- Gallery now contains one genuine venue photo explicitly captioned Sample gallery image · Concord Grand; no sample people are presented as the couple.
+- Validation: production build and 21 tests pass. Browser verified intro present at 5.2s and invitation present after the 7-second timer plus dissolve; manual opening, six equal-height mobile bar slots, instrumental playback, absence of removed controls, loaded sample photo, centered footer, no overflow and no console errors.
+
+### Animated entrance and galaxy journey — 28 October 2026
+- Fixed the initial-entrance suppression caused by AnimatePresence initial=false. Browser verification now records the logo changing from opacity 0 / blur 8px / translated 36px to opacity 1 / no blur / no translation, with staggered name/details entrance.
+- Removed the button arrow and added a slow, luminous silver/gold border pulse and sheen; text remains stable. Hover, pressed and keyboard-focus states remain visible.
+- Click to Open and the 7-second timer now begin a roughly 2.5-second navy galaxy journey: perspective star trails, restrained gold stars and blue nebula light, followed by an 0.8-second dissolve. A guarded request prevents repeated activation; timeout arrival works if canvas is unavailable. Reduced-motion users bypass both intro and galaxy.
+- Desktop phone invitation header logo is moved down with 40px top spacing and a 120px logo width, clear of the camera area. Actual mobile header placement is unchanged.
+- Restored the user-selected available romantic track; traditional instrumental remains preserved.
+- Validation: production build and 21 tests pass; browser verifies manual and automatic arrival, no lingering overlay, first-load entrance motion, romantic audio playback, lower desktop logo, no-canvas arrival and reduced-motion bypass in isolated QA harnesses. No errors reported. Temporary built-output QA harnesses were cleared by the final build; source/evidence remains in artifacts/galaxy-opening.

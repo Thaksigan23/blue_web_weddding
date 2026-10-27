@@ -1,0 +1,19 @@
+.desktop-presentation{height:100svh;display:flex;align-items:center;justify-content:center;position:relative;isolation:isolate;overflow:hidden;background:linear-gradient(#02112614,#02112624),url('/images/midnight-floral-background.png') center/cover no-repeat,#04152e;padding:24px 0 40px}
+.desktop-presentation:before{content:'';position:absolute;inset:18px;border:1px solid #b8d0e21a;z-index:-1;pointer-events:none}
+.desktop-phone{position:relative;display:flex;flex-direction:column;flex-shrink:0;width:384px;height:880px;padding:10px;border:2px solid #c5c9c8;border-radius:49px;background:linear-gradient(120deg,#111b26,#030810 55%,#142332);box-shadow:0 30px 85px #0009,0 0 0 3px #09101d,inset 0 0 0 1px #ffffff25;transform:scale(var(--phone-scale,1));transform-origin:center}
+.desktop-phone:before,.desktop-phone:after{content:'';position:absolute;width:3px;background:#a8b3bc;left:-5px;top:130px;height:38px;border-radius:2px}.desktop-phone:after{left:auto;right:-5px;top:155px;height:66px}
+.desktop-phone-top{position:relative;height:34px;flex-shrink:0;border-radius:38px 38px 0 0;background:#07172e}
+.desktop-phone-top span{position:absolute;left:50%;top:0;transform:translateX(-50%);width:104px;height:25px;background:#02060b;border-radius:0 0 18px 18px}
+.desktop-phone-top i{position:absolute;left:calc(50% + 30px);top:9px;width:6px;height:6px;border-radius:50%;background:#172334;box-shadow:inset 0 0 2px #346389}
+.desktop-phone-screen{display:block;width:100%;flex:1;min-height:0;border:0;background:#061735}
+.desktop-phone-bottom{height:25px;flex-shrink:0;border-radius:0 0 38px 38px;background:#07172e;display:flex;align-items:center;justify-content:center}
+.desktop-phone-bottom span{height:4px;width:112px;border-radius:10px;background:#aebfce99}
+.desktop-presentation-caption{position:absolute;bottom:12px;margin:0;color:#b6cddd;font:10px/1.5 'Jost',sans-serif;letter-spacing:.2em;text-align:center}
+.desktop-presentation-caption span{display:block;font-size:8px;letter-spacing:.18em;margin-top:3px;color:#89a8c0}
+@media(max-height:650px){.desktop-presentation-caption{bottom:7px;font-size:8px}.desktop-presentation-caption span{display:none}}
+.invitation-phone-view{color-scheme:dark;scrollbar-width:thin;scrollbar-color:#61809966 #07182e}
+.invitation-phone-view .intro{min-height:100svh}
+.invitation-phone-view .opening-couple-motion{height:min(39svh,360px);bottom:21%}
+.invitation-phone-view .intro-heading{top:16%}
+body:has(.desktop-presentation){overflow:hidden}
+.desktop-presentation{position:fixed;inset:0}

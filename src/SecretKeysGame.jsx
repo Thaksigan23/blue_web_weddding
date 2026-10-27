@@ -33,7 +33,7 @@ export default function SecretKeysGame() {
           </button></li>;
         })}
       </ul>
-      <p className="memory-status" role="status" aria-live="polite">{game.won ? 'All six pairs found! May love and joy surround S. Sharon & R. Ramaniya as they begin this beautiful chapter.' : game.flipped.length === 2 ? 'Not a match. Try another pair.' : game.matched.length > 0 ? `${game.matched.length} of six pairs found. Keep going!` : 'Choose any two cards to begin.'}</p>
+      <p className="memory-status" role="status" aria-live="polite">{game.won ? 'All six pairs found! May love and joy surround Sharon & Ramaniya as they begin this beautiful chapter.' : game.flipped.length === 2 ? 'Not a match. Try another pair.' : game.matched.length > 0 ? `${game.matched.length} of six pairs found. Keep going!` : 'Choose any two cards to begin.'}</p>
       <button className="guest-button guest-button-dark" type="button" onClick={restart}>Play again <span aria-hidden="true">↻</span></button>
     </div>
   </section>;

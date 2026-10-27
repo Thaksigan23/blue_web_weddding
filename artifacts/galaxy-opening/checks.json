@@ -1,0 +1,19 @@
+{
+  "entranceBefore": {
+    "filter": "blur(8px)",
+    "opacity": "0",
+    "transform": "matrix(0.78, 0, 0, 0.78, 0, 36)"
+  },
+  "entranceAfter": {
+    "filter": "blur(0px)",
+    "opacity": "1",
+    "transform": "none"
+  },
+  "autoGalaxy": 1,
+  "autoArrival": {
+    "page": 1,
+    "overlay": 0
+  },
+  "canvasFallbackArrived": true,
+  "reducedMotionBypassed": true
+}

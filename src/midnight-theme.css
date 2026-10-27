@@ -1,0 +1,135 @@
+/* Unified midnight stationery palette; original artwork remains untouched. */
+.guest-site{--ink:#e4eff8;--muted:#b4cadd;--paper:#081c34;--silver:#93b4ce;color:var(--ink);background:#081c34;isolation:isolate}
+.guest-site>.guest-section,.guest-hero,.guest-header,.guest-footer{position:relative;z-index:1}
+.guest-header{background:#07182ef2;border-color:#a8c7df24;color:#dbeaf7}
+.guest-header .sr-monogram,.guest-empty-art .sr-monogram{filter:none}
+.guest-hero{background:radial-gradient(ellipse at 8% 35%,#24557645,transparent 65%),linear-gradient(155deg,#0e2b49,#07182e 80%)}
+.guest-hero h1,.guest-hero-date time,.guest-hero-venue{color:#eaf3fc}
+.guest-hero h1 em,.guest-site h2 em{color:#9fc2dc}
+.guest-hero .guest-overline,.guest-hero-copy .guest-kicker,.guest-hero .guest-ceremony,.guest-hero-date span,.guest-hero-venue span,.guest-hero-side{color:#b0c9de}
+.guest-hero .guest-button,.guest-button,.guest-button-dark{border-color:#a0bdd37a;background:linear-gradient(135deg,#315c7c70,#183a5866);color:#e7f3fd;box-shadow:inset 0 1px 0 #d9edff10,0 8px 26px #0002}
+.guest-hero .guest-button:hover,.guest-button:hover,.guest-button-dark:hover{background:#315c7c;color:#fff;border-color:#c2d8e8}
+.guest-introduction{background:radial-gradient(ellipse at 85% 30%,#23486735,transparent 65%),#0a2039}
+.guest-section{border-top:1px solid #b2d1e012}
+.guest-introduction:before,.guest-gallery:before,.guest-memory:before{content:'';position:absolute;inset:0;pointer-events:none;z-index:-1;opacity:.1;background-image:url('/branding/floral-pattern.svg');background-size:260px 360px;background-position:right top;background-repeat:repeat}
+.guest-families div>span,.guest-family-amp,.guest-empty-label,.guest-venue-location{color:#adc8de}
+.guest-bloom{color:#a6c8e1}
+.guest-event{background:radial-gradient(ellipse at 5% 85%,#234f702e,transparent 60%),#081c34}
+.guest-event-card{background:linear-gradient(140deg,#153751,#0a233d);border-color:#8bacbf55;box-shadow:0 20px 45px #0003}
+.guest-event-card dt,.guest-event-card dd span,.guest-small{color:#b8cedf}
+.guest-event-card dl>div{border-color:#a6c4d62b}
+.guest-gallery{background:radial-gradient(ellipse at 90% 0%,#21466144,transparent 65%),#0b243e}
+.guest-empty-art{background:linear-gradient(140deg,#133a56,#0a2039);border-color:#8daec24d}
+.guest-empty-art:before{border-color:#afcadd26}
+.guest-memory{position:relative;background:radial-gradient(ellipse at top,#20486644,transparent 70%),#091e36}
+.memory-stats dt,.memory-status{color:#b4cadd}
+.memory-card-front{background:#102b43}.memory-card-front>span{color:#e7f3fd}
+.memory-card-back{background:linear-gradient(145deg,#284d68,#0a213a);border-color:#8faec477}
+.guest-countdown-section{background:radial-gradient(ellipse at 50% 40%,#1b4261,#06172e 85%)}
+.guest-closing{background:radial-gradient(ellipse at top,#193b57,#06162b 80%)}
+.guest-footer{background:#041329;border-top:1px solid #a6c4d625}
+.guest-skip{background:#132e49;color:#edf5fc}
+.guest-site :focus-visible{outline-color:#b5dafa}
+.invitation-mobile-dock nav{background:#0b2440f5;border-color:#8aafca70;box-shadow:0 8px 28px #0005}
+.invitation-mobile-dock nav a{color:#b7d0e4}
+.invitation-mobile-dock nav a[aria-current]{color:#ecf7ff;background:linear-gradient(135deg,#3a6585,#1e4567);box-shadow:inset 0 0 0 1px #afcde350}
+.invitation-round{background:linear-gradient(135deg,#315d7e,#163b5a);color:#e2f0fb;border-color:#8cafca80}
+.invitation-round:hover{background:#355f7f}
+.invitation-butterflies{z-index:0}
+.blue-butterfly{pointer-events:none}
+.guest-art-panel{outline-color:#b9d6e044;box-shadow:0 22px 55px #0005}
+.traditional-artwork{background:radial-gradient(ellipse at 50% 55%,#37608466,transparent 70%),#0c2844;border-color:#aecde15c}
+.guest-venue-destination{display:block;position:relative;max-width:none;min-height:620px;padding:76px 24px;isolation:isolate;overflow:hidden;text-align:center;background:#071b34}
+.venue-destination-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 45%;z-index:-3}
+.guest-venue-destination:before{content:'';position:absolute;inset:0;background:linear-gradient(180deg,#06172e99,#071b34c9 55%,#06172ef5);z-index:-2}
+.guest-venue-destination:after{content:'';position:absolute;inset:14px;border:1px solid #bfd6e332;z-index:-1;pointer-events:none;background:url('/branding/floral-pattern.svg') left bottom/240px 340px no-repeat;opacity:.65}
+.venue-destination-content{max-width:540px;margin:auto}
+.guest-venue-destination .guest-kicker{color:#c1d8e9;letter-spacing:.24em}
+.guest-venue-destination h2{font-size:clamp(42px,10vw,62px);margin:18px 0 20px}
+.guest-venue-destination .guest-copy{color:#d2e2ee;max-width:430px;margin:0 auto 22px}
+.guest-venue-destination .guest-venue-location{color:#c2d6e6;margin:0 0 26px;font-size:14px}
+.venue-destination-content>.guest-button{width:100%;max-width:380px;justify-content:center;border-radius:30px;text-transform:uppercase;letter-spacing:.14em;font-size:11px;background:linear-gradient(120deg,#315b83,#183b64);min-height:52px}
+.venue-calendar-action{display:flex;align-items:center;justify-content:space-between;gap:15px;text-align:left;width:100%;max-width:380px;min-height:66px;margin:16px auto 0;padding:12px 20px;border:1px solid #91b7d344;border-radius:16px;background:#06162ee8;color:#e8f2fb}
+.venue-calendar-action strong{display:block;font:22px 'Cormorant Garamond',serif;font-weight:500}.venue-calendar-action small{display:block;color:#afc7dc;font-size:11px;margin-top:3px}.venue-calendar-action>span:last-child{font-size:22px}
+.venue-live-map{max-width:380px;margin:20px auto 0;text-align:left;font-size:13px;color:#bfd8eb}
+.venue-live-map summary{cursor:pointer;min-height:44px;padding:12px 0;text-align:center}
+.venue-live-map iframe{display:block;width:100%;height:270px;border:1px solid #91b7d344;border-radius:12px;background:#0d2946}
+@media(max-width:600px){.guest-venue-destination{padding:66px 24px;min-height:610px}.guest-venue-destination h2{font-size:44px}}
+/* Ambient butterflies pass through all interactions, including touch. */
+.invitation-butterflies{z-index:8;pointer-events:none}
+.invitation-butterflies .blue-butterfly{pointer-events:none;opacity:.42;animation-name:butterfly-roam;filter:drop-shadow(0 0 6px #78c4ff55)}
+.invitation-butterflies .blue-butterfly.is-fleeing{animation:butterfly-flee 1.3s ease-in forwards}
+@keyframes butterfly-roam{0%,100%{transform:translate(0,0) rotate(-12deg)}30%{transform:translate(calc(var(--travel-x)*.45),calc(var(--travel-y)*.3)) rotate(12deg)}65%{transform:translate(var(--travel-x),var(--travel-y)) rotate(-8deg)}}
+@media(max-width:767px){.invitation-butterflies .blue-butterfly{display:block;opacity:.36}.invitation-butterflies .blue-butterfly:nth-child(n+11){display:none}}
+.invitation-butterflies .blue-butterfly{animation-duration:var(--flight-duration);animation-delay:var(--flight-delay)}
+.invitation-butterflies .blue-butterfly.is-fleeing{animation-duration:1.3s;animation-delay:0s}
+
+/* A distinct portrait stationery system inside the invitation.
+   The landscape reference is reserved for the outer desktop presentation. */
+.guest-site{--portrait-floral:url('/branding/portrait-floral-corner.svg');background:#04152e}
+.guest-site :is(.guest-hero,.guest-section:not(.guest-venue-destination),.guest-footer){
+  background-color:#06192f;
+  background-image:radial-gradient(ellipse at 50% 35%,#234a6630,transparent 72%),linear-gradient(90deg,#06192f0d,#06192f88 24%,#06192fb3 70%),var(--portrait-floral);
+  background-size:auto,auto,clamp(120px,46vw,215px) auto;
+  background-position:center,center,left top;
+  background-repeat:no-repeat;
+}
+.guest-site :is(.guest-countdown-section,.guest-gallery,.guest-closing){
+  background-color:#05152b;
+  background-position:center,center,right top;
+}
+.guest-introduction:before,.guest-gallery:before,.guest-memory:before{display:none}
+.guest-header{background:linear-gradient(90deg,#07192ee6,#07192ef5),var(--portrait-floral) left top/150px auto no-repeat,#07192e}
+.traditional-artwork{background:radial-gradient(ellipse at center,#23476666,transparent 75%),#09223b}
+.scene-camera .blue-illustration-scene{
+  background:radial-gradient(ellipse at 50% 60%,#254f733d,transparent 60%),url('/branding/portrait-floral-corner.svg') left top/180px auto no-repeat,#04152e;
+}
+.guest-venue-destination:after{background:var(--portrait-floral) left bottom/180px auto no-repeat;opacity:.4}
+.desktop-presentation>.invitation-butterflies{z-index:-1}
+.desktop-presentation>.invitation-butterflies .blue-butterfly{opacity:.32}
+
+/* One non-interactive portrait backdrop; content scrolls normally above it.
+   Avoid background-attachment:fixed, which repaints poorly on mobile Safari. */
+.guest-site{position:relative;background:transparent}
+.guest-site:before{
+  content:'';position:fixed;inset:0;z-index:-1;pointer-events:none;
+  background:linear-gradient(90deg,#04152e44,#04152e80 25%,#04152e73 75%,#04152e38),url('/images/portrait-floral-background.png') center/cover no-repeat,#04152e;
+}
+.guest-site :is(.guest-hero,.guest-section:not(.guest-venue-destination),.guest-footer){
+  background:linear-gradient(#04152e35,#04152e55);
+}
+.guest-header{background:#04152edb;backdrop-filter:blur(6px)}
+.traditional-artwork{background:radial-gradient(ellipse at center,#23476655,transparent 75%),#09223b80}
+.scene-camera .blue-illustration-scene{
+  background:linear-gradient(#04152e55,#04152e99),url('/images/portrait-floral-background.png') center/cover no-repeat,#04152e;
+}
+.guest-venue-destination:after{background:none;opacity:.5}
+
+/* Actual phones keep the dock. Only the desktop presentation hides navigation. */
+.invitation-phone-view .guest-header nav,
+.invitation-phone-view .invitation-mobile-dock nav{display:none}
+.invitation-phone-view .invitation-mobile-dock{left:auto;right:14px;bottom:14px}
+.invitation-phone-view .guest-site{padding-bottom:24px}
+.invitation-phone-view{scrollbar-width:none}
+.invitation-phone-view::-webkit-scrollbar{display:none;width:0;height:0}
+.invitation-phone-view body::-webkit-scrollbar{display:none;width:0;height:0}
+/* Music now occupies the sixth slot in the mobile navigation pill. */
+.invitation-mobile-dock nav .music-control{height:44px;width:auto;min-width:44px;flex:1;border:0;box-shadow:none;background:transparent;border-radius:50%;color:#c3d9e9}
+.invitation-mobile-dock nav .music-control:hover,.invitation-mobile-dock nav .music-control.is-playing{background:#31577788;color:#f1f8fd}
+.invitation-phone-view .invitation-mobile-dock nav{display:flex;background:none;padding:0;border:0;box-shadow:none}
+.invitation-phone-view .invitation-mobile-dock nav a{display:none}
+.invitation-phone-view .invitation-mobile-dock nav .music-control{width:44px;flex:none;border:1px solid #8cafca80;background:#163b5add}
+@media(min-width:768px){.invitation-mobile-dock nav{display:flex}.invitation-mobile-dock nav a{display:none}.invitation-mobile-dock nav .music-control{background:#163b5add;border:1px solid #8cafca80}}
+/* Minimal centered identity, without header navigation or replay controls. */
+.guest-header.guest-header-centered{justify-content:center;border:0;background:transparent;backdrop-filter:none;padding:15px 20px}
+.guest-header-centered .guest-monogram{justify-content:center;min-width:0;min-height:0}
+.guest-header-centered .sr-monogram{width:110px}
+.guest-footer{flex-direction:column;justify-content:center;text-align:center;gap:12px}
+.guest-footer>.sr-monogram{width:110px}
+.guest-footer .guest-credit{flex-basis:auto;width:min(100%,440px)}
+.guest-media-grid:has(figure:only-child){grid-template-columns:1fr;max-width:600px;margin-inline:auto}
+.guest-media-grid figure:only-child img{aspect-ratio:800/418;height:auto;border:1px solid #aec8da50;border-radius:8px}
+.guest-media-grid figcaption{color:#bdd2e2;font-size:12px;line-height:1.7;text-align:center}
+/* Keep the invitation logo clear of the desktop phone's camera area. */
+.invitation-phone-view .guest-header.guest-header-centered{padding-top:40px;padding-bottom:20px}
+.invitation-phone-view .guest-header-centered .sr-monogram{width:120px}

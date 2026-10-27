@@ -1,0 +1,25 @@
+.intro.centered-opening{height:auto;min-height:100svh;display:grid;place-items:center;padding:max(26px,env(safe-area-inset-top)) 22px max(26px,env(safe-area-inset-bottom));background:linear-gradient(#04152e55,#04152e88),url('/images/portrait-floral-background.png') center/cover no-repeat,#04152e;isolation:isolate}
+.centered-opening-content{width:100%;max-width:520px;text-align:center;display:flex;align-items:center;flex-direction:column}
+.centered-opening-logo .sr-monogram{width:190px;max-width:50vw;height:auto;filter:drop-shadow(0 5px 18px #0004)}
+.centered-opening-eyebrow{font:500 9px/1.8 'Jost',sans-serif;letter-spacing:.23em;color:#bed3e3;margin:23px 0 13px}
+.centered-opening-content h1{font:500 clamp(23px,6.5vw,38px)/1.25 'Cormorant Garamond',serif;white-space:nowrap;letter-spacing:-.035em;color:#ecf4fc;text-shadow:0 2px 15px #0003;margin:0}
+.centered-opening-content h1 em{font-size:.7em;color:#c7bc9b;margin-inline:2px}
+.centered-opening-details{margin:17px 0 28px;color:#c9dce9}
+.centered-opening-details p{font:italic 22px/1.3 'Cormorant Garamond',serif;margin:0 0 15px}
+.centered-opening-rule{display:flex;align-items:center;justify-content:center;gap:14px;font-size:17px;color:#b4bfd0;margin:0 auto 15px;width:140px}
+.centered-opening-rule:before,.centered-opening-rule:after{content:'';height:1px;flex:1;background:linear-gradient(90deg,transparent,#b1c5d080)}
+.centered-opening-rule:after{transform:rotate(180deg)}
+.centered-opening-details time{font:10px/1.8 'Jost',sans-serif;letter-spacing:.17em}
+.centered-opening-button{min-height:48px;min-width:190px;font-size:17px;padding:13px 24px}
+.centered-opening-note{font:italic 14px/1.7 'Cormorant Garamond',serif;color:#adc5d7;margin:17px 0 0}
+@media(max-height:650px){.centered-opening-logo .sr-monogram{width:155px}.centered-opening-eyebrow{margin-top:16px}.centered-opening-details{margin-block:13px 21px}}
+/* A slow luminous invitation pulse, without flashing the button text. */
+.intro .primary.centered-opening-button{position:relative;overflow:hidden;isolation:isolate;min-width:204px;border-radius:30px;border:1px solid #d5c7a8b3;background:linear-gradient(125deg,#385d7dcc,#153652e6 58%,#2f5273cc);color:#f0f5fa;letter-spacing:.055em;box-shadow:inset 0 1px 0 #ecf4fa40,0 0 24px #6da6d333;animation:invitation-button-glow 2.8s ease-in-out infinite}
+.centered-opening-button:before{content:'';position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(105deg,transparent 30%,#e2efff33 50%,transparent 70%);transform:translateX(-130%);animation:invitation-button-sheen 4.2s 1s ease-in-out infinite}
+.centered-opening-button:focus-visible{outline:2px solid #e2d6ba;outline-offset:5px}
+.centered-opening-button:disabled{animation:none;opacity:.7}
+.centered-opening-logo .sr-monogram{animation:opening-monogram-float 5s 1.6s ease-in-out infinite}
+@keyframes invitation-button-glow{0%,100%{border-color:#b8c9d2a6;box-shadow:inset 0 1px 0 #ecf4fa33,0 0 16px #72a9d42b}50%{border-color:#e1d1acd9;box-shadow:inset 0 1px 0 #ecf4fa66,0 0 32px #72a9d45c,0 0 9px #d2bb8433}}
+@keyframes invitation-button-sheen{0%,35%{transform:translateX(-130%)}75%,100%{transform:translateX(130%)}}
+@keyframes opening-monogram-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+@media(prefers-reduced-motion:reduce){.centered-opening-button,.centered-opening-button:before,.centered-opening-logo .sr-monogram{animation:none!important}}

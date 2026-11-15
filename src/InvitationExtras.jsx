@@ -45,7 +45,7 @@ export default function InvitationExtras({reduced}) {
     try{await player.play()}catch{setAudioError('Music could not play. Tap again to retry.')}
   };
   return <>
-    <audio ref={audio} src="/audio/wedding-music.mp3" loop preload="none" onPlay={()=>setPlaying(true)} onPause={()=>setPlaying(false)} onError={()=>{setPlaying(false);setAudioError('Music is unavailable right now.')}}/>
+    <audio ref={audio} src="/audio/sitar-flute-wedding-music.mp3" loop preload="none" onPlay={()=>setPlaying(true)} onPause={()=>setPlaying(false)} onError={()=>{setPlaying(false);setAudioError('Music is unavailable right now.')}}/>
     {!reduced&&<AmbientButterflies/>}
     <div className="invitation-mobile-dock"><nav aria-label="Quick invitation navigation">{links.map(([id,icon,label])=><a key={id} href={`#${id}`} aria-label={label} title={label} aria-current={active===id?'location':undefined}><Icon name={icon}/></a>)}<button type="button" className={`invitation-round music-control ${playing?'is-playing':''}`} aria-label={playing?'Pause wedding music':'Play wedding music'} aria-pressed={playing} title={playing?'Pause music':'Play music'} onClick={toggleMusic}><Icon name={playing?'pause':'music'}/></button></nav></div>
     {audioError&&<p className="invitation-audio-error" role="status">{audioError}</p>}

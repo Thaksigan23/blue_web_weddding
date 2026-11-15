@@ -1,4 +1,4 @@
-import React, {useEffect, useRef, useState} from 'react';
+import React, {useCallback, useEffect, useRef, useState} from 'react';
 import './invitation-extras.css';
 
 function Icon({name}) {
@@ -22,22 +22,22 @@ const links = [
 
 export function useInvitationMusic() {
   const audio = useRef(null);
-  const started = useRef(false);
-  const manuallyControlled = useRef(false);
+  const pausedByGuest = useRef(false);
   const [playing,setPlaying] = useState(false);
   const [audioError,setAudioError] = useState('');
+
+  const startMusic = useCallback(() => {
+    const player = audio.current;
+    if (!player?.paused || pausedByGuest.current) return;
+    player.play().catch(() => {
+      // If autoplay is denied, the next trusted interaction can retry.
+    });
+  }, []);
 
   useEffect(() => {
     const player = audio.current;
     player.volume = .35;
     const listeners = new AbortController();
-
-    function startMusic() {
-      if (started.current || manuallyControlled.current) return;
-      player.play().catch(() => {
-        // If autoplay is denied, retry synchronously during a trusted interaction.
-      });
-    }
 
     function startOnInteraction(event) {
       if (!event.isTrusted || event.target.closest?.('.music-control')) return;
@@ -51,15 +51,16 @@ export function useInvitationMusic() {
     document.addEventListener('keydown',startOnInteraction,options);
     startMusic();
     return () => listeners.abort();
-  }, []);
+  }, [startMusic]);
 
   async function toggleMusic() {
-    manuallyControlled.current = true;
     const player = audio.current;
     if (!player.paused) {
+      pausedByGuest.current = true;
       player.pause();
       return;
     }
+    pausedByGuest.current = false;
     setAudioError('');
     try {
       await player.play();
@@ -69,10 +70,10 @@ export function useInvitationMusic() {
   }
 
   const player = <audio ref={audio} src="/audio/mangala-vanname-from-48s.mp3" autoPlay loop preload="auto"
-    onPlaying={() => { started.current = true; setPlaying(true); setAudioError(''); }}
+    onPlaying={() => { setPlaying(true); setAudioError(''); }}
     onPause={() => setPlaying(false)}
     onError={() => { setPlaying(false); setAudioError('Music is unavailable right now.'); }}/>;
-  return {player, playing, audioError, toggleMusic};
+  return {player, playing, audioError, startMusic, toggleMusic};
 }
 
 export default function InvitationExtras({reduced, music}) {

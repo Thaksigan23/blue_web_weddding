@@ -30,7 +30,7 @@ function App(){
 
   return <main className={reduced?'reduce-motion':''}>{music.player}<AnimatePresence mode="sync">
     {opened||reduced?<motion.section key="invitation" className="guest-page-transition" initial={{opacity:reduced?1:0}} animate={{opacity:1}} transition={{duration:reduced?0:.8}}><InvitationPage reduced={reduced} music={music}/></motion.section>
-    :<CenteredOpening key="opening" reduced={reduced} departing={travelling} onOpen={openInvitation}/>}
+    :<CenteredOpening key="opening" reduced={reduced} departing={travelling} onOpen={openInvitation} onStartMusic={music.startMusic}/>}
   </AnimatePresence><AnimatePresence>{travelling&&!reduced&&<GalaxyTransition key="galaxy" onComplete={arrive}/>}</AnimatePresence></main>;
 }
 // Reuse the root when Vite re-evaluates this entry during hot updates.

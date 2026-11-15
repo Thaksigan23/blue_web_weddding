@@ -3,10 +3,10 @@ import {motion} from 'framer-motion';
 import Monogram from './Monogram';
 import './centered-opening.css';
 
-export default function CenteredOpening({onOpen,reduced,departing=false}) {
+export default function CenteredOpening({onOpen,onStartMusic,reduced,departing=false}) {
   const reveal={hidden:{opacity:0,y:25,filter:'blur(5px)'},visible:{opacity:1,y:0,filter:'blur(0px)',transition:{duration:.9,ease:[.22,.61,.36,1]}}};
   const logoReveal={hidden:{opacity:0,y:36,scale:.78,filter:'blur(8px)'},visible:{opacity:1,y:0,scale:1,filter:'blur(0px)',transition:{duration:1.35,ease:[.22,.61,.36,1]}}};
-  return <motion.section className="intro centered-opening" aria-label="Sharon and Ramaniya engagement introduction" exit={{opacity:0}} transition={{duration:reduced?0:.6}}>
+  return <motion.section className="intro centered-opening" aria-label="Sharon and Ramaniya engagement introduction" onTouchEnd={onStartMusic} onClickCapture={onStartMusic} exit={{opacity:0}} transition={{duration:reduced?0:.6}}>
     <motion.div className="centered-opening-content" initial={reduced?false:'hidden'} animate={departing?'leaving':'visible'} variants={{hidden:{},visible:{transition:{staggerChildren:.22,delayChildren:.15}},leaving:{opacity:0,scale:.96,filter:'blur(4px)',transition:{duration:.35}}}}>
       <motion.div className="centered-opening-logo" variants={logoReveal}><Monogram variant="light"/></motion.div>
       <motion.p className="centered-opening-eyebrow" variants={reveal}>A BEAUTIFUL BEGINNING</motion.p>

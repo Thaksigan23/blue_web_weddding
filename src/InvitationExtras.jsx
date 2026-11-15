@@ -25,24 +25,32 @@ export function useInvitationMusic() {
   const started = useRef(false);
   const manuallyControlled = useRef(false);
   const [playing,setPlaying] = useState(false);
-  const [needsInteraction,setNeedsInteraction] = useState(false);
   const [audioError,setAudioError] = useState('');
 
-  function startMusic() {
-    if (started.current || manuallyControlled.current) return;
-    audio.current?.play().catch(error => {
-      if (error.name === 'NotAllowedError' && !started.current) setNeedsInteraction(true);
-    });
-  }
-
   useEffect(() => {
-    audio.current.volume = .35;
-    startMusic();
-  }, []);
+    const player = audio.current;
+    player.volume = .35;
+    const listeners = new AbortController();
 
-  function startOnInteraction(event) {
-    if (!event.target.closest?.('.music-control')) startMusic();
-  }
+    function startMusic() {
+      if (started.current || manuallyControlled.current) return;
+      player.play().catch(() => {
+        // If autoplay is denied, retry synchronously during a trusted interaction.
+      });
+    }
+
+    function startOnInteraction(event) {
+      if (!event.isTrusted || event.target.closest?.('.music-control')) return;
+      startMusic();
+    }
+
+    const options = {capture:true, signal:listeners.signal};
+    document.addEventListener('click',startOnInteraction,options);
+    document.addEventListener('touchend',startOnInteraction,options);
+    document.addEventListener('keydown',startOnInteraction,options);
+    startMusic();
+    return () => listeners.abort();
+  }, []);
 
   async function toggleMusic() {
     manuallyControlled.current = true;
@@ -60,10 +68,10 @@ export function useInvitationMusic() {
   }
 
   const player = <audio ref={audio} src="/audio/sitar-flute-wedding-edit.mp3" autoPlay loop preload="auto"
-    onPlay={() => { started.current = true; setPlaying(true); setNeedsInteraction(false); }}
+    onPlay={() => { started.current = true; setPlaying(true); }}
     onPause={() => setPlaying(false)}
     onError={() => { setPlaying(false); setAudioError('Music is unavailable right now.'); }}/>;
-  return {player, startOnInteraction, playing, needsInteraction, audioError, toggleMusic};
+  return {player, playing, audioError, toggleMusic};
 }
 
 export default function InvitationExtras({reduced, music}) {

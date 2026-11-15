@@ -20,13 +20,53 @@ const links = [
   ['venue','pin','Venue'],
 ];
 
-export default function InvitationExtras({reduced}) {
+export function useInvitationMusic() {
   const audio = useRef(null);
-
+  const started = useRef(false);
+  const manuallyControlled = useRef(false);
   const [playing,setPlaying] = useState(false);
-
-
   const [audioError,setAudioError] = useState('');
+
+  function startMusic() {
+    if (started.current || manuallyControlled.current) return;
+    audio.current?.play().catch(() => {
+      // A browser can require a user gesture before allowing audible playback.
+    });
+  }
+
+  useEffect(() => {
+    audio.current.volume = .35;
+    startMusic();
+  }, []);
+
+  function startOnInteraction(event) {
+    if (!event.target.closest?.('.music-control')) startMusic();
+  }
+
+  async function toggleMusic() {
+    manuallyControlled.current = true;
+    const player = audio.current;
+    if (!player.paused) {
+      player.pause();
+      return;
+    }
+    setAudioError('');
+    try {
+      await player.play();
+    } catch {
+      setAudioError('Music could not play. Tap again to retry.');
+    }
+  }
+
+  const player = <audio ref={audio} src="/audio/sitar-flute-wedding-edit.mp3" loop preload="auto"
+    onPlay={() => { started.current = true; setPlaying(true); }}
+    onPause={() => setPlaying(false)}
+    onError={() => { setPlaying(false); setAudioError('Music is unavailable right now.'); }}/>;
+  return {player, startOnInteraction, playing, audioError, toggleMusic};
+}
+
+export default function InvitationExtras({reduced, music}) {
+  const {playing, audioError, toggleMusic} = music;
   const [active,setActive] = useState('welcome');
   useEffect(() => {
     const observer = new IntersectionObserver(entries => {
@@ -36,16 +76,7 @@ export default function InvitationExtras({reduced}) {
     links.forEach(([id]) => {const section=document.getElementById(id);if(section)observer.observe(section)});
     return () => observer.disconnect();
   }, []);
-  useEffect(() => {if(audio.current) audio.current.volume=.35}, []);
-  const toggleMusic = async () => {
-    const player=audio.current;
-    if(!player)return;
-    if(!player.paused){player.pause();return}
-    setAudioError('');
-    try{await player.play()}catch{setAudioError('Music could not play. Tap again to retry.')}
-  };
   return <>
-    <audio ref={audio} src="/audio/sitar-flute-wedding-music.mp3" loop preload="none" onPlay={()=>setPlaying(true)} onPause={()=>setPlaying(false)} onError={()=>{setPlaying(false);setAudioError('Music is unavailable right now.')}}/>
     {!reduced&&<AmbientButterflies/>}
     <div className="invitation-mobile-dock"><nav aria-label="Quick invitation navigation">{links.map(([id,icon,label])=><a key={id} href={`#${id}`} aria-label={label} title={label} aria-current={active===id?'location':undefined}><Icon name={icon}/></a>)}<button type="button" className={`invitation-round music-control ${playing?'is-playing':''}`} aria-label={playing?'Pause wedding music':'Play wedding music'} aria-pressed={playing} title={playing?'Pause music':'Play music'} onClick={toggleMusic}><Icon name={playing?'pause':'music'}/></button></nav></div>
     {audioError&&<p className="invitation-audio-error" role="status">{audioError}</p>}

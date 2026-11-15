@@ -29,7 +29,7 @@ export default function DesktopPresentation({children}) {
     <AmbientButterflies count={20}/>
     <div className="desktop-phone" style={{'--phone-scale':Math.min(1,Math.max(.35,(viewportHeight-64)/880))}}>
       <div className="desktop-phone-top" aria-hidden="true"><span/><i/></div>
-      <iframe src={url.href} title="Sharon and Ramaniya engagement invitation" className="desktop-phone-screen" allow="fullscreen"/>
+      <iframe src={url.href} title="Sharon and Ramaniya engagement invitation" className="desktop-phone-screen" allow="autoplay; fullscreen"/>
       <div className="desktop-phone-bottom" aria-hidden="true"><span/></div>
     </div>
     <p className="desktop-presentation-caption">SHARON & RAMANIYA <span>14 DECEMBER 2026</span></p>

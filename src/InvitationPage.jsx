@@ -21,7 +21,7 @@ function downloadCalendar() {
   const url=URL.createObjectURL(new Blob([calendarEvent()],{type:'text/calendar;charset=utf-8'}));
   const link=document.createElement('a');link.href=url;link.download='Sharon-and-Ramaniya-Engagement.ics';document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),30000);
 }
-export default function InvitationPage({reduced}) {
+export default function InvitationPage({reduced, music}) {
   const title=useRef(null);
   useEffect(()=>{window.scrollTo({top:0,behavior:'instant'});title.current?.focus({preventScroll:true})},[]);
   return <div className="guest-site">
@@ -39,7 +39,7 @@ export default function InvitationPage({reduced}) {
       <div className="venue-destination-content"><p className="guest-kicker">OUR DESTINATION</p><h2 id="venue-title">Concord Grand</h2><p className="guest-copy">Join us for an evening of love and celebration as we begin our beautiful journey together.</p><p className="guest-venue-location">139 Galle Road · Dehiwala, Sri Lanka<br/>14 December 2026 · 6:00 PM</p><a className="guest-button" href={event.directions} target="_blank" rel="noopener noreferrer" aria-label="View Concord Grand Hotel on Google Maps (opens in a new tab)">View on Google Maps <span aria-hidden="true">↗</span></a><button className="venue-calendar-action" type="button" onClick={downloadCalendar}><span><strong>Add to Calendar</strong><small>Save the date to your calendar</small></span><span aria-hidden="true">＋</span></button><details className="venue-live-map"><summary>Explore the live map</summary><iframe title="Google Maps — Concord Grand Hotel, Dehiwala" src="https://www.google.com/maps?q=Concord+Grand+Hotel%2C+139+Galle+Road%2C+Dehiwala%2C+Sri+Lanka&amp;z=16&amp;output=embed" loading="lazy" referrerPolicy="no-referrer-when-downgrade" allowFullScreen/></details></div>
     </Reveal>
     <Reveal reduced={reduced} className="guest-closing guest-section" aria-labelledby="closing-title"><Bloom/><p className="guest-kicker">YOUR PRESENCE IS PART OF OUR JOY</p><h2 id="closing-title">Come share<br/><em>our beautiful beginning.</em></h2><p className="guest-copy">We would be delighted to have you beside us as we celebrate this promise, surrounded by the warmth of family and friends.</p><p className="guest-signature">Sharon <span>&</span> Ramaniya</p><p className="guest-closing-date">14 DECEMBER 2026 · CONCORD GRAND, DEHIWALA</p><a href="#welcome" className="guest-back">Back to the beginning ↑</a></Reveal>
-    <InvitationExtras reduced={reduced}/>
+    <InvitationExtras reduced={reduced} music={music}/>
         <footer className="guest-footer"><Monogram variant="light"/><p>With love, from our families to yours.</p><div className="guest-credit"><a href="https://techloom.ai" target="_blank" rel="noopener noreferrer" aria-label="Made with love by Techloom.ai (opens in a new tab)"><span>Made with love by</span><img src="/branding/techloom-mark.svg" width="24" height="24" alt="Techloom.ai" loading="lazy" decoding="async"/></a></div></footer>
   </div>;
 }

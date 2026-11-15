@@ -8,9 +8,9 @@ export const engagement = {
 };
 const couplePortrait = {
   type: 'photo',
-  src: '/images/engagement-gallery/couple.webp',
-  width: 674,
-  height: 1024,
+  src: '/images/engagement-gallery/couple-blue-portrait.jpg',
+  width: 1017,
+  height: 1546,
   alt: 'Sharon and Ramaniya together beneath a blue and white floral arch',
   caption: 'Sharon & Ramaniya',
 };
@@ -22,7 +22,7 @@ export const invitationContent = {
   gallery: [
     couplePortrait,
     {type: 'photo', src: '/images/engagement-gallery/sharon.webp', width: 1000, height: 1250, alt: 'Sharon in an embroidered navy sherwani', caption: 'Sharon'},
-    {type: 'photo', src: '/images/engagement-gallery/ramaniya.webp', width: 1000, height: 1250, alt: 'Ramaniya in a blue sari with silver embroidery', caption: 'Ramaniya'},
+    {type: 'photo', src: '/images/engagement-gallery/ramaniya-blue-portrait.jpg', width: 1122, height: 1402, alt: 'Ramaniya in a silver-embroidered blue lehenga beneath a floral arch', caption: 'Ramaniya'},
   ],
 };
 export function countdown(now = Date.now()) {

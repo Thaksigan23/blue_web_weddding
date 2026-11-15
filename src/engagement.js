@@ -7,7 +7,15 @@ export const engagement = {
   directions: 'https://www.google.com/maps/place/Concord+Grand+Hotel/@6.8553074,79.8655746,17z/data=!4m9!3m8!1s0x3ae25b06f5c9d0ef:0xff94a529ccb1fab!5m2!4m1!1i2!8m2!3d6.8553074!4d79.8655746!16s%2Fg%2F1tpb9dmy',
 };
 // Publish only real, approved content. Empty optional sections stay hidden.
-export const invitationContent = { story: [], dressCode: null, gallery: [{type: 'photo', src: '/images/venue/concord-grand.jpg', width: 800, height: 418, alt: 'Poolside exterior of Concord Grand Hotel, Dehiwala', caption: 'Sample gallery image · Concord Grand'}] };
+export const invitationContent = {
+  story: [],
+  dressCode: null,
+  gallery: [
+    {type: 'photo', src: '/images/engagement-gallery/couple.webp', width: 674, height: 1024, alt: 'Sharon and Ramaniya together beneath a blue and white floral arch', caption: 'Sharon & Ramaniya'},
+    {type: 'photo', src: '/images/engagement-gallery/sharon.webp', width: 1000, height: 1250, alt: 'Sharon in an embroidered navy sherwani', caption: 'Sharon'},
+    {type: 'photo', src: '/images/engagement-gallery/ramaniya.webp', width: 1000, height: 1250, alt: 'Ramaniya in a blue sari with silver embroidery', caption: 'Ramaniya'},
+  ],
+};
 export function countdown(now = Date.now()) {
   const remaining = Math.max(0, Math.floor((Date.parse(engagement.startsAt) - now) / 1000));
   return {days: Math.floor(remaining / 86400), hours: Math.floor(remaining / 3600) % 24, minutes: Math.floor(remaining / 60) % 60, seconds: remaining % 60, arrived: now >= Date.parse(engagement.startsAt)};

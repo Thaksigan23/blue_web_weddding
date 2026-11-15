@@ -11,11 +11,9 @@ test('Sri Lanka ceremony maps to the correct UTC instant and countdown boundarie
 test('calendar export has a UTC start, escaped venue and no invented ending',()=>{
  const ics=calendarEvent();assert.match(ics,/DTSTART:20261214T123000Z\r\n/);assert.ok(ics.includes('LOCATION:Concord Grand\\, Dehiwala'));assert.ok(!ics.includes('DTEND'));assert.ok(ics.endsWith('END:VCALENDAR\r\n'));
 });
-test('unconfirmed biography and dress code stay hidden; the sample is labeled as venue imagery',()=>{
+test('unconfirmed biography and dress code stay hidden and the gallery lists the approved portraits',()=>{
  assert.deepEqual(invitationContent.story,[]);assert.equal(invitationContent.dressCode,null);
- assert.equal(invitationContent.gallery.length,1);
- assert.match(invitationContent.gallery[0].caption,/Sample gallery image/);
- assert.match(invitationContent.gallery[0].alt,/Concord Grand Hotel/);
+ assert.deepEqual(invitationContent.gallery.map(({caption})=>caption),['Sharon & Ramaniya','Sharon','Ramaniya']);
 });
 test('calendar lines respect the interoperable 75-byte line limit',()=>{for(const line of calendarEvent().split('\r\n'))assert.ok(new TextEncoder().encode(line).length<=75);});
 test('venue action uses the observed Concord Grand Maps property listing',()=>{

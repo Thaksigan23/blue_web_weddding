@@ -46,6 +46,7 @@ export function useInvitationMusic() {
 
     const options = {capture:true, signal:listeners.signal};
     document.addEventListener('click',startOnInteraction,options);
+    document.addEventListener('pointerup',startOnInteraction,options);
     document.addEventListener('touchend',startOnInteraction,options);
     document.addEventListener('keydown',startOnInteraction,options);
     startMusic();
@@ -68,7 +69,7 @@ export function useInvitationMusic() {
   }
 
   const player = <audio ref={audio} src="/audio/mangala-vanname-from-48s.mp3" autoPlay loop preload="auto"
-    onPlay={() => { started.current = true; setPlaying(true); }}
+    onPlaying={() => { started.current = true; setPlaying(true); setAudioError(''); }}
     onPause={() => setPlaying(false)}
     onError={() => { setPlaying(false); setAudioError('Music is unavailable right now.'); }}/>;
   return {player, playing, audioError, toggleMusic};

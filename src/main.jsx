@@ -28,7 +28,7 @@ function App(){
   useEffect(()=>{if(reduced){setOpened(true);setTravelling(false)}},[reduced]);
   useEffect(()=>{if(opened||reduced||travelling)return;const timer=setTimeout(openInvitation,7000);return()=>clearTimeout(timer)},[opened,reduced,travelling,openInvitation]);
 
-  return <main className={reduced?'reduce-motion':''} onClickCapture={music.startOnInteraction}>{music.player}<AnimatePresence mode="sync">
+  return <main className={reduced?'reduce-motion':''} onPointerUpCapture={music.startOnInteraction} onClickCapture={music.startOnInteraction}>{music.player}<AnimatePresence mode="sync">
     {opened||reduced?<motion.section key="invitation" className="guest-page-transition" initial={{opacity:reduced?1:0}} animate={{opacity:1}} transition={{duration:reduced?0:.8}}><InvitationPage reduced={reduced} music={music}/></motion.section>
     :<CenteredOpening key="opening" reduced={reduced} departing={travelling} onOpen={openInvitation}/>}
   </AnimatePresence><AnimatePresence>{travelling&&!reduced&&<GalaxyTransition key="galaxy" onComplete={arrive}/>}</AnimatePresence></main>;

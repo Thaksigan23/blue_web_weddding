@@ -1,7 +1,7 @@
 # Wedding music
 
-The invitation plays `sitar-flute-wedding-edit.mp3`, the supplied Indian wedding
-instrumental featuring sitar and flute, trimmed to its audible start.
+The invitation plays `mangala-vanname-from-48s.mp3`, the supplied recording of
+“Mangala Vanname” trimmed to start at 0:48 of the original.
 
 The traditional `nadaswaram-bgm.mp3` is retained as an unused alternative.
 Music starts on the opening screen if the browser permits audible autoplay.

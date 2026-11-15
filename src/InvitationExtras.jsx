@@ -67,7 +67,7 @@ export function useInvitationMusic() {
     }
   }
 
-  const player = <audio ref={audio} src="/audio/sitar-flute-wedding-edit.mp3" autoPlay loop preload="auto"
+  const player = <audio ref={audio} src="/audio/mangala-vanname-from-48s.mp3" autoPlay loop preload="auto"
     onPlay={() => { started.current = true; setPlaying(true); }}
     onPause={() => setPlaying(false)}
     onError={() => { setPlaying(false); setAudioError('Music is unavailable right now.'); }}/>;

@@ -6,7 +6,7 @@ export const engagement = {
   parents: ['Mr. & Mrs. Sathiyamoorthy', 'Mr. & Mrs. Rajendran'],
   directions: 'https://www.google.com/maps/place/Concord+Grand+Hotel/@6.8553074,79.8655746,17z/data=!4m9!3m8!1s0x3ae25b06f5c9d0ef:0xff94a529ccb1fab!5m2!4m1!1i2!8m2!3d6.8553074!4d79.8655746!16s%2Fg%2F1tpb9dmy',
 };
-const couplePortrait = {
+export const couplePortrait = {
   type: 'photo',
   src: '/images/engagement-gallery/couple-blue-portrait.jpg',
   width: 1017,

@@ -25,12 +25,13 @@ export function useInvitationMusic() {
   const started = useRef(false);
   const manuallyControlled = useRef(false);
   const [playing,setPlaying] = useState(false);
+  const [needsInteraction,setNeedsInteraction] = useState(false);
   const [audioError,setAudioError] = useState('');
 
   function startMusic() {
     if (started.current || manuallyControlled.current) return;
-    audio.current?.play().catch(() => {
-      // A browser can require a user gesture before allowing audible playback.
+    audio.current?.play().catch(error => {
+      if (error.name === 'NotAllowedError' && !started.current) setNeedsInteraction(true);
     });
   }
 
@@ -59,10 +60,10 @@ export function useInvitationMusic() {
   }
 
   const player = <audio ref={audio} src="/audio/sitar-flute-wedding-edit.mp3" autoPlay loop preload="auto"
-    onPlay={() => { started.current = true; setPlaying(true); }}
+    onPlay={() => { started.current = true; setPlaying(true); setNeedsInteraction(false); }}
     onPause={() => setPlaying(false)}
     onError={() => { setPlaying(false); setAudioError('Music is unavailable right now.'); }}/>;
-  return {player, startOnInteraction, playing, audioError, toggleMusic};
+  return {player, startOnInteraction, playing, needsInteraction, audioError, toggleMusic};
 }
 
 export default function InvitationExtras({reduced, music}) {

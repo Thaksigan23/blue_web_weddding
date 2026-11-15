@@ -6,12 +6,21 @@ export const engagement = {
   parents: ['Mr. & Mrs. Sathiyamoorthy', 'Mr. & Mrs. Rajendran'],
   directions: 'https://www.google.com/maps/place/Concord+Grand+Hotel/@6.8553074,79.8655746,17z/data=!4m9!3m8!1s0x3ae25b06f5c9d0ef:0xff94a529ccb1fab!5m2!4m1!1i2!8m2!3d6.8553074!4d79.8655746!16s%2Fg%2F1tpb9dmy',
 };
+export const couplePortrait = {
+  type: 'photo',
+  src: '/images/engagement-gallery/couple.webp',
+  width: 674,
+  height: 1024,
+  alt: 'Sharon and Ramaniya together beneath a blue and white floral arch',
+  caption: 'Sharon & Ramaniya',
+};
+
 // Publish only real, approved content. Empty optional sections stay hidden.
 export const invitationContent = {
   story: [],
   dressCode: null,
   gallery: [
-    {type: 'photo', src: '/images/engagement-gallery/couple.webp', width: 674, height: 1024, alt: 'Sharon and Ramaniya together beneath a blue and white floral arch', caption: 'Sharon & Ramaniya'},
+    couplePortrait,
     {type: 'photo', src: '/images/engagement-gallery/sharon.webp', width: 1000, height: 1250, alt: 'Sharon in an embroidered navy sherwani', caption: 'Sharon'},
     {type: 'photo', src: '/images/engagement-gallery/ramaniya.webp', width: 1000, height: 1250, alt: 'Ramaniya in a blue sari with silver embroidery', caption: 'Ramaniya'},
   ],

@@ -1,7 +1,15 @@
 import React from 'react';
+import {couplePortrait} from './engagement.js';
 
 export default function TamilWeddingArtwork() {
   return <div className="traditional-artwork">
-    <img className="traditional-couple-photo" src="/images/blue-couple-opening.png" alt="Sharon and Ramaniya standing together in blue traditional engagement attire" loading="lazy" decoding="async"/>
+    <img
+      className="traditional-couple-photo"
+      src={couplePortrait.src}
+      alt={couplePortrait.alt}
+      width={couplePortrait.width}
+      height={couplePortrait.height}
+      decoding="async"
+    />
   </div>;
 }

@@ -15,12 +15,12 @@
 .centered-opening-note{font:italic 14px/1.7 'Cormorant Garamond',serif;color:#adc5d7;margin:17px 0 0}
 @media(max-height:650px){.centered-opening-logo .sr-monogram{width:155px}.centered-opening-eyebrow{margin-top:16px}.centered-opening-details{margin-block:13px 21px}}
 /* A slow luminous invitation pulse, without flashing the button text. */
-.intro .primary.centered-opening-button{position:relative;overflow:hidden;isolation:isolate;min-width:204px;border-radius:30px;border:1px solid #d5c7a8b3;background:linear-gradient(125deg,#385d7dcc,#153652e6 58%,#2f5273cc);color:#f0f5fa;letter-spacing:.055em;box-shadow:inset 0 1px 0 #ecf4fa40,0 0 24px #6da6d333;animation:invitation-button-glow 2.8s ease-in-out infinite}
+.intro .primary.centered-opening-button{position:relative;overflow:hidden;isolation:isolate;min-width:204px;border-radius:30px;border:1px solid #d5c7a8b3;background:linear-gradient(125deg,#385d7dcc,#153652e6 58%,#2f5273cc);color:#f0f5fa;letter-spacing:.055em;box-shadow:inset 0 1px 0 #ecf4fa40,0 0 24px #6da6d333;animation:invitation-button-glow 1.8s ease-in-out infinite}
 .centered-opening-button:before{content:'';position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(105deg,transparent 30%,#e2efff33 50%,transparent 70%);transform:translateX(-130%);animation:invitation-button-sheen 4.2s 1s ease-in-out infinite}
 .centered-opening-button:focus-visible{outline:2px solid #e2d6ba;outline-offset:5px}
 .centered-opening-button:disabled{animation:none;opacity:.7}
 .centered-opening-logo .sr-monogram{animation:opening-monogram-float 5s 1.6s ease-in-out infinite}
-@keyframes invitation-button-glow{0%,100%{border-color:#b8c9d2a6;box-shadow:inset 0 1px 0 #ecf4fa33,0 0 16px #72a9d42b}50%{border-color:#e1d1acd9;box-shadow:inset 0 1px 0 #ecf4fa66,0 0 32px #72a9d45c,0 0 9px #d2bb8433}}
+@keyframes invitation-button-glow{0%,100%{border-color:#b8c9d2a6;box-shadow:inset 0 1px 0 #ecf4fa33,0 0 16px #72a9d42b}50%{border-color:#ffedc6;box-shadow:inset 0 1px 0 #ecf4fa88,0 0 36px #72a9d499,0 0 12px #d2bb8466}}
 @keyframes invitation-button-sheen{0%,35%{transform:translateX(-130%)}75%,100%{transform:translateX(130%)}}
 @keyframes opening-monogram-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
 @media(prefers-reduced-motion:reduce){.centered-opening-button,.centered-opening-button:before,.centered-opening-logo .sr-monogram{animation:none!important}}

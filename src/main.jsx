@@ -20,21 +20,25 @@ function App(){
   const reducedPreference=useReducedMotion();
   const [reducedInitial]=useState(()=>window.matchMedia('(prefers-reduced-motion: reduce)').matches);
   const reduced=reducedPreference??reducedInitial;
-  const [opened,setOpened]=useState(reducedInitial);
+  const [opened,setOpened]=useState(false);
   const [travelling,setTravelling]=useState(false);
   const openingRequested=useRef(false);
-  const openInvitation=useCallback(()=>{if(openingRequested.current)return;openingRequested.current=true;if(reduced){setOpened(true);return}setTravelling(true)},[reduced]);
+  const openInvitation=useCallback(()=>{
+    if (openingRequested.current) return;
+    openingRequested.current=true;
+    startMusic();
+    if (reduced) setOpened(true);
+    else setTravelling(true);
+  },[reduced,startMusic]);
   const arrive=useCallback(()=>{setOpened(true);setTravelling(false)},[]);
 
 
-  useEffect(()=>{if(reduced){setOpened(true);setTravelling(false)}},[reduced]);
-  useEffect(()=>{if(opened||reduced||travelling)return;const timer=setTimeout(openInvitation,7000);return()=>clearTimeout(timer)},[opened,reduced,travelling,openInvitation]);
   useEffect(() => {
-    if (opened || reduced) startMusic();
-  }, [opened, reduced, startMusic]);
+    if (reduced && travelling) arrive();
+  }, [reduced, travelling, arrive]);
 
   return <main className={reduced?'reduce-motion':''}>{music.player}<AnimatePresence mode="sync">
-    {opened||reduced?<motion.section key="invitation" className="guest-page-transition" initial={{opacity:reduced?1:0}} animate={{opacity:1}} transition={{duration:reduced?0:.8}}><InvitationPage reduced={reduced} music={music}/></motion.section>
+    {opened?<motion.section key="invitation" className="guest-page-transition" initial={{opacity:reduced?1:0}} animate={{opacity:1}} transition={{duration:reduced?0:.8}}><InvitationPage reduced={reduced} music={music}/></motion.section>
     :<CenteredOpening key="opening" reduced={reduced} departing={travelling} onOpen={openInvitation} onStartMusic={music.startMusic}/>}
   </AnimatePresence><AnimatePresence>{travelling&&!reduced&&<GalaxyTransition key="galaxy" onComplete={arrive}/>}</AnimatePresence></main>;
 }

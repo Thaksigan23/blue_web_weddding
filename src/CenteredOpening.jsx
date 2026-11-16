@@ -12,7 +12,7 @@ export default function CenteredOpening({onOpen,onStartMusic,reduced,departing=f
       <motion.p className="centered-opening-eyebrow" variants={reveal}>A BEAUTIFUL BEGINNING</motion.p>
       <motion.h1 variants={reveal}>Sharon <em>&</em> Ramaniya</motion.h1>
       <motion.div className="centered-opening-details" variants={reveal}><p>Our Engagement</p><span className="centered-opening-rule" aria-hidden="true">✧</span><time dateTime="2026-12-14T18:00:00+05:30">14 DECEMBER 2026</time></motion.div>
-      <motion.button type="button" className="primary centered-opening-button" onClick={onOpen} variants={reveal} disabled={departing} aria-busy={departing} whileHover={reduced?undefined:{scale:1.035}} whileTap={reduced?undefined:{scale:.98}}>Click to Open</motion.button>
+      <motion.button type="button" className="primary centered-opening-button" onClick={onOpen} variants={reveal} disabled={departing} aria-busy={departing} whileHover={reduced?undefined:{scale:1.035}} whileTap={reduced?undefined:{scale:.98}}>Tap to Open</motion.button>
       <motion.p className="centered-opening-note" variants={reveal}>A little moment. A lifetime of love.</motion.p>
     </motion.div>
   </motion.section>;

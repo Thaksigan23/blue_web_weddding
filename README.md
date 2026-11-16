@@ -2,7 +2,7 @@
 
 React + Vite + Tailwind CSS v4 + Framer Motion. Run `npm install`, `npm run dev`; production: `npm run build` and `npm run preview`.
 
-The centered opening animates the supplied floral SR logo and the names Sharon & Ramaniya. It contains no couple photo or Skip control. Click to Open has a soft glow pulse and starts a blue galaxy journey into the invitation. A seven-second timer starts the same journey automatically. The galaxy lasts about 2.5 seconds and dissolves into the page; a timeout guarantees arrival even without canvas support. Reduced-motion preferences bypass the opening. Replay controls are removed.
+The centered opening animates the supplied floral SR logo and the names Sharon & Ramaniya. It contains no couple photo or Skip control. Tap to Open pulses and starts a blue galaxy journey into the invitation. The galaxy lasts about 2.5 seconds and dissolves into the page; a timeout guarantees arrival even without canvas support. With reduced motion, Tap to Open goes directly to the invitation. Replay controls are removed.
 
 The original invitation images remain unchanged. The guest hero uses the approved blue couple artwork at `public/images/blue-couple-opening.png`.
 

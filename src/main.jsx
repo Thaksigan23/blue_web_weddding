@@ -1,5 +1,6 @@
 import React, {useCallback, useEffect, useRef, useState} from 'react';
 import {createRoot} from 'react-dom/client';
+import {Analytics} from '@vercel/analytics/react';
 import {motion, AnimatePresence, useReducedMotion} from 'framer-motion';
 import './styles.css';
 import './refinements.css';
@@ -36,4 +37,9 @@ function App(){
 // Reuse the root when Vite re-evaluates this entry during hot updates.
 const root=import.meta.hot?.data.root??createRoot(document.getElementById('root'));
 if(import.meta.hot)import.meta.hot.data.root=root;
-root.render(<DesktopPresentation><App/></DesktopPresentation>);
+root.render(
+  <>
+    <DesktopPresentation><App/></DesktopPresentation>
+    {window.self === window.top && <Analytics/>}
+  </>,
+);

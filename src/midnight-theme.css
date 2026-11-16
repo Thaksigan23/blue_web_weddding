@@ -49,8 +49,7 @@
 .guest-venue-destination .guest-copy{color:#d2e2ee;max-width:430px;margin:0 auto 22px}
 .guest-venue-destination .guest-venue-location{color:#c2d6e6;margin:0 0 26px;font-size:14px}
 .venue-destination-content>.guest-button{width:100%;max-width:380px;justify-content:center;border-radius:30px;text-transform:uppercase;letter-spacing:.14em;font-size:11px;background:linear-gradient(120deg,#315b83,#183b64);min-height:52px}
-.venue-live-map{max-width:380px;margin:20px auto 0;text-align:left;font-size:13px;color:#bfd8eb}
-.venue-live-map summary{cursor:pointer;min-height:44px;padding:12px 0;text-align:center}
+.venue-live-map{max-width:380px;margin:20px auto 0}
 .venue-live-map iframe{display:block;width:100%;height:270px;border:1px solid #91b7d344;border-radius:12px;background:#0d2946}
 @media(max-width:600px){.guest-venue-destination{padding:66px 24px;min-height:610px}.guest-venue-destination h2{font-size:44px}}
 /* Ambient butterflies pass through all interactions, including touch. */
